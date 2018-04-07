@@ -20,7 +20,8 @@ In their 2018 investor presentation, Nvidia break out the big trends as follows:
 Revenue growth: FY2016-17 = _145%_
 Revenue growth: FY2017-18 = _133%_
 
-50b TAM [HPC:10, Hyperscale and Consumer: 20, Cloud Computing and industries: 10]
+$50b TAM (HPC:10, Hyperscale and Consumer: 20, Cloud Computing and industries: 10)
+
 AMD - $21b TAM
 
 1. HPC
@@ -30,8 +31,8 @@ AMD - $21b TAM
 > However, beginning in early 2017, GPUs have begun to face some competition from Field Programmable Gate Arrays (FPGAs). FPGAs can also accelerate Machine Learning and Artificial Intelligence workloads. [https://en.wikipedia.org/wiki/Graphics_processing_unit]
 
 
-### Automotive [GDC: 2/5]
-Revenue growth: FY2017-18 = _15%_ [GD: low]
+### Automotive [GCon: 2/5]
+Revenue growth: FY2017-18 = _15%_
 
 >AV is a $60b opportunity by 2035.
 
@@ -60,7 +61,8 @@ Increasing cinematics -> increasing demand for new chips.
     A: [Chinese Crypto Mining Company Poses a Threat to AMD and Nvidia - Bloomberg](https://www.bloomberg.com/news/articles/2018-04-04/chinese-crypto-mining-hardware-putting-amd-nvidia-under-threat) - “5% of current revenue”
     A: [Cryptocurrency Mining Sales Cool in Q3, Says Nvidia - CoinDesk](https://www.coindesk.com/cryptocurrency-mining-chip-sales-cool-q3-says-nvidia/) 70m down from $150m in Q2
 
-Not clear impact of Crypto. AMD CEO Lisa Su - [AMD: Cryptocurrency Mining Isn’t ‘A Long-Term Growth Driver’ - CoinDesk](https://www.coindesk.com/amd-cryptocurrency-mining-isnt-a-long-term-growth-driver/)
+Not clear impact of Crypto. AMD CEO Lisa Su - (AMD: Cryptocurrency Mining Isn’t ‘A Long-Term Growth Driver’ - CoinDesk)[https://www.coindesk.com/amd-cryptocurrency-mining-isnt-a-long-term-growth-driver/]
+
 But Huang bullish on Crypto.
 
 >“GPUs are used to mine cryptocurrencies like Ethereum and Litecoin that use the "scrypt" hashing algorithm. Bitcoin, by contrast, is chiefly mined today using dedicated hardware called ASICs.”

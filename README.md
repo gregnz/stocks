@@ -1,1 +1,2 @@
 # stocks
+[Nvidia](NVDA.md)

@@ -144,6 +144,7 @@ More and more data, more and more sensors, more and more processing required, mo
 Although the Internet of Things has been a buzzword for a while, the reality is there are more and more devices that are connected, and sending information to be recorded, and hopefully processed. All this results in a massive demand for efficient computation.
 
 ### OpenCL versus CUDA
+
 OpenCL and CUDA do the same thing. They interfance higher level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
 
 The high-level frameworks that researchers use, TensorFlow, Torch, Theanos etc., do not really care whether its CUDA or OpenCL under the covers. However, most of the popular deep learning frameworks do not currently support OpenCL 
@@ -187,7 +188,7 @@ https://www.technologyreview.com/s/609954/china-wants-to-make-the-chips-that-wil
 
 I believe for the foreseeable future, Nvidia has a strong place in any AI pipeline. Anyone who doesnt have access to custom chips will be dealing with either CUDA/OpenCL through the high-level AI frameworks.
 
-**GCon 5/5 **
+**GCon 4/5 **
 
 ## Numbers
 Revenue growth: FY2017-18 = _41%_

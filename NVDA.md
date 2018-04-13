@@ -58,6 +58,7 @@ Three major areas of datacenter growth:
 I believe this is where most of Nvidias immediate potential lies. The new Titan cards with included Tensor cores indicate the flexibility of Nvidias chip making capability, which will allow them to compete sucessfully in this area.
 
 This (I believe) will be the immediate number to watch. The other segments I believe will either hold steady or slow growth in the short term.
+
 **GCon:4/5**
 
 ## Automotive
@@ -274,6 +275,9 @@ Net profit Margin (TTM)|30%
 - Titan Xp - A consumer level implementation of Pascal [predecessor of Titan V]
 - Xavier - Implementation of the Volta architecture for automobiles. "Xavier is the most complex system on a chip ever created".
 
+
+
+### Rambling notes
 
 “It should be noted that Nvidia cards actually support OpenCL as well as CUDA, they just aren’t quite as efficient as AMD GPUs when it comes to OpenCL computation. This is changing though as the recently released Nvidia GTX 980 is a very capable OpenCL card as well as a CUDA monster. We can only see Nvidia’s OpenCL performance getting better and better in the future, and this is definitely something worth considering.”
 

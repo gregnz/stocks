@@ -22,19 +22,19 @@ They mention "In fact, analysts are predicting 5.5 million semi- and fully auton
 
 
 ### Nvidia products
-- DGX-1 - Computer + AI frameworks Nvidia Cloud 149,000
+- DGX-2 - AI System ("worlds most powerful"). Computer + AI frameworks
 - Drive - System on a chip for Autonomous vehicles
 - GeForce - Gaming GPUs - Note, these are incorporated into graphics cards.
 - Virtual GPU - Share a remote GPU with laptop/desktop clients, i.e., the GPU is running in the cloud, the processing takes place there and the data is sent back to the client. Not quite sure who owns/runs the hardware.
 - Jetson - “Credit card sized supercomputers” - Embedded AI computing. So if you want onboard AI (e.g.: train in AWS, transfer for inference on mobile robots/machines) [$580USD]
 - Quadro - Pro-version GeForce [more precise, ‘better’] cards for use in high end visualisation (e.g.: Weta, Oil and Gas etc). I believe Nvidia manufacturer these cards, rather than just the chips. They’re heaps more expensive than the equivalent GeForce.
 - Shield TV - 4K HDR STREAMING MEDIA PLAYER - GD: Does anyone use this? Seems pretty random. Seems to have access to GeForce Now which suggests that games are rendered in Nvidia cloud and streamed to the Shield? - yep, but still very much in beta - not sure how this would deal with latency.
-- Tesla - Tesla is the AI focused card which implements the Volta-spec (as opposed to Pascal-spec etc). Tesla is designed to be deployed into data centres. This is the big growth area for Nvidia. I imagine this will be hard to keep up.
+- Tesla - Tesla is the AI focused card which implements the Volta-spec (as opposed to Pascal-spec etc). Tesla is designed to be deployed into data centres. This is the big growth area for Nvidia. 
 - Tegra - Their mobile 'System on a chip'. Used in the Nintendo switch, and I think the MSFT Surface 2, as well as Drive. From the Q4 2018 CFO summary, "Tegra Processor business revenue includes SOC modules for the Nintendo Switch gaming console and development services. Also included is automotive revenue of $132 million...incorporating infotainment modules, production DRIVE PX platforms, and development agreements for self-driving cars."
 
 
 # Segments
-In their 2018 investor presentation, Nvidia break out the big segments:
+In their 2018 investor presentation, Nvidia break out their big segments:
 
 1. Gaming [GeForce]
 2. Pro-visualisation [Quadro]
@@ -57,6 +57,9 @@ Three major areas of datacenter growth:
 
 I believe this is where most of Nvidias immediate potential lies. The new Titan cards with included Tensor cores indicate the flexibility of Nvidias chip making capability, which will allow them to compete sucessfully in this area.
 
+This (I believe) will be the immediate number to watch. The other segments I believe will either hold steady or slow growth in the short term.
+**GCon:4/5**
+
 ## Automotive
 Revenue growth: FY2017-18 = _15%_
 
@@ -72,21 +75,34 @@ Definitely a case of providing shovels to gold prospectors. Nvidia is developing
     Q: Google/Waymo seems to be the runaway leader in AutomotiveAutonomous vehicles. Is the a winner-take-all situation?/
     A: Unclear to me. I can imagine a future where Waymo starts selling their tech to automotive companies, which would be a disaster for Nvidia’s (and others) programs. However, Waymo has no real partners in the automotive industry to date. Although conceptually it makes sense, those companies may (rightly!) be worried about ceding control of the experience to Google/Waymo, essentially giving up a huge chunk of independence to a brutal competitor.
 
-This market should be watched carefully. I'm guessing it will gradually increase in revenue for Nvidia but I'm uncertain whether they will end up powering the majority of autonomous vehicles (if not them, then who?). However, they're definitely one of the primary horses in the race, the other being Google. 
+This market should be watched carefully. I'm guessing it will gradually increase in revenue for Nvidia but I'm uncertain whether they will end up powering the majority of autonomous vehicles (however, if not them, then who?). However, they're definitely one of the primary horses in the race, the other being Google. 
 
 **Red flag** - If Google start making significant deals with automotive companies.
 
-
 **GCon: 3/5**
 
-## Gaming [3/5]
+## Gaming and Crypto
 Revenue growth: FY2017-18 = _21%_
+
 World-wide gaming revenue around 100b (growth of 3x since 2007)
 Increasing cinematics -> increasing demand for new chips.
-**MORE HERE**
-VR is another potential driver. Unknown in contribution.
 
-###Crypto
+ESports
+PC/Console/Mobile
+VR is another potential driver. Unknown in contribution and timeframe.
+
+
+### Competition
+Seems that AMD is the only real graphics card competition in the gaming space with their Radeon cards. Sounds like NVDA has the edge, but AMD seems to be fairly equivalent. Of course, other chip manufacturers like Intel produce GPU capability but in terms of gaming, only AMD are true competition. Both the XBox 1 and PS4 are powered by AMD GPUs, but margins are reportedly low.
+
+I'm not sure that gaming is a big growth driver for Nvidia. They're pretty positive about it in the investor presentation, but other resources suggest that the market is growing, but not super-rapidly. 
+
+(6% CAGR suggested here)[https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/]
+
+My concern is that Gaming GPUs will hit a ... good enough level, and the market will be a market of diminishing returns, less people willing to spend for GPUs, pushing prices of GPUs down.
+
+
+### Crypto
 
     Q: How much of the demand is because of cryptocurrency mining?
     A: [Chinese Crypto Mining Company Poses a Threat to AMD and Nvidia - Bloomberg](https://www.bloomberg.com/news/articles/2018-04-04/chinese-crypto-mining-hardware-putting-amd-nvidia-under-threat) - “5% of current revenue”
@@ -111,21 +127,9 @@ Update: Bitmain are now producing ASICs for other currencies (including Ethereum
 
 Not a great outcome when the point of crypto-currencies is decentralisation.
 
+[The Anti-ASIC Revolt](https://www.coindesk.com/anti-asic-revolt-just-far-will-cryptos-hardware-war-go/)
 
-> GD: I'm not convinced that crypto currencies will be a big growth driver over the longer term for NVidia. The future of crypto is pretty murky to me.
-
-
-### Questions
-    Q: Is there a point of ‘good-enough’ for video cards? What does that demand curve actually look like?
-    A: Gaming is a growing industry. Faster frame rates and more pixels require new cards.
-
-    Q: But what is the limit before people stop caring? Eg: 4K at 80fps? How far off that are we?
-    A: Its not just resolution, its accuracy. For example, real-time ray-tracing in 4K at 80fps. I think we’re a way off that.
-
-
-### Competition
-Seems that AMD is the only real graphics card competition in the gaming space with their Radeon cards. Sounds like NVDA has the edge, but AMD seems to be fairly equivalent. Of course, other chip manufacturers like Intel produce GPU capability but in terms of gaming, only AMD are true competition. Both the XBox 1 and PS4 are powered by AMD GPUs, but margins are reportedly low.
-
+> GD: I'm not convinced that crypto currencies will be a big growth driver over the longer term for NVidia. The future of crypto is pretty murky to me, and not clear how they will be 'mined' in the future.
 
 **GCon 3/5**
 
@@ -210,19 +214,39 @@ Automotive   |487      |558   |**15%**
 OEM and IP   |698      |778   |**11%**
 **Totals**   |**6910** |**9716**|**41%**
 
-
 ### DCF
-Coming soon
+Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
 
-### Reverse DCF
-Coming soon
+Over the ten year period, revenue will grow to around $50b, around about the current revenues of Disney (2017 - $55b), Cisco ($49b), and Intel ($59b).
 
-###Thoughts about revenue numbers
-Coming soon
+Any decrease in revenue growth or margins (all things equal) will decrease this share price.
 
-## Discussion
-Coming soon
+#### DCF examples
 
+---------|5 year compounded revenue growth rate | 20% | 25% | 30% | 40%
+---------|--------------------------------------|-----|-----|-----|-----
+Operating margin|Implied 10 year revenue.              |$38b |$57b |$75b |$129b
+20% |                                  | $93 |$118 |$149 |$237 
+30% |                                  | $140|$179 |$228 |$367
+40% |                                 | $194|$248 |$318 |$516
+
+#### Comparisons
+Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
+
+Company      | Rev (TTM)| Rev Growth% | OpMargin% | NP %
+-------------|----------|-----|-----|-----
+Amazon       | $93      |$118 |$149 |$237 
+Microsoft    | $140.    |$179 |$228 |$367
+Alphabet     | $111b    |23% |24% |20%
+
+#### Other numbers
+Metric      | Value
+------------|----------
+PEG                    | .6
+P/E (MRY)              | 49 
+Gross Margin (TTM).    |60%
+Operating Margin (TTM) |33%
+Net profit Margin (TTM)|30%
 
 
 

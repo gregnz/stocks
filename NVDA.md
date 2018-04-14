@@ -14,13 +14,6 @@ There are a bunch of technologies that benefit from massive parallel processing.
 
 The major point is that currently GPUs are the 'solution-du-jour' for ubiquitous parallel processing. There are other technologies that are better for some situations, but in general, GPUs are the best at solving the general problem.
 
-### Stock advisor
-Their latest recommendation (Jan 2017) was at a stock price of $101. A large part of the premise was the growth of automated vehicle revenue. [Latest recommmedation](https://www.fool.com/premium/stock-advisor/coverage/18/coverage/updates/2017/01/20/davids-pick-nvidia.aspx)
-
-They mention "In fact, analysts are predicting 5.5 million semi- and fully autonomous cars shipped in 2020" which seems... optimistic to me?
-
-
-
 ### Nvidia products
 - DGX-2 - AI System ("worlds most powerful"). Computer + AI frameworks
 - Drive - System on a chip for Autonomous vehicles

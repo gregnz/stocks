@@ -89,12 +89,28 @@ VR is another potential driver. Unknown in contribution and timeframe.
 ### Competition
 Seems that AMD is the only real graphics card competition in the gaming space with their Radeon cards. Sounds like NVDA has the edge, but AMD seems to be fairly equivalent. Of course, other chip manufacturers like Intel produce GPU capability but in terms of gaming, only AMD are true competition. Both the XBox 1 and PS4 are powered by AMD GPUs, but margins are reportedly low.
 
+
 I'm not sure that gaming is a big growth driver for Nvidia. They're pretty positive about it in the investor presentation, but other resources suggest that the market is growing, but not super-rapidly. 
 
 (6% CAGR suggested here)[https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/]
 
 My concern is that Gaming GPUs will hit a ... good enough level, and the market will be a market of diminishing returns, less people willing to spend for GPUs, pushing prices of GPUs down.
 
+#### Edit 18/4/2018
+
+Domeyrock (MFSA) pointed out that I didnt mention the Nintendo Switch. Correcting that here. Here's the revenue data from the Tegra business line, which they state "Tegra Processor business revenue includes SOC modules for the Nintendo Switch gaming console and development services". $132m of the Q4 number was Automotive. 
+
+    | Q418 | Q318 | Q218 | 
+----|----|----|----|----
+Tegra Processor Business | 450 | 419 | 257
+
+The Switch is selling really well, and I think we could safely assume that the majority of the jump in revenue is because of the Switch, so about $160m per quarter. So lets say, $600m for a calendar year (to about March 2018), over which Nintendo estimate sales of 14 million Switches. 
+
+Estimated revenue per Tegra X1 = $45. 
+
+[I could have saved some estimates!](https://www.fool.com/amp/investing/2016/09/26/will-the-nintendo-nx-be-a-major-windfall-for-nvidi.aspx)
+
+Um. So what? I guess the main takeaway here is that although the gaming market may not be growing quickly, there are ways that Nvidia can (and has) successfully obtained good revenue growth out of the market. It also suggests that theres a reasonable runway for improved performance in the Switch, given the Tegra X1 is a 2.5yo old chip.
 
 ### Crypto
 

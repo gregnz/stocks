@@ -92,7 +92,7 @@ Seems that AMD is the only real graphics card competition in the gaming space wi
 
 I'm not sure that gaming is a big growth driver for Nvidia. They're pretty positive about it in the investor presentation, but other resources suggest that the market is growing, but not super-rapidly. 
 
-(6% CAGR suggested here)[https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/]
+[6% CAGR suggested here](https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/)
 
 My concern is that Gaming GPUs will hit a ... good enough level, and the market will be a market of diminishing returns, less people willing to spend for GPUs, pushing prices of GPUs down.
 
@@ -110,7 +110,14 @@ Estimated revenue per Tegra X1 = $45.
 
 [I could have saved some estimates!](https://www.fool.com/amp/investing/2016/09/26/will-the-nintendo-nx-be-a-major-windfall-for-nvidi.aspx)
 
-Um. So what? I guess the main takeaway here is that although the gaming market may not be growing quickly, there are ways that Nvidia can (and has) successfully obtained good revenue growth out of the market. It also suggests that theres a reasonable runway for improved performance in the Switch, given the Tegra X1 is a 2.5yo old chip.
+The Switch has sold about 15 million units according to [this](https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles). But according to that same list, it could sell... maybe 80-100 million (as per Nintendo DS and PSP numbers). 
+
+Switches sold   |Revenue | Total gross profit (35% margin)
+----|----- | ----
+80m | $3.6b| $1.2b
+100m | $4.5b| $1.6b
+
+Good call by Domeyrock. From the 6% CAGR link about, it suggests that mobile gaming is growing at around 19% which is the market the Switch is playing in. What should this information do to Nvidias growth rate?
 
 ### Crypto
 

@@ -134,15 +134,16 @@ Juniper      | $  5027  | 0.7%        |16.9%      |11.8%
 F5 Networks  | $  2097  | -1%         |25%        |20.1%
 
 #### Other numbers
-Metric      | Value
-------------|----------
-Revenue Growth(TTM)    | 46%
-P/E (TTM)              | 48
-**PEG**                | **1.04**
-Gross Margin (TTM)     | 64.5%
-EV/FCF                 | 27 (17.36b/632m)
-[Zacks Rank](https://www.zacks.com/stock/research/ANET/stock-style-scores)            | 4
-Morningstar fair value[^morningstar] | $207 [24Apr18]
+Metric      | Value |
+------------|----------|
+Revenue Growth(TTM)    | 46%  |
+P/E (TTM)              | 48   |
+**PEG**                | **1.04** |
+Gross Margin (TTM)     | 64.5% |
+EV/FCF                 | 27 (17.36b/632m) |
+[Zacks Rank](https://www.zacks.com/stock/research/ANET/stock-style-scores)            | 4 |
+Morningstar fair value[^morningstar] | $207 [24Apr18] |
+
 
 [^morningstar]: They have however raised their fair value from $57 in June 2015 to $207 now. Lucky you didn't listen to them!
 
@@ -198,6 +199,7 @@ Anything else?
 7. You believe management can deal with the rapidly changing market. [GConf:4]
 
 **GConf: 3.8  / 5**
+
 
 ## Definitions
 * DirectFlow - Is (I think) sort of a proprietary OpenFlow. "DirectFlow and OpenFlow are mutually exclusive and you can run only one of the two at any given time" It looks (to me) like DirectFlow is OpenFlow for Arista devices (see OpenFlow).

@@ -144,7 +144,7 @@ Morningstar fair value[^morningstar] | $207 [24Apr18]
 
 [^morningstar]: They have however raised their fair value from $57 in June 2015 to $207 now. Lucky you didn't listen to them!
 
-## Framework analysis
+## Thoughts
 ### Porters 5 forces
 *Note, these comments are just my opinion, and Porters was my first go-to. Suggestions for other analyses welcome!*
 
@@ -158,7 +158,7 @@ Morningstar fair value[^morningstar] | $207 [24Apr18]
 
 Overall, the Porters 5 forces _don't paint an awesome picture for Arista_. I think it comes down to the 'Industry Rivalry' section. How big/bad of a competitor is Cisco? They're huge, with large cash reserves, so how big is Aristas moat?
 
-## Big issue?
+### White boxes and big customers
 
 It seems the concentration of end customers may be an issue, especially in the Cloud Titan space. Selling big to few customers can lead to discounting, and significant loss-of-revenue if those customers choose another option.
 
@@ -186,7 +186,7 @@ However, "Ullal says Arista isn't worried about the white box trend, we're a sof
 
 Anything else?
 
-## (IMHO) beliefs required to own the stock
+### (IMHO) beliefs required to own the stock
 1. The + trends are more powerful than the - trends. [GConf:4]
 2. The delta between the trends is underestimated by the market. [GConf:5]
 3. Arista EOS is very difficult to duplicate. [GConf:3 - it needs to be difficult to duplicate AND not subject to alternatives AND have the advantages easy to communicate]

@@ -8,9 +8,6 @@ A switch creates networks.
 
 So you plug in all your devices to the switch, and when one of them (A) wants to communicate with another (B), A sends the data to the switch (through A's port), which forwards to B (via B's port).
 
-### What is a router?
-A router connects networks.
-
 A little bit more detail. Each device (some thing that has a network interface) has a MAC address, which is like your social security number, uniquely identifying the device. On an (ether)network, devices communicate via MAC addresses (which look something like: 00:0a:95:9d:68:16).
 
 Device A (IPAddress: 1.1.1.1, MAC: AAA) wants to send to Device B (IPAddress: 1.1.1.2, MAC: BBB) _on the same network_. A doesn't know B's mac address, so it has to ask the network "who has IP address 1.1.1.2?"
@@ -19,7 +16,9 @@ The switch tries to help out, by looking up its IP to MAC map (the devices also 
 
 If its not found, the switch sends a request to every other device on the network saying "Who's got IP address 1.1.1.2?", and 1.1.1.2 replies with its MAC address. The switch updates its map, sends the info back to A, who updates its map as well. Then A sends the properly formed message to the switch, and the switch sends it to B and back again.
 
-### The point is...
+### What is a router?
+A router connects LAN networks, so if you want to go outside your LAN into another LAN (ie, a WAN, for example to the internet), routers are the things that make your request/data get to that far distant LAN. Then the switches get you to the actual computer/device you want to talk to.
+
 Local area network traffic works on a MAC address level and use switches. Internet (or connected networks) work on a IP address level and use routers. Switches resolve MAC addresses to devices (computers, printers etc.) and routers resolve IP addresses to networks (and then pass responsibility to the switches).
 
 ### What's a hub?
@@ -34,9 +33,20 @@ In the "cloud age" however, those datacenters are very different. Theres a lot m
 
 All of the Arista switches and routers run EOS, their network operating system, which is how people interact (and program) their devices.
 
+As far as I can tell, Arista went "Cisco sucks. Their switches are expensive, and their software is old and monolithic. Lets make the best switch and the best software, and go after them in the datacenter switch market".
+
+
 #### What is EOS?
 
-EOS is the network device operating system, in my view their main IP. Each device runs this operating system, and its responsible for the programmability of the device. If you want to change the device, you log in to it using EOS.
+EOS is the network device operating system, in my view their main IP. Each device runs this operating system, and its responsible for the programmability of the device. If you want to change the device, you log in to it using EOS. It's the equivalent of Ciscos IOS.
+
+Unlike IOS, EOS is all the things modern process-specific software should be, modular, extensible etc. You can install 3rd party processes on the switch that can talk to EOS, at the same level as an EOS process.
+
+Cisco is now playing catchup with their IOS XE, IOS XR, and NX OS operating systems.
+
+The very fact that they have these multiple OS's is big plus for Arista. Supporting multiple operating systems would be an expensive pain in the ass for them.
+
+
 
 
 #### What is CloudVision?
@@ -70,6 +80,17 @@ From their Sept-17 10Q, current deferred revenue is 424m, up from 273m in Dec-16
 Arista's moat seems to be mostly in software. "Software driven cloud-networking" does seem to emphasise the 'software'! EOS is the single interface to all of Arista's hardware, so if you have an investment in how to use EOS, it probably makes a lot of sense to continue to invest in Arista's hardware.
 
 The strength of this moat is a bit unclear, and a lot (almost all) of the investment thesis relies on the strength of EOS. 
+
+Here's a comment from Tinker on Sauls Investing Board which is relevant here:
+
+>Here is Arista's take on EOS. EOS enables Arista to produce router functionality in the switch for a per port cost, from a slide put out last year by Arista at 33x less per port than Cisco charges for its router for the same (or even less functionality). Arista actually has a larger routing table than what Cisco or Juniper offer. That is 1/33 ($3,000 vs. $100,000).
+
+>What this all means in practicality, so far, is Arista has moved up to 15% marketshare, more or less from zero just 5 or so years ago against a monopoly and Cisco marketshare has gone down by nearly the same. Arista's marketshare in 100GB is more than 25%. Thus the puzzlement of 25% growth rate for the rest of the year...
+
+> we can only judge the narrative from the results. And forward prognostication seems to be less aggressive than the narrative would indicate (I believe the market thinks Arista was unduly conservative in regard - and could produce another huge drop if this is not the case, like we had last quarter - although some of that has been recovered), but backward results have systematically shown the advantage.
+
+
+The historic trend certainly indicates some significant advantage for Arista versus Cisco.
 
 ### Litigation
 Have ignored it here Arista seem pretty confident it will go away, most of Ciscos claims seem to have been rejected. Not sure about the [OptumSoft](https://www.networkworld.com/article/3016667/lan-wan/court-finds-for-arista-in-eos-suit-with-co-founder.html) one which still seems to be ongoing Helps to be a billionaire I guess.
@@ -193,13 +214,14 @@ Anything else?
 ### (IMHO) beliefs required to own the stock
 1. The + trends are more powerful than the - trends. [GConf:4]
 2. The delta between the trends is underestimated by the market. [GConf:5]
-3. Arista EOS is very difficult to duplicate. [GConf:3 - it needs to be difficult to duplicate AND not subject to alternatives AND have the advantages easy to communicate]
-4. Competitors (Cisco!) cannot successfully compete in these markets because of Aristas competitive advantages [GConf: 3]
+3. Arista EOS is very difficult to duplicate. [GConf:4 [^tinker] - it needs to be difficult to duplicate AND not subject to alternatives AND have the advantages easy to communicate]
+4. Competitors (Cisco!) cannot successfully compete in these markets because of Aristas competitive advantages [GConf: 4 ]
 5. There are no new disruptive technologies that will undermine Arista's position in the short term. [GConf: ???]
 6. Arista will maintain/increase growth and maintain margins in those + trend markets as described in the DCF section. [GConf:4]
 7. You believe management can deal with the rapidly changing market. [GConf:4]
 
-**GConf: 3.8  / 5**
+[^tinker]: As per Tinkers comment on Sauls Investing Board, the historic results indicate that replicating EOS is difficult. Cisco is playing catchup with their new OS's, but still has a mountain of legacy installs to support.
+**GConf: 4.1 / 5**
 
 
 ## Definitions

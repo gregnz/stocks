@@ -267,6 +267,12 @@ Operating Margin (TTM) |33%
 Net profit Margin (TTM)|30%
 
 
+### +'s and -'s [Big trends]
+
+Anything else?
+
+## (IMHO) beliefs required to own the stock
+
 
 ## Definitions
 - ASIC - Application specific integrated circuit - specific chips used to mine bitcoin.

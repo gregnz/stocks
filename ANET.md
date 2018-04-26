@@ -141,9 +141,6 @@ P/E (TTM)              | 48   |
 **PEG**                | **1.04** |
 Gross Margin (TTM)     | 64.5% |
 EV/FCF                 | 27 (17.36b/632m) |
-[Zacks Rank](https://www.zacks.com/stock/research/ANET/stock-style-scores)            | 4 |
-Morningstar fair value[^morningstar] | $207 [24Apr18] |
-
 
 [^morningstar]: They have however raised their fair value from $57 in June 2015 to $207 now. Lucky you didn't listen to them!
 

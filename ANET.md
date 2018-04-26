@@ -135,7 +135,7 @@ F5 Networks  | $  2097  | -1%         |25%        |20.1%
 
 #### Other numbers
 Metric.     | Value |
-------------|----------|
+------------ | ---------- |
 Revenue Growth(TTM)    | 46%  |
 P/E (TTM)              | 48   |
 **PEG**                | **1.04** |

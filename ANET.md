@@ -180,11 +180,11 @@ However, "Ullal says Arista isn't worried about the white box trend, we're a sof
 
 
 ### +'s and -'s [Big trends]
-1. + More datacenters 
-2. + Datacenters becoming more 'cloud'
-3. + Datacenters need more bandwidth - 10G->100G->...
-4. - Datacenter consolidation with cloud operators.
-5. - Datacenter using custom hardware and software.
+1. \+ More datacenters 
+2. \+ Datacenters becoming more 'cloud'
+3. \+ Datacenters need more bandwidth - 10G->100G->...
+4. \- Datacenter consolidation with cloud operators.
+5. \- Datacenter using custom hardware and software.
 
 Anything else?
 

@@ -34,11 +34,13 @@ In the "cloud age" however, those datacenters are very different. Theres a lot m
 
 All of the Arista switches and routers run EOS, their network operating system, which is how people interact (and program) their devices.
 
-####Question: What is EOS?
+#### What is EOS?
+
 EOS is the network device operating system, in my view their main IP. Each device runs this operating system, and its responsible for the programmability of the device. If you want to change the device, you log in to it using EOS.
 
 
-####Question: What is CloudVision?
+#### What is CloudVision?
+
 CloudVision is software developed by Arista that communicates with the individual EOS instances (on each router for example) that allows the user to view the entire network. This abstraction creates a one-stop-shop for network-wide functionality, for example analytics, security, provisioning etc.
 
 > Greg: I think this is Aristas entry into the SD-WAN world...

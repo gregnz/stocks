@@ -134,6 +134,7 @@ Juniper      | $  5027  | 0.7%        |16.9%      |11.8%
 F5 Networks  | $  2097  | -1%         |25%        |20.1%
 
 #### Other numbers
+
 Metric.     | Value |
 ------------ | ---------- |
 Revenue Growth(TTM)    | 46%  |

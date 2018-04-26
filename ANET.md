@@ -81,8 +81,8 @@ https://www.fool.com/premium/stock-advisor/coverage/18/coverage/updates/2018/04/
 ### Major Competition
 [nasdaq.com](https://www.nasdaq.com/symbol/anet/competitors)
 
-1 Cisco 	- FY2017 'Infrastructure platforms' revenue: 27,779m
-2 Juniper - FY2017 Revenue: 5027m
+1. Cisco 	- FY2017 'Infrastructure platforms' revenue: 27,779m
+2. Juniper - FY2017 Revenue: 5027m
 
 
 ## Numbers
@@ -90,17 +90,17 @@ Revenue growth: FY2016->FY2017 = _45.8%_
 
 Q         | Q1 16|Q2 16|Q3 16 |Q4 16 | FY 16 | Q1 17|Q2 17|Q3 17|Q4 17 | FY 2017 |
 ----------|----- |-----|------|------|------|-----|-----|----- | ---- | ---- |
-Revenue   | 212m |269m |290m |358m |1.13b |335m|405m |438m|468m|1.65b
+Revenue   | 212m |269m |290m |358m |1.13b |335m | 405m |438m|468m|1.65b
  Growth   |     |26% |8%    |23%  |      |-6% | 21% |8% |7% | 46%
-Product   | 242m |236m |254m  |259m  | 991m | 291m | 354m | 380m| 407m|1,433b
+Product   | 242m |236m |254m  |259m  | 991m | 291m | 354m | 380m| 407m|1,433b
 Growth    |      |-3% |8%   |2%   |      |12%  |21%  |7%   |7%   |45%
 Service   |  30m |33m |36m   |39m   | 138m |44m  | 51m  | 57m | 61m |213m
-Growth    |      |11% |9%.   |8%.   |.     |13%. |16%.  |12%. |6%.  |55%
+Growth    |      |11% |9%   |8%   |     |13% |16%  |12% |6%  |55%
 
 
 
 ### DCF
-Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 28.8% (as per current year) and a WACC of 9.6% gives an estimated share value of _$232_.
+Using a compounded revenue growth rate of 25% over the next 5 years, an EBIT margin of 28.8% (as per current year) and a WACC of 9.6% gives an estimated share value of _$232_.
 
 Over the ten year period, revenue will grow to around $8.5b, compared to the current revenues of Cisco $28b [^cisco], and Juniper ($5b) 
 
@@ -110,7 +110,7 @@ Any decrease in revenue growth or margins (all things equal) will decrease this 
 
 #### DCF examples
 
-         |5yr CAGR                        | 20% | 25% | 30% | 40%
+--        |5yr CAGR                        | 20% | 25% | 30% | 40%
 ---------|--------------------------------|-----|-----|-----|-----
 Operating margin|Implied 10 year rev      |$6.5b |$8.7b |$11.5b |$19b
 20% |                                     |  $134  |$169  | $205 | $317

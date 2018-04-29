@@ -53,8 +53,6 @@ The very fact that they have these multiple OS's is big plus for Arista. Support
 
 CloudVision is software developed by Arista that communicates with the individual EOS instances (on each router for example) that allows the user to view the entire network. This abstraction creates a one-stop-shop for network-wide functionality, for example analytics, security, provisioning etc.
 
-> Greg: I think this is Aristas entry into the SD-WAN world...
-
 #### 'Make'?
 Arista don't make the routers and switches. They contract the actual products to other companies, but design the devices (not sure if there's much IP here?), and develop EOS which is installed on each device.
 
@@ -113,10 +111,10 @@ Revenue growth: FY2016->FY2017 = _45.8%_
 
 Q         | Q1 16|Q2 16|Q3 16 |Q4 16 | FY 16 | Q1 17|Q2 17|Q3 17|Q4 17 | FY 2017 |
 ----------|----- |-----|------|------|------|-----|-----|----- | ---- | ---- |
-Revenue   | 212m |269m |290m |358m |1.13b |335m   |405m   |438m|468m|1.65b
- Growth   |     |26% |8%    |23%  |      |-6% | 21% |8% |7% | 46%
-Product   | 242m |236m |254m  |259m  | 991m | 291m | 354m | 380m| 407m|1,433b
-Growth    |      |-3% |8%   |2%   |      |12%  |21%  |7%   |7%   |45%
+Revenue   | 242m |269m |290m |328m |1.13b |335m   |405m   |438m|468m|1.65b
+ Growth   |     |11% |8%    |13%  |      |2% | 21% |8% |7% | 46%
+Product   | 212m |236m |254m  |289m  | 991m | 291m | 354m | 380m| 407m|1,433b
+Growth    |      |11% |8%   |14%   |      |1%  |21%  |7%   |7%   |45%
 Service   |  30m |33m |36m   |39m   | 138m |44m  | 51m  |57m |61m |213m
 Growth    |      |11% |9%   |8%   |     |13% |16%  |12% |6%  |55%
 

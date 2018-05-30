@@ -53,6 +53,8 @@ The very fact that they have these multiple OS's is big plus for Arista. Support
 
 CloudVision is software developed by Arista that communicates with the individual EOS instances (on each router for example) that allows the user to view the entire network. This abstraction creates a one-stop-shop for network-wide functionality, for example analytics, security, provisioning etc.
 
+
+
 #### 'Make'?
 Arista don't make the routers and switches. They contract the actual products to other companies, but design the devices (not sure if there's much IP here?), and develop EOS which is installed on each device.
 
@@ -167,6 +169,41 @@ Morningstar fair value[^morningstar] | $207 [24Apr18] |
 
 [^morningstar]: They have however raised their fair value from $57 in June 2015 to $207 now. Lucky you didn't listen to them!
 
+### From [JPMorgan Global Tech Media Comms Conference](https://jpmorgan.metameetings.net/events/tmc18/sessions/14923-arista-networks/webcast)
+17min
+
+25% revenue growth comments.
+
+> "Set a reasonably high confidence scenario for the year.."
+> 
+> "Didn't necessarily believe could sustain mid-40s growth rate..."
+> 
+> ... not a good way to set up a goal for 2018
+> 
+> Service providers: Difficult to predict
+> 
+>"A balanced view of different outcomes."
+
+> Haven seen nothing different from competitive landscape.
+
+
+White boxes - landcape hasn't changed that much.
+
+#### On campus entry
+Places in the network -> Places in the cloud. So having EOS across all places in the cloud.
+$3-4b market out of $14b.
+
+Aruba - wireless at the edge, VMware - IoT management.
+Revenue not until 2019.
+
+[27min] Value proposition: EOS, state driven architecture, every box exporting state into central net-database, held in CloudVision (or own database). End-to-end management, ML+AI, easy.
+
+Single image -> only have to qualify one image. 
+
+Campus hasn't enjoyed software-driven cloud networking versus datacenter. Op costs down.
+
+
+
 ## Thoughts
 ### Porters 5 forces
 *Note, these comments are just my opinion, and Porters was my first go-to. Suggestions for other analyses welcome!*
@@ -196,6 +233,9 @@ So the target market looks to be next-gen cloud datacenters that are run by comp
 However, "Ullal says Arista isn't worried about the white box trend, we're a software company," she said. "We could run on anybody's white box if customers wanted it. We don't view what Facebook or other companies do as a threat, we see it as an opportunity and as collaboration."
 [Investors.com](https://www.investors.com/research/the-new-america/how-arista-networks-cloud-strategy-jelled-with-microsoft-facebook/)
 
+[White box discussion (by Forrester)](https://www.cisco.com/web/offers/pdfs/the_myth_of_white_box.pdf)
+Basically the summary is, the costs are really in the software. So, Arista is a software company, and will live and die based on the quality of the software.
+
 >Q: If they're a software company.. ? Do they charge per EOS install?
 [EOS as a service...](https://www.arista.com/en/company/news/press-release/21-company/press-release/1080-pr-20150331)
 
@@ -220,6 +260,15 @@ Anything else?
 
 [^tinker]: As per Tinkers comment on Sauls Investing Board, the historic results indicate that replicating EOS is difficult. Cisco is playing catchup with their new OS's, but still has a mountain of legacy installs to support.
 **GConf: 4.1 / 5**
+
+
+## Updates
+14 May 2018 - "Cognitive cloud networking for the campus". May 7, Arista press release describes a solution for campus networking, a new market for them. Partnering with Aruba (HP) and VMware (not exactly sure how) to deliver "IoT-ready" networks for campuses.
+
+From SA, Cisco has the Cisco 9000 series which is in this market already, and reportedly doing really well. 
+>"This is the fastest-ramping new product introduction we've had in our history and a fantastic example of the innovation we've delivered over the last two years," Robbins said in a conference call with Wall Street analysts recently to discuss Cisco's second-quarter results." [https://www.crn.com/news/networking/300099561/cisco-more-than-doubles-its-catalyst-9000-customer-base.htm]
+
+
 
 
 ## Definitions

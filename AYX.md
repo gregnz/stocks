@@ -12,7 +12,7 @@ Alteryx sits in this junction, enabling collection of data, and analysis in one 
 > "The Alteryx platform provides the analytic flexibility that the 30 million business analysts and citizen data scientists, trained statisticians and IT professionals need, to create an operationalized analytic models through a collaborative, scalable and governed platform."
 
 I wrote an initial pre-deep dive here:
-http://boards.fool.com/alteryx-write-up-all-in-one-place-32936733.aspx?sort=whole#32941965
+(http://boards.fool.com/alteryx-write-up-all-in-one-place-32936733.aspx?sort=whole#32941965)
 
 which looked at Tableau and Datawatch briefly. I've done some googling re: DataWatch, and their spiel seems to be "We're cheaper than Alteryx!" which means you should probably write them off.
 
@@ -232,6 +232,7 @@ Ballpark in bold. Alteryx is pretty richly valued. _Is it fairly valued? Over-va
 
 
 #### Comparisons
+
 Company      | Rev (TTM)| Rev Growth% | OpMargin% | NP %
 -------------|----------|-------------|-----------|-----
 Alteryx      | $146     |     52%     |    -12.6% | -9.9%
@@ -242,6 +243,7 @@ Datawatch    | $38      |     16%     |    -15.9% | 2.1%
 
 
 #### Other numbers
+
 Metric      | Value
 ------------|----------
 Revenue Growth(TTM)    | 52%  |

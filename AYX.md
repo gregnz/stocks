@@ -40,7 +40,7 @@ is a good resource. Looks like a who's who of some pretty big companies.
 They have four products, Designer, Server, and the new Promote and Connect.
 
 
-###Alteryx Designer
+### Alteryx Designer
 
 Their main product. That is, everything you do with Alteryx you do via the designer. Hook up designer to some datasources, drag-and-drop to clean, filter, and analyse, as well as produce basic reports.
 
@@ -59,7 +59,7 @@ The list of tool categories is:
 **NOTE: WINDOWS ONLY.** Even the server solution is expected to run on Windows. This suggests that Alteryx is an 'old' code-base (C++). However, they provide a Windows Server 2012 AWS AMI so you can run on AWS.
 
 
-###Alteryx Server
+### Alteryx Server
 
 Scale, share, automate, govern Alteryx workflows with people who don't have an Alteryx license. So create a workflow, add some interactive functionality (convert to Analytic App), and then publish to gallery (Alteryx server) which provides the browser front-end to all the published analytic apps.
 
@@ -88,8 +88,6 @@ Alteryx acquired ŷhat in 2017, and this IP is the basis of the Promote product.
 
 ### Comments
 
-This set of products is interesting. They've put pretty significant effort into Connect and Promote (vaguely recall they were related to acquisitions?) but basically this is positioning them for bigger organisations. 
-
 Promote in particular is interesting, because the use case is: getting your model into production. So not just internally, coming up with an analysis that you re-run every month to put in the CEO's report, but actually productionising your model so that other services (and users in the real world) can utilise it. 
 
 At the moment, productionising models is a tech problem. Data people would come up with the model, and then chuck it over the wall to the tech people, who would (probably) have to recreate that model in their own deployment toolset (language, testing, deployment). Promote will give a lot more power to the data people to own and update their models.
@@ -103,7 +101,7 @@ It's a good sign that the couple of acquisitions that Alteryx have made (ŷhat a
 
 
 ### Alteryx Designer 2
-Very speculative, but by perusing the careers page, theres a suggestion that they're rewriting Designer in web-based technologies.
+Very speculative on my part, but by perusing the careers page, theres a suggestion that they're rewriting Designer in web-based technologies.
 
 
 ## Tableau
@@ -262,8 +260,8 @@ Datawatch    | $38      |     16%     |    -15.9% | 2.1%
 #### Other numbers. 
 
 
-Metric      | Value
-------------|----------
+Metric                 | Value
+-----------------------|----------
 Revenue Growth(TTM)    | 52%  |
 P/E (TTM)              | -   |
 PEG                    | -   |
@@ -271,6 +269,8 @@ Gross Margin (TTM)     | 84.9% |
 EV/FCF                 | 85 (1.789b/21m) |
 [Zacks Rank](https://www.zacks.com/stock/research/AYX/stock-style-scores)            | 3 |
 Morningstar fair value[^morningstar] | $25.88 [28May18] |
+
+
 [^morningstar]: This is a quantitative value they don't cover this stock.
 
 

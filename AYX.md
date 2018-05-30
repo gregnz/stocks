@@ -114,7 +114,7 @@ I also believe analyses will get more and more complicated, with larger numbers 
 Visuals are designed for human decision making, but the explosion of variables that are being captured by businesses (IMO) don't lend themselves to visual decision making. More complicated analyses like multivariate-regression, decision trees and neural network classifiers deal much better with these sorts of complexities.
 
 
-###Tableau: The bull case
+### Tableau: The bull case.
 
 Tableau won't impact Alteryx much, because visuals are not a large part of their use-case.  CEO has stated that only about 15% of their output heads to Tableau (which sounds like a reasonable amount to me!)
 

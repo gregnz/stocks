@@ -117,6 +117,7 @@ Visuals are designed for human decision making, but the explosion of variables t
 
 
 ###Tableau: The bull case
+
 Tableau won't impact Alteryx much, because visuals are not a large part of their use-case.  CEO has stated that only about 15% of their output heads to Tableau (which sounds like a reasonable amount to me!)
 
 Tableau Prep is only about data-prep, rather than Analysis, and much simpler than Alteryx.
@@ -125,6 +126,7 @@ As mentioned previously, visualisation is a limited market, and Alteryx are goin
 
 
 ### Tableau: The bear case
+
 This move marks the first steps for Tableau eating Alteryx's lunch. Tableau Prep is only going to get better, and nothing that Alteryx does is particularly rocket science.
 
 > This seems to be a common refrain from 'Alteryx versus Tableau prep' thread on the Tableau forums: "For me, Alteryx is the first choice though - it's just so **** simple and easy to use, but at the same time so powerful."
@@ -215,6 +217,7 @@ Def. Rev||||$74  |$74  |$77   |$82.  |$114 |$112
 
 
 ### Dollar based net revenue retention
+
 These values were something mentioned on Sauls original post. Whats it mean?
 
 Choose a quarter (Q^(1)). Choose same quarter following year (Q^(5)). Grab all the customers who started in Q^(1) and get their Q^(1) revenue (R^(1)). Get the revenue for Q^(5) (R^(5)) and work out the percent difference. Do that for another 3 (Q^2 to Q^4) quarters and average them. This gives you the DBNRR for Q^5.
@@ -223,7 +226,9 @@ Anything over 100% means that that cohort is spending more in the 2nd year than 
 
 Note, Alteryx state that they include customers who have churned in the period, so DBNRR of >100% is something to be proud of.
 
+
 ### DCF
+
 Using a compounded revenue growth rate of 32% over the next 5 years and an EBIT margin of 30% (a bit over industry average) and a WACC of 9% gives an estimated share value of **$31**.
 
 Over the ten year period, revenue will grow to around $1.1b.
@@ -254,7 +259,8 @@ Datawatch    | $38      |     16%     |    -15.9% | 2.1%
 
 
 
-#### Other numbers
+#### Other numbers. 
+
 
 Metric      | Value
 ------------|----------
@@ -266,6 +272,8 @@ EV/FCF                 | 85 (1.789b/21m) |
 [Zacks Rank](https://www.zacks.com/stock/research/AYX/stock-style-scores)            | 3 |
 Morningstar fair value[^morningstar] | $25.88 [28May18] |
 [^morningstar]: This is a quantitative value they don't cover this stock.
+
+
 
 ### +'s and -'s [Big trends]
 1. \+ More data needing analysis.

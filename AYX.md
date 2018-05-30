@@ -218,7 +218,7 @@ Def. Rev||||$74  |$74  |$77   |$82.  |$114 |$112
 
 These values were something mentioned on Sauls original post. Whats it mean?
 
-Choose a quarter (Q^(1)). Choose same quarter following year (Q^(5)). Grab all the customers who started in Q^(1) and get their Q^(1) revenue (R^(1)). Get the revenue for Q^(5) (R^(5)) and work out the percent difference. Do that for another 3 (Q^2 to Q^4) quarters and average them. This gives you the DBNRR for Q^5.
+Choose a quarter (Q^1). Choose same quarter following year (Q^5). Grab all the customers who started in Q^(1) and get their Q^(1) revenue (R^(1)). Get the revenue for Q^(5) (R^(5)) and work out the percent difference. Do that for another 3 (Q^2 to Q^4) quarters and average them. This gives you the DBNRR for Q^5.
 
 Anything over 100% means that that cohort is spending more in the 2nd year than they were when they started. 
 

@@ -1,7 +1,4 @@
 # AYX 
-GCon = 1 to 5 scale of ‘Gregs conviction’.  
-Most buzzwords are in the 'Definitions' section.
-
 Sauls coverage starts around: #34874
 
 ## My understanding
@@ -32,15 +29,19 @@ It does restrict the TAM to companies with a reasonable budget for these kinds o
 Last quarter (Q1 2018) they reported revenue booked at 42.82m, and deferred revenue at $112m, so total 'bookable' revenue at **$155m**. CEO Dean Stoecker says "about half Designer and half Server in terms of revenue". So say 17,000 actual end-users. They say "close to 3700 active customers", so maybe average of 4-5 users per customer on average. Not sure any of that is relevant, but some colour.
 
 ## Customers
+
 https://www.featuredcustomers.com/vendor/alteryx/customers
 
 is a good resource. Looks like a who's who of some pretty big companies.
 
 
 ## Alteryx products
+
 They have four products, Designer, Server, and the new Promote and Connect.
 
+
 ###Alteryx Designer
+
 Their main product. That is, everything you do with Alteryx you do via the designer. Hook up designer to some datasources, drag-and-drop to clean, filter, and analyse, as well as produce basic reports.
 
 The list of tool categories is:  
@@ -57,14 +58,18 @@ The list of tool categories is:
 
 **NOTE: WINDOWS ONLY.** Even the server solution is expected to run on Windows. This suggests that Alteryx is an 'old' code-base (C++). However, they provide a Windows Server 2012 AWS AMI so you can run on AWS.
 
+
 ###Alteryx Server
+
 Scale, share, automate, govern Alteryx workflows with people who don't have an Alteryx license. So create a workflow, add some interactive functionality (convert to Analytic App), and then publish to gallery (Alteryx server) which provides the browser front-end to all the published analytic apps.
 
 Anyone can then run the workflow in the browser and see the report.
 
 Also provides version control and scheduling for workflows. It seems a bit limited in terms of access control, but assume thats a pretty simple fix.
 
+
 ### Alteryx Connect
+
 Connect is a clearing house for data and Alteryx workflows. It lets people in the organisation record datasources and workflows, comment on them, ask questions of users about them, and utilise them in their own Alteryx Designer sessions.
 
 It's a wiki for data. Seems like a useful addition for larger organisations with large numbers of analysts and datasources, so theres a central knowledge base of datasources and Alteryx workflows.
@@ -73,6 +78,7 @@ Alteryx acquired Semanta in 2017, and I believe this IP is the basis of the Conn
 
 
 ### Alteryx Promote
+
 Promote is cool. It lets people deploy Alteryx models into production so that other services can use the model. Essentially it sets up a remote web server that responds to web requests to use the model, as well as managing the process for getting that model into production, testing, versioning etc. All the things that tech would have to normally do (write the code, unit test, github, provision servers, deploy, rollback errors etc).
 
 For example, you might have a mortgage estimator you want to put on your banks website so users can see how much they might borrow. The data people can publish that model with no (little) tech help, while tech build the user interface and model interface. 
@@ -81,6 +87,7 @@ Alteryx acquired ŷhat in 2017, and this IP is the basis of the Promote product.
 
 
 ### Comments
+
 This set of products is interesting. They've put pretty significant effort into Connect and Promote (vaguely recall they were related to acquisitions?) but basically this is positioning them for bigger organisations. 
 
 Promote in particular is interesting, because the use case is: getting your model into production. So not just internally, coming up with an analysis that you re-run every month to put in the CEO's report, but actually productionising your model so that other services (and users in the real world) can utilise it. 
@@ -108,12 +115,14 @@ I also believe analyses will get more and more complicated, with larger numbers 
 
 Visuals are designed for human decision making, but the explosion of variables that are being captured by businesses (IMO) don't lend themselves to visual decision making. More complicated analyses like multivariate-regression, decision trees and neural network classifiers deal much better with these sorts of complexities.
 
+
 ###Tableau: The bull case
 Tableau won't impact Alteryx much, because visuals are not a large part of their use-case.  CEO has stated that only about 15% of their output heads to Tableau (which sounds like a reasonable amount to me!)
 
 Tableau Prep is only about data-prep, rather than Analysis, and much simpler than Alteryx.
 
 As mentioned previously, visualisation is a limited market, and Alteryx are going after the data management and analysis market. The acquisitions of Semanta and ŷhat are examples of that.
+
 
 ### Tableau: The bear case
 This move marks the first steps for Tableau eating Alteryx's lunch. Tableau Prep is only going to get better, and nothing that Alteryx does is particularly rocket science.
@@ -125,6 +134,8 @@ My personal take is that Alteryx's big growth will come from more complicated an
 
 Also...plot.ly.
 
+## Related companies
+
 ### plot.ly
 Check out Alteryx's collaboration with plot.ly:
 [plot.ly collaboration PR](https://www.alteryx.com/press-releases/alteryx-joins-forces-with-plotly-to-enable-data-visualization-throughout-the)
@@ -133,8 +144,9 @@ Plot.ly is a web-based visualisation library company, playing in the same space 
 
 I think this is an excellent (if obvious) move for Alteryx. They're not reinventing the wheel, but if the visualisations can be integrated cleanly into an Alteryx workflow, thats pretty much Tableau's functionality sorted. Why would you need both? If Alteryx Designer 2 is actually a thing, and actually web-based, powered by Alteryx Server, that could be a potent combination for all ETL, Analysis and Visualisation requirements.
 
-#### Talend
-Phew. This section was the last section completed, mainly because I didnt really get what Talend actually do, despite repeated looks at their (stock photo heaven) website and watching their (interminable) videos.
+
+### Talend
+Phew. This section was the last (and most painful) section completed, mainly because I didnt really get what Talend actually do, despite repeated looks at their (stock photo heaven) website and watching their (interminable) videos.
 
 1. Data agilty.
 2. Data integration. 
@@ -168,7 +180,7 @@ They're also very into corporate speak, which suggests they're really targeting 
 
 From here on, I'm going to ignore Talend because the corporate speak makes me ill.
 
-#### Datarobot
+### Datarobot
 Datarobot is an interesting company. I saw mention of it on one of the boards. As far as I can tell, it automates that model building part of analysis. It will ingest your data, and then spin it through a large variety of models, with automatic feature discovery. 
 
 The theory is that Datarobot will come up with better models more quickly than manual model creation (such that Alteryx provides). It automates the process of model building, and also testing using best practices (cross-validation, holdout) so its relatively simple to produce good models.

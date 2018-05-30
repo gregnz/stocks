@@ -10,6 +10,9 @@ Think of CPUs which are single-core, dual-core, quad-core, sometimes 8-16 cores.
 
 GPUs on the other hand have thousands of less powerful cores, which means they can run thousands of simpler tasks concurrently. For example, the Geforce GTX 1080Ti has 3584 cores.
 
+https://youtu.be/-P28LKWTzrI
+:-)
+
 There are a bunch of technologies that benefit from massive parallel processing. Graphics, cryptocurrency mining, AI, etc. They all do (more or less) the same thing with slightly different data. These are the big tides lifting Nvidias boat.
 
 The major point is that currently GPUs are the 'solution-du-jour' for ubiquitous parallel processing. There are other technologies that are better for some situations, but in general, GPUs are the best at solving the general problem.
@@ -66,14 +69,13 @@ Drive Sim and Constellation: Simulate real world driving conditions to train AI 
 
 Definitely a case of providing shovels to gold prospectors. Nvidia is developing the tools to let AV contenders play in the space without developing their own chips. Even as a proof-of-concept tool, I imagine the commercial case is pretty compelling. It's only large very well resourced players (eg: Google) who use their own chips/software.
 
-    Q: Google/Waymo seems to be the runaway leader in AutomotiveAutonomous vehicles. Is the a winner-take-all situation?/
+    Q: Google/Waymo seems to be the runaway leader in Automotive/Autonomous vehicles. Is the a winner-take-all situation?/
     A: Unclear to me. I can imagine a future where Waymo starts selling their tech to automotive companies, which would be a disaster for Nvidia’s (and others) programs. However, Waymo has no real partners in the automotive industry to date. Although conceptually it makes sense, those companies may (rightly!) be worried about ceding control of the experience to Google/Waymo, essentially giving up a huge chunk of independence to a brutal competitor.
 
 This market should be watched carefully. I'm guessing it will gradually increase in revenue for Nvidia but I'm uncertain whether they will end up powering the majority of autonomous vehicles (however, if not them, then who?). However, they're definitely one of the primary horses in the race, the other being Google. 
 
 **Red flag** - If Google start making significant deals with automotive companies.
 
-**GCon: 3/5**
 
 ## Gaming and Crypto
 Revenue growth: FY2017-18 = _21%_
@@ -148,20 +150,23 @@ Not a great outcome when the point of crypto-currencies is decentralisation.
 
 > GD: I'm not convinced that crypto currencies will be a big growth driver over the longer term for NVidia. The future of crypto is pretty murky to me, and not clear how they will be 'mined' in the future.
 
-**GCon 3/5**
-
 
 ## AI
 
-AI (I think) is the overarching theme driving Nvidia's success although not specifically a 'segment' identified by Nvidia. AI is in a peak now, due to the stunning sucesses that have been demonstrated over the last few years, and the continued improvement in those algorithms. There doesn't appear to be any significant roadblocks standing in the way of more and more artificial intelligence in the world.
+AI (I think) is the overarching theme driving Nvidia's success although not specifically a 'segment' identified by Nvidia. AI is in a peak now, due to the stunning successes that have been demonstrated over the last few years, and the continued improvement in those algorithms. There doesn't appear to be any significant roadblocks standing in the way of more and more artificial intelligence in the world.
 
 More and more data, more and more sensors, more and more processing required, more and more intelligence. Cars (as a very simple example), will be more and more autonomous which means some significant processing is required to prepare data for inference (Nvidias drive program). Nvidia metropolis offers the same attractiveness for 'smart cities' (no idea what the market is for that, but definitely in the same trend space).
 
 Although the Internet of Things has been a buzzword for a while, the reality is there are more and more devices that are connected, and sending information to be recorded, and hopefully processed. All this results in a massive demand for efficient computation.
 
+Linear models can be represented by matrix multiplies. For example, if you're training a classifier on images, you're going to be doing a lot of 'big matrix multiplies' because of the number of pixels in the image. Each of the nodes in the classifier is going to be receiving a lot of inputs from other nodes.
+
+“Big matrix multiplies are exactly what GPUs were designed for”.
+
+
 ### OpenCL versus CUDA
 
-OpenCL and CUDA do the same thing. They interfance higher level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
+OpenCL and CUDA do the same thing. They interface higher level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
 
 The high-level frameworks that researchers use, TensorFlow, Torch, Theanos etc., do not really care whether its CUDA or OpenCL under the covers. However, most of the popular deep learning frameworks do not currently support OpenCL 
 [Deep learning software comparison](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software). In the big ones, it appears to be under development  [Theano looks like it works, Torch has 3rd party implementations]. 
@@ -183,7 +188,33 @@ The TPU is a custom designed chip from Google that is intended to make Deep Lear
 
 Nvidia is including Tensor Cores in its new Titan chips, so the performance comparison is unclear. However, it is highly likely that an ASIC (TPU) will perform better on those specific functions.
 
->GD: I think it unlikely however that the scope of architecture thats useful in AI is actually known at this point. Deep learning is one facet of AI, and other upcoming fields may benefit from the more general capabilities of GPUs.
+Some benchmarks:
+https://blog.riseml.com/benchmarking-googles-new-tpuv2-121c03b71384
+
+> GD: Interesting benchmarks. I would have assumed that the TPU would have seriously (an order of magnitude) out-performed the GPU. In a cost basis, it is about half in the benchmark report, which is significant, but not as significant as I expected.
+
+---
+
+[Update: 2nd May]
+
+I've learned a bunch more about deep learning and GPUs and TPUs. 
+
+What GPUs do really well is matrix multiplication in floating point. The only interesting point here about floating point numbers is that they require much more memory than integers.
+
+Deep learning (the current 'best' way to do machine learning) is based on matrix multiplications. You get your input matrix coming in, and multiply them by a a matrix of weights representing the strength of each input, with some non-linear activation functions being invoked on the result.
+
+The point is, deep learning networks are large, and pretty much composed of floating-point matrix multiplications.
+
+TPUs however, use quantization to turn floating-point numbers into integers, meaning the TPU has to deal with much smaller memory footprints. A floating-point number may normally require 32-bits (1s and 0s) to give sufficient precision, whereas with a bit of mapping, you could use a 8-bit integer (0-255) to represent the same value, if you don't care about the extra detail.
+
+It's also based on a CISC approach (Complex Instruction Set Computer), which optimises for a limited set of complex operations (matrix multiplication), rather than using simple building blocks to create the complex operations (RISC approach - reduced instruction set computer).
+
+In summary, TPUs are very simple compared to GPUs. There appears to be no reason Nvidia couldnt produce TPUs if they wanted to, and indeed have added them to their Titan chips. However, that suggests they would be a commodity rather than a significant value-added product.
+
+This blog entry by Google talking about the first TPU is really interesting:
+https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu
+
+---
 
 ####FPGAs 
 Field programmable gate arrays are chips that are configurable at a hardware level after production. An ASIC (eg: TPU) on the other hand is fixed after production.
@@ -204,7 +235,6 @@ https://www.technologyreview.com/s/609954/china-wants-to-make-the-chips-that-wil
 
 I believe for the foreseeable future, Nvidia has a strong place in any AI pipeline. Anyone who doesnt have access to custom chips will be dealing with either CUDA/OpenCL through the high-level AI frameworks.
 
-**GCon 4/5 **
 
 ## Numbers
 Revenue growth: FY2017-18 = _41%_
@@ -244,35 +274,58 @@ Any decrease in revenue growth or margins (all things equal) will decrease this 
 ---------|5 year compounded revenue growth rate | 20% | 25% | 30% | 40%
 ---------|--------------------------------------|-----|-----|-----|-----
 Operating margin|Implied 10 year revenue.              |$38b |$57b |$75b |$129b
-20% |                                  | $93 |$118 |$149 |$237 
-30% |                                  | $140|$179 |$228 |$367
-40% |                                 | $194|$248 |$318 |$516
+20% |                                  | $93 |$118 |$149 |**$237**
+30% |                                  | $140|$179 |**$228** |$367
+40% |                                 | $194|**$248** |$318 |$516
 
 #### Comparisons
 Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
 
 Company      | Rev (TTM)| Rev Growth% | OpMargin% | NP %
--------------|----------|-----|-----|-----
-Amazon       | $93      |$118 |$149 |$237 
-Microsoft    | $140.    |$179 |$228 |$367
-Alphabet     | $111b    |23% |24% |20%
+-------------|----------|-------------|-----------|-----
+Nvidia       |  193b    |36%          |2.6%       |1.6%
+Amazon       |  193b    |36%          |2.6%       |1.6% 
+Microsoft    |  104b    |13%          |28.9%      |27%
+Alphabet     |  111b    |23%          |24%        |20%
 
 #### Other numbers
-Metric      | Value
-------------|----------
+Metric                 | Value     | Comments
+-----------------------|---------- | -------
 PEG                    | .6
 P/E (MRY)              | 49 
-Gross Margin (TTM).    |60%
+Gross Margin (TTM)     |60%
 Operating Margin (TTM) |33%
 Net profit Margin (TTM)|30%
+EV/FCF                 | 27 (17.36b/632m) |
+[Zacks Rank](https://www.zacks.com/stock/research/NVDA/stock-style-scores)            | 3 |
+Morningstar fair value | $120 [17Apr18] |
 
 
 ### +'s and -'s [Big trends]
-
+1. \+ AI.
+2. \+ Autonomous vehicles.
+3. \+ Gaming.
 Anything else?
 
-## (IMHO) beliefs required to own the stock
+This list I believe is the key to Nvidia's recent success. They're playing in markets that are having big tides lifting their boat. However, there is still considerable uncertainty about how each of these tides will play out.
 
+Ultimately the question might be as simple as: How important will floating point matrix multiplication be in the AI space?
+
+If you can say, floating-point is a must! Then Nvidia is likely to continue to do well. 
+
+Gaming is probably the easiest to guesstimate. It will increase in a somewhat linear fashion
+
+## (IMHO) beliefs required to own the stock
+1. Demand for high-end GPUs is outstripping demand because of deep learning/crypto.
+2. Automotive will actually become a thing. Nvidia will have a platform that will have considerable competitive advantages.
+3. Deep learning will stay (mostly) being developed on GPUs [Is there any reason to doubt this? GPUs do deep learning well, and the maths of deep learning will not change in the short-term.]
+4. Gaming will stay relatively stable.
+
+
+
+Final thoughts: Playing with models, its pretty hard to imagine that Nvidia is cheap. 
+
+My uncertainty rating is: high
 
 ## Definitions
 - ASIC - Application specific integrated circuit - specific chips used to mine bitcoin.
@@ -286,8 +339,7 @@ Anything else?
 - OpenCL - OpenCL is currently the leading open source GPGPU framework [see CUDA]
 - Pegasus - A codename for a processor/card in the NVidia Drive project. The successor to the Drive PX 2.
 - SM - streaming multiprocessor - more SMs allows more parallel processors. SMs consist of multiple stream processors, which deal with one thread at a time.
-- Tensor core - A processor that deals with floating point operations on 4x4 matrices.
-- 
+- Tensor core - A processor that deals with floating point operations on 4x4 matrices. 
 
 ### Architectures
 - Maxwell - GPU architecture specification [Gen latest-2]

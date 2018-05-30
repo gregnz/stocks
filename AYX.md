@@ -209,16 +209,16 @@ Revenue growth TTM: Q1-2017 versus Q1-2018 = _52%_
 Q      | Q1 16| Q2 16| Q3 16|Q4 16|Q1 17|Q2 17|Q3 17|Q4 17|Q1 18
 -------|----- |-----|------|------|-----|-----|-----|-----|------
 Revenue|$18   |$20  |$22   |$25   |$29  |$30  |$34  |$39  |$43
-       |      |9%   |12%   |11%   |14%  |6%   |13%  |13%  |11%
-Def. Rev||||$74  |$74  |$77   |$82.  |$114 |$112  
-|||||0%|4%|7%|38%|-2%
+.      |      |9%   |12%   |11%   |14%  |6%   |13%  |13%  |11%
+Def. Rev||||$74  |$74  |$77   |$82  |$114 |$112  
+.|||||0%|4%|7%|38%|-2%
 
 
 ### Dollar based net revenue retention
 
 These values were something mentioned on Sauls original post. Whats it mean?
 
-Choose a quarter (Q^1). Choose same quarter following year (Q^5). Grab all the customers who started in Q^(1) and get their Q^(1) revenue (R^(1)). Get the revenue for Q^(5) (R^(5)) and work out the percent difference. Do that for another 3 (Q^2 to Q^4) quarters and average them. This gives you the DBNRR for Q^5.
+Choose a quarter (Q1). Choose same quarter following year (Q5). Grab all the customers who started in Q1 and get their Q^(1) revenue (R1). Get the revenue for Q5 (R5) and work out the percent difference. Do that for another 3 (Q2 to Q4) quarters and average them. This gives you the DBNRR for Q5.
 
 Anything over 100% means that that cohort is spending more in the 2nd year than they were when they started. 
 

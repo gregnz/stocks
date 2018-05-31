@@ -160,8 +160,6 @@ So, in desperation, I downloaded the manuals. OMG. Everything I've seen about Al
 
 So... youtube. At least you can speed things up. Things don't improve. Check out the Datarobot/Alteryx video I posted below for a pain-free comparison.
 
-I think Talend do similar stuff to what Alteryx does, but they have a bazillion products. My opinion is: it looks hard to use. Alteryx seems much easier to just have a play with and get some real outputs. But, Talend is free for the basic versions, so thats their in. 
-
 Ok, who cares what they do? Their financials:
 Talend is an ADR. Which means no SEC filings. Morningstar gives:
 
@@ -174,11 +172,14 @@ Def. Rev||||71|70|73|79|110|108
 Alteryx|18|20|22|25|29|30|34|39|43
 Def. Rev||||74|74|77|82|114|112 
 
-So almost identical in terms of revenue. My gut feel...? They're competition, but after different audiences. I'm pretty sure if you give Talend to a data scientist they'll punch you. If you give Talend to a developer who needs to get some kind of ETL job done and has no other tools... sure.
+So almost identical in terms of revenue.
 
-They're also very into corporate speak, which suggests they're really targeting C-level sales. Alteryx are more "Got an analysis problem? Play with our tool, solve it, then we'll talk about bigger things". I definitely prefer the Alteryx approach.
+[Updated from XMFBreakerTinkers feedback] Talend and Alteryx don't really operate in the same space. Talend is targetting big companies who have lots of different (large) datastores that need the data to be combined in order to do something with it (stick it in a datawarehouse/lake for example).
 
-From here on, I'm going to ignore Talend because the corporate speak makes me ill.
+Alteryx is more at the end of the chain. As a desktop app, they can't really deal with large amounts of data, unless its with their in-database tools (which the databases have to support). But you don't necessarily need all the data in order to develop a good model.
+
+
+From here on, I'm going to ignore Talend because a) I don't think they compete at all (thanks TMFBreakerTinker!) and b) the corporate speak makes me ill.
 
 ### Datarobot
 Datarobot is an interesting company. I saw mention of it on one of the boards. As far as I can tell, it automates that model building part of analysis. It will ingest your data, and then spin it through a large variety of models, with automatic feature discovery. 

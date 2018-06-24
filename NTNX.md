@@ -181,6 +181,7 @@ Azure Stack.
 
 ## Numbers
 
+
 ### Basic data (TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
@@ -192,7 +193,7 @@ Azure Stack.
 * Diluted share count was 166.85m up (15.8%) from 144.05m
 * Cash  was 376.79m down (38.3%) from 610.45m (prev quarter)
 * Debt (prev quarter) was 422.57m up (1.7%) from 415.65m (prev quarter)
-* Cash flow for quarter was -788000.00 down (102.5%) from 31.58m
+* Cash flow for quarter was -788k down (102.5%) from 31.58m
 * Cash flow for TTM was 17.26m up (194.8%) from -18.20m
 * Cash flow per share for TTM was $0.10
 * Gross margins was 0.67 up (7.7%) from 0.62
@@ -200,11 +201,12 @@ Azure Stack.
 
 ### Ranges min, max [last]
 
-* Trading range between May 08, 2018 - Jun 19, 2018 was 51.93 to 63.5 [61.89]
-* Market cap between May 08, 2018 - Jun 19, 2018 was 8.533b to 10.434b [10.169b]
-* PE range (May 08, 2018 - Jun 19, 2018) not applicable (earnings < 0)
-* PS ratio range (May 08, 2018 - Jun 19, 2018) was 8.45 to 10.33 [10.07]
-* Free cash flow yield range (May 08, 2018 - Jun 19, 2018) was 0.17 to 0.20 [0.17]
+* Trading range between Jan 01, 2018 - Jun 25, 2018 was 30.34 to 63.71 [54.34]
+* Market cap between Jan 01, 2018 - Jun 25, 2018 was 4.985b to 10.468b [8.929b]
+* PE range (Jan 01, 2018 - Jun 25, 2018) not applicable (earnings < 0)
+* PS ratio range (Jan 01, 2018 - Jun 25, 2018) was 4.94 to 10.37 [8.84]
+* Free cash flow yield range (Jan 01, 2018 - Jun 25, 2018) was 0.16 to 0.35 [0.19]
+* EV/Sales between Jan 01, 2018 - Jun 25, 2018 was 17.38 to 36.33 [31.01]
 
 ### Revenue
 
@@ -255,16 +257,30 @@ Azure Stack.
 
 ### Free cash flow
 
-|    | Quarter   | FCF        |
-|---:|:----------|:-----------|
-|  0 | 2016Q2    | -6.51m     |
-|  1 | 2016Q3    | -7.75m     |
-|  2 | 2016Q4    | 7.05m      |
-|  3 | 2017Q1    | -29.19m    |
-|  4 | 2017Q2    | -6.46m     |
-|  5 | 2017Q3    | -7.86m     |
-|  6 | 2017Q4    | 32.37m     |
-|  7 | 2018Q1    | -788k |
+|    | Quarter   | FCF     |
+|---:|:----------|:--------|
+|  0 | 2016Q2    | -6.51m  |
+|  1 | 2016Q3    | -7.75m  |
+|  2 | 2016Q4    | 7.05m   |
+|  3 | 2017Q1    | -29.19m |
+|  4 | 2017Q2    | -6.46m  |
+|  5 | 2017Q3    | -7.86m  |
+|  6 | 2017Q4    | 32.37m  |
+|  7 | 2018Q1    | -788k   |
+
+
+### Capital structure
+|    |        | Cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
+|---:|:-------|:--------|:--------------|:-----------------------|:------------------|:--------|-----------------:|-----------:|
+|  0 | 2016Q2 | 99.21m  | 85.99m        | 185.20m                | 117.10m           | 73.26m  |            -0.19 |          0 |
+|  1 | 2016Q3 | 225.46m | 121.65m       | 347.11m                | 272.44m           | 0.00    |             0    |          0 |
+|  2 | 2016Q4 | 226.01m | 129.15m       | 355.15m                | 249.26m           | 0.00    |             0    |          0 |
+|  3 | 2017Q1 | 200.77m | 149.57m       | 350.35m                | 230.51m           | 0.00    |             0    |          0 |
+|  4 | 2017Q2 | 138.36m | 210.69m       | 349.05m                | 269.06m           | 0.00    |             0    |          0 |
+|  5 | 2017Q3 | 132.46m | 233.49m       | 365.94m                | 273.95m           | 0.00    |             0    |          0 |
+|  6 | 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
+|  7 | 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
+ 
 
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
@@ -452,5 +468,5 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
 -->

@@ -181,7 +181,6 @@ Azure Stack.
 
 ## Numbers
 
-
 ### Basic data (TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
@@ -257,30 +256,42 @@ Azure Stack.
 
 ### Free cash flow
 
-|    | Quarter   | FCF     |
-|---:|:----------|:--------|
-|  0 | 2016Q2    | -6.51m  |
-|  1 | 2016Q3    | -7.75m  |
-|  2 | 2016Q4    | 7.05m   |
-|  3 | 2017Q1    | -29.19m |
-|  4 | 2017Q2    | -6.46m  |
-|  5 | 2017Q3    | -7.86m  |
-|  6 | 2017Q4    | 32.37m  |
-|  7 | 2018Q1    | -788k   |
-
+| Quarter   | FCF     |
+|:----------|:--------|
+| 2016Q2    | -6.51m  |
+| 2016Q3    | -7.75m  |
+| 2016Q4    | 7.05m   |
+| 2017Q1    | -29.19m |
+| 2017Q2    | -6.46m  |
+| 2017Q3    | -7.86m  |
+| 2017Q4    | 32.37m  |
+| 2018Q1    | -788k   |
 
 ### Capital structure
-|    |        | Cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
-|---:|:-------|:--------|:--------------|:-----------------------|:------------------|:--------|-----------------:|-----------:|
-|  0 | 2016Q2 | 99.21m  | 85.99m        | 185.20m                | 117.10m           | 73.26m  |            -0.19 |          0 |
-|  1 | 2016Q3 | 225.46m | 121.65m       | 347.11m                | 272.44m           | 0.00    |             0    |          0 |
-|  2 | 2016Q4 | 226.01m | 129.15m       | 355.15m                | 249.26m           | 0.00    |             0    |          0 |
-|  3 | 2017Q1 | 200.77m | 149.57m       | 350.35m                | 230.51m           | 0.00    |             0    |          0 |
-|  4 | 2017Q2 | 138.36m | 210.69m       | 349.05m                | 269.06m           | 0.00    |             0    |          0 |
-|  5 | 2017Q3 | 132.46m | 233.49m       | 365.94m                | 273.95m           | 0.00    |             0    |          0 |
-|  6 | 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
-|  7 | 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
- 
+
+|        | cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
+|:-------|:--------|:--------------|:-----------------------|:------------------|:--------|-----------------:|-----------:|
+| 2016Q2 | 99.21m  | 85.99m        | 185.20m                | 117.10m           | 73.26m  |            -0.19 |          0 |
+| 2016Q3 | 225.46m | 121.65m       | 347.11m                | 272.44m           | 0.00    |             0    |          0 |
+| 2016Q4 | 226.01m | 129.15m       | 355.15m                | 249.26m           | 0.00    |             0    |          0 |
+| 2017Q1 | 200.77m | 149.57m       | 350.35m                | 230.51m           | 0.00    |             0    |          0 |
+| 2017Q2 | 138.36m | 210.69m       | 349.05m                | 269.06m           | 0.00    |             0    |          0 |
+| 2017Q3 | 132.46m | 233.49m       | 365.94m                | 273.95m           | 0.00    |             0    |          0 |
+| 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
+| 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
+
+### Expenses
+
+| Quarter   | R and D   | R&D quarter change   | R&D prev quarter change   | Sales, General, Admin   | SGNA quarter change   | SGNA prev quarter change   |
+|:----------|:----------|:---------------------|:--------------------------|:------------------------|:----------------------|:---------------------------|
+| 2016Q2    | 35.13m    |                      |                           | 98.21m                  |                       |                            |
+| 2016Q3    | 75.28m    | 114%                 |                           | 158.00m                 | 61%                   |                            |
+| 2016Q4    | 70.91m    | -6%                  |                           | 126.86m                 | -20%                  |                            |
+| 2017Q1    | 74.61m    | 5%                   |                           | 142.36m                 | 12%                   |                            |
+| 2017Q2    | 67.82m    | -9%                  | 93%                       | 149.38m                 | 5%                    | 52%                        |
+| 2017Q3    | 64.51m    | -5%                  | -14%                      | 161.46m                 | 8%                    | 2%                         |
+| 2017Q4    | 70.92m    | 10%                  | 0%                        | 167.15m                 | 4%                    | 32%                        |
+| 2018Q1    | 81.29m    | 15%                  | 9%                        | 194.79m                 | 17%                   | 37%                        |
 
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
@@ -468,5 +479,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0Nz
+gwNTM1NzddfQ==
 -->

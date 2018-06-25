@@ -181,6 +181,7 @@ Azure Stack.
 
 ## Numbers
 
+
 ### Basic data (TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
@@ -282,16 +283,17 @@ Azure Stack.
 
 ### Expenses
 
-| Quarter   | R and D   | R&D quarter change   | R&D prev quarter change   | Sales, General, Admin   | SGNA quarter change   | SGNA prev quarter change   |
-|:----------|:----------|:---------------------|:--------------------------|:------------------------|:----------------------|:---------------------------|
-| 2016Q2    | 35.13m    |                      |                           | 98.21m                  |                       |                            |
-| 2016Q3    | 75.28m    | 114%                 |                           | 158.00m                 | 61%                   |                            |
-| 2016Q4    | 70.91m    | -6%                  |                           | 126.86m                 | -20%                  |                            |
-| 2017Q1    | 74.61m    | 5%                   |                           | 142.36m                 | 12%                   |                            |
-| 2017Q2    | 67.82m    | -9%                  | 93%                       | 149.38m                 | 5%                    | 52%                        |
-| 2017Q3    | 64.51m    | -5%                  | -14%                      | 161.46m                 | 8%                    | 2%                         |
-| 2017Q4    | 70.92m    | 10%                  | 0%                        | 167.15m                 | 4%                    | 32%                        |
-| 2018Q1    | 81.29m    | 15%                  | 9%                        | 194.79m                 | 17%                   | 37%                        |
+| Quarter   | R and D   | Change (q-1)   | Change (YoY)   | Sales, General, Admin   | Change (q-1)   | Change (YoY)   |
+|:----------|:----------|:---------------|:---------------|:------------------------|:---------------|:---------------|
+| 2016Q2    | 35.13m    |                |                | 98.21m                  |                |                |
+| 2016Q3    | 75.28m    | 114%           |                | 158.00m                 | 61%            |                |
+| 2016Q4    | 70.91m    | -6%            |                | 126.86m                 | -20%           |                |
+| 2017Q1    | 74.61m    | 5%             |                | 142.36m                 | 12%            |                |
+| 2017Q2    | 67.82m    | -9%            | 93%            | 149.38m                 | 5%             | 52%            |
+| 2017Q3    | 64.51m    | -5%            | -14%           | 161.46m                 | 8%             | 2%             |
+| 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
+| 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
+
 
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
@@ -479,6 +481,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0Nz
-gwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNT
+A4MTQ2MywtMTQ3ODA1MzU3N119
 -->

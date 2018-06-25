@@ -185,11 +185,11 @@ Azure Stack.
 ### Basic data (TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
-* TTM Revenue was 1.025b down (59.6%) from 642.25m 
+* TTM Revenue was 1.025b up (59.6%) from 642.25m 
 * TTM Revenue per share was 6.39 down (33.6%) from 9.63
-* Earnings (prev quarter): was -0.51 up (30.8%) from -0.39
-* Earnings (same quarter prev year): was -0.51 down (23.9%) from -0.67
-* TTM eps was -1.79 down (61.0%) from -4.59
+* Earnings (prev quarter): was -0.51 down (30.8%) from -0.39
+* Earnings (same quarter prev year): was -0.51 up (23.9%) from -0.67
+* TTM eps was -1.79 up (61.0%) from -4.59
 * Diluted share count was 166.85m up (15.8%) from 144.05m
 * Cash  was 376.79m down (38.3%) from 610.45m (prev quarter)
 * Debt (prev quarter) was 422.57m up (1.7%) from 415.65m (prev quarter)
@@ -481,6 +481,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNT
-A4MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbLTEzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMD
+QxNjE1MzIxLDcwNTA4MTQ2MywtMTQ3ODA1MzU3N119
 -->

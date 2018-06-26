@@ -170,6 +170,8 @@ The weakness of public clouds is that they have no support for on-premise infras
 
 This seems to be where Nutanix is heading, to be the integration layer between on-premise infrastructure and public cloud. So end-users of the 'cloud' interact with Nutanix Prism, that abstracts all the cloud components.
 
+Essentially, 
+
 #### HPE Simplivity
 Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
 
@@ -481,7 +483,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUwNDYxNjAsLTEzODkxMDQ0NDksLT
-Q4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMTQ3ODA1
-MzU3N119
+eyJoaXN0b3J5IjpbMjU4MDg3ODksLTE0MzUwNDYxNjAsLTEzOD
+kxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2
+MywtMTQ3ODA1MzU3N119
 -->

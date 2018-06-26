@@ -1,16 +1,13 @@
-from datetime import datetime
-
-import moment as moment
 import numpy as np
+import moment as moment
 import pandas as pd
 import json
 import requests
 import matplotlib
+
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import tabulate as tabulate
-
-matplotlib.use('TkAgg')
 
 dateparse = lambda x: pd.datetime.strptime(x, '%Y-%m-%d')
 
@@ -26,6 +23,7 @@ def loadPriceDataLive(ticker):
     df['quarterString'] = df['date'].map(lambda x: pd.Period(x, 'Q'))
     df['quarter'] = df['date'].map(lambda x: x.quarter)
     df['year'] = df['date'].map(lambda x: x.year)
+    print(df['close'])
     return df
 
 
@@ -46,8 +44,10 @@ def loadPriceData(ticker):
 
 def loadData(ticker='FOSL', adjustments={}):
     """Load the data for a single letter label."""
-    df = pd.read_csv('/Users/gregday/Library/Mobile Documents/com~apple~CloudDocs/stock research/data/%s_historical.csv' % ticker, delimiter=',',
-                     parse_dates=['calendardate', 'lastupdated', 'reportperiod', 'datekey'], date_parser=dateparse)
+    df = pd.read_csv(
+        '/Users/gregday/Library/Mobile Documents/com~apple~CloudDocs/stock research/data/%s_historical.csv' % ticker,
+        delimiter=',',
+        parse_dates=['calendardate', 'lastupdated', 'reportperiod', 'datekey'], date_parser=dateparse)
     df['quarterString'] = df['calendardate'].map(lambda x: pd.Period(x, 'Q'))
     df['quarter'] = df['calendardate'].map(lambda x: x.quarter)
     df['year'] = df['calendardate'].map(lambda x: x.year)
@@ -64,18 +64,26 @@ def loadData(ticker='FOSL', adjustments={}):
     if (adjustmentsForTicker != None):
         df = adjustmentsForTicker(df)
 
-    return (df[(df.dimension == 'MRQ')]), (df[(df.dimension == 'MRY')])
+    return (df[(df.dimension == 'MRQ')]), (df[(df.dimension == 'MRY')]), (df[(df.dimension == 'ARQ')])
 
 
 # Quandl headings
-quandl_headings = ['ticker', 'dimension', 'calendardate', 'datekey', 'reportperiod', 'lastupdated', 'accoci', 'assets', 'assetsavg', 'assetsc', 'assetsnc', 'assetturnover', 'bvps',
-                   'capex', 'cashneq', 'cashnequsd', 'cor', 'consolinc', 'currentratio', 'de', 'debt', 'debtc', 'debtnc', 'debtusd', 'deferredrev', 'depamor', 'deposits',
-                   'divyield', 'dps', 'ebit', 'ebitda', 'ebitdamargin', 'ebitdausd', 'ebitusd', 'ebt', 'eps', 'epsdil', 'epsusd', 'equity', 'equityavg', 'equityusd', 'ev',
-                   'evebit', 'evebitda', 'fcf', 'fcfps', 'fxusd', 'gp', 'grossmargin', 'intangibles', 'intexp', 'invcap', 'invcapavg', 'inventory', 'investments', 'investmentsc',
-                   'investmentsnc', 'liabilities', 'liabilitiesc', 'liabilitiesnc', 'marketcap', 'ncf', 'ncfbus', 'ncfcommon', 'ncfdebt', 'ncfdiv', 'ncff', 'ncfi', 'ncfinv',
-                   'ncfo', 'ncfx', 'netinc', 'netinccmn', 'netinccmnusd', 'netincdis', 'netincnci', 'netmargin', 'opex', 'opinc', 'payables', 'payoutratio', 'pb', 'pe', 'pe1',
-                   'ppnenet', 'prefdivis', 'price', 'ps', 'ps1', 'receivables', 'retearn', 'revenue', 'revenueusd', 'rnd', 'roa', 'roe', 'roic', 'ros', 'sbcomp', 'sgna',
-                   'sharefactor', 'sharesbas', 'shareswa', 'shareswadil', 'sps', 'tangibles', 'taxassets', 'taxexp', 'taxliabilities', 'tbvps', 'workingcapital']
+quandl_headings = ['ticker', 'dimension', 'calendardate', 'datekey', 'reportperiod', 'lastupdated', 'accoci', 'assets',
+                   'assetsavg', 'assetsc', 'assetsnc', 'assetturnover', 'bvps',
+                   'capex', 'cashneq', 'cashnequsd', 'cor', 'consolinc', 'currentratio', 'de', 'debt', 'debtc',
+                   'debtnc', 'debtusd', 'deferredrev', 'depamor', 'deposits',
+                   'divyield', 'dps', 'ebit', 'ebitda', 'ebitdamargin', 'ebitdausd', 'ebitusd', 'ebt', 'eps', 'epsdil',
+                   'epsusd', 'equity', 'equityavg', 'equityusd', 'ev',
+                   'evebit', 'evebitda', 'fcf', 'fcfps', 'fxusd', 'gp', 'grossmargin', 'intangibles', 'intexp',
+                   'invcap', 'invcapavg', 'inventory', 'investments', 'investmentsc',
+                   'investmentsnc', 'liabilities', 'liabilitiesc', 'liabilitiesnc', 'marketcap', 'ncf', 'ncfbus',
+                   'ncfcommon', 'ncfdebt', 'ncfdiv', 'ncff', 'ncfi', 'ncfinv',
+                   'ncfo', 'ncfx', 'netinc', 'netinccmn', 'netinccmnusd', 'netincdis', 'netincnci', 'netmargin', 'opex',
+                   'opinc', 'payables', 'payoutratio', 'pb', 'pe', 'pe1',
+                   'ppnenet', 'prefdivis', 'price', 'ps', 'ps1', 'receivables', 'retearn', 'revenue', 'revenueusd',
+                   'rnd', 'roa', 'roe', 'roic', 'ros', 'sbcomp', 'sgna',
+                   'sharefactor', 'sharesbas', 'shareswa', 'shareswadil', 'sps', 'tangibles', 'taxassets', 'taxexp',
+                   'taxliabilities', 'tbvps', 'workingcapital']
 
 
 def periodChange(columns, source):
@@ -84,12 +92,12 @@ def periodChange(columns, source):
         df[column] = source[column]
         df[column + '_ttm'] = source[column].rolling(4).sum()
         df[column + '_qchange'] = source[column].pct_change(periods=1)
-        df[column + '_prev_qchg'] = source[column].pct_change(periods=4)
+        df[column + '_yoy_qchange'] = source[column].pct_change(periods=4)
         df['quarterString'] = source['quarterString']
         df['quarter'] = source['quarter']
         df['year'] = source['year']
 
-        df.set_index(source['calendardate'], inplace=True)
+    # df.set_index(source['calendardate'], inplace=True)
     return df
 
 
@@ -130,9 +138,10 @@ def constructSentence(key, current, previous, suffix=''):
         percentChange = '\u221e'
     else:
         percentChange = '{0:.1f}%'.format(abs((current - previous) * 100 / previous))
-    current = number_formatter(current)
-    previous = number_formatter(previous)
-    return "* " + key + " was " + str(current) + (" up" if current > previous else " down") + " (" + str(percentChange) + ")" + " from " + str(previous) + suffix
+    currentStr = number_formatter(current)
+    previousStr = number_formatter(previous)
+    return "* " + key + " was " + str(currentStr) + (" up" if current > previous else " down") + " (" + str(
+        percentChange) + ")" + " from " + str(previousStr) + suffix
 
 
 def constructMinMaxSentence(key, min, max):
@@ -207,7 +216,8 @@ def imuafool(priceData, mrqData, dfMry=None, startDate='2018-05-08', endDate='20
 
     print("Capital structure")
     lastEightQuarters['debtEquity'] = (lastEightQuarters['debtusd'] / lastEightQuarters['equity'])
-    print(lastEightQuarters[['cashnequsd', 'workingcapital', 'debtusd', 'equity', 'debtEquity']].dropna().transpose().to_string())
+    print(lastEightQuarters[
+              ['cashnequsd', 'workingcapital', 'debtusd', 'equity', 'debtEquity']].dropna().transpose().to_string())
     # print(lastEightQuarters[['marketcap']].transpose().to_string())
     # print((lastEightQuarters['debtusd'] / mrqData['marketcap']).transpose().to_string())
     # print(lastEightQuarters['currentratio'].transpose().to_string())
@@ -244,118 +254,223 @@ def imuafool(priceData, mrqData, dfMry=None, startDate='2018-05-08', endDate='20
 pass
 
 
-def TMF1000(mrqData, mryData, priceData, startDate='2018-05-08', endDate='2018-06-19'):
+def TMF1000(mrqData, mryData, priceData, startDate='2017-11-01', endDate='2018-06-25'):
     print('\n### Basic data (TMF1000)\n')
 
     print(constructSentence("Revenue", mrqData['revenue'][-1:].values[0], mrqData['revenue'][-2:-1].values[0]),
-          "from the previous quarter" + " (%s same quarter last year)" % number_formatter(mrqData['revenue'][-5:-4].values[0]))
+          "from the previous quarter" + " (%s same quarter last year)" % number_formatter(
+              mrqData['revenue'][-5:-4].values[0]))
     print(constructSentence("TTM Revenue", mrqData['revenue'][-4:].sum(), mrqData['revenue'][-9:-5].sum()), "")
 
     rps = mrqData['revenue'] / mrqData['shareswadil']
     print(constructSentence("TTM Revenue per share", rps[-4:].sum(), rps[-9:-5].sum()))
-    print(constructSentence("Earnings (prev quarter):", mrqData['epsdil'][-1:].sum(), mrqData['epsdil'][-2:-1].sum()))  # Previous quarter, -5 for same quarter last year
-    print(constructSentence("Earnings (same quarter prev year):", mrqData['epsdil'][-1:].sum(), mrqData['epsdil'][-5:-4].sum()))  # Previous quarter, -5 for same quarter last year
+    print(constructSentence("Earnings (prev quarter):", mrqData['epsdil'][-1:].sum(),
+                            mrqData['epsdil'][-2:-1].sum()))  # Previous quarter, -5 for same quarter last year
+    print(constructSentence("Earnings (same quarter prev year):", mrqData['epsdil'][-1:].sum(),
+                            mrqData['epsdil'][-5:-4].sum()))  # Previous quarter, -5 for same quarter last year
     print(constructSentence("TTM eps", mrqData['epsdil'][-4:].sum(), mrqData['epsdil'][-9:-5].sum()))
 
-    print(constructSentence("Diluted share count", mrqData['shareswadil'][-1:].sum(), mrqData['shareswadil'][-5:-4].sum()))
-    print(constructSentence("Cash ", mrqData['cashnequsd'][-1:].sum(), mrqData['cashnequsd'][-2:-1].sum(), suffix=' (prev quarter)'))
-    print(constructSentence("Debt (prev quarter)", mrqData['debtusd'][-1:].sum(), mrqData['debtusd'][-2:-1].sum(), suffix=' (prev quarter)'))
+    print(constructSentence("Diluted share count", mrqData['shareswadil'][-1:].sum(),
+                            mrqData['shareswadil'][-5:-4].sum()))
+    cash = mrqData['cashnequsd'][-1:].sum()
+    print(constructSentence("Cash ", cash, mrqData['cashnequsd'][-2:-1].sum(), suffix=' (prev quarter)'))
+    debt = mrqData['debtusd'][-1:].sum()
+    print(constructSentence("Debt (prev quarter)", debt, mrqData['debtusd'][-2:-1].sum(), suffix=' (prev quarter)'))
     print(constructSentence("Cash flow for quarter", mrqData['fcf'][-1:].sum(), mrqData['fcf'][-2:].sum()))
     print(constructSentence("Cash flow for TTM", mrqData['fcf'][-4:].sum(), mrqData['fcf'][-9:-5].sum()))
-    print("* Cash flow per share for TTM was $%s" % number_formatter(mrqData['fcf'][-4:].sum() / mrqData['shareswadil'][-1:].sum()))
+    print("* Cash flow per share for TTM was $%s" % number_formatter(
+        mrqData['fcf'][-4:].sum() / mrqData['shareswadil'][-1:].sum()))
     print(constructSentence("Gross margins", mrqData['grossmargin'][-1:].sum(), mrqData['grossmargin'][-2:-1].sum()))
     print(constructSentence("CapExp", abs(mrqData['capex'][-1:].sum()), abs(mrqData['capex'][-2:-1].sum())))
-
-
+    print("1YPEG %d %d", 1, 1)
 
     print("\n### Ranges min, max [last]\n")
-    # maxMonthPrice = priceData.groupby(['year', 'quarter'])['close'].agg(['mean', 'max', 'min', 'last']).reset_index()
-    totalQuarterlyData = mrqData  # .merge(maxMonthPrice, on=['year', 'quarter'])
+    # totalQuarterlyData = mrqData
+    startDate = moment.date(startDate)
+    endDate = moment.date(endDate)
+
+    startDateFmt = startDate.format('MMM D, YYYY')
+    endDateFmt = endDate.format('MMM D, YYYY')
+
+    print(startDateFmt, endDateFmt)
+
+
+    priceData2 = priceData.groupby(['year', 'quarter'])['close'].agg(['mean', 'max', 'min', 'last']).reset_index()
+    totalQuarterlyData = priceData2.merge(mrqData, on=['year', 'quarter'])
     totalQuarterlyData['fcf_ttm'] = totalQuarterlyData['fcf'].rolling(4).sum()
     totalQuarterlyData['eps_ttm'] = totalQuarterlyData['epsusd'].rolling(4).sum()
     totalQuarterlyData['rev_ttm'] = totalQuarterlyData['revenue'].rolling(4).sum()
     totalQuarterlyData['rpsdil'] = totalQuarterlyData['rev_ttm'] / totalQuarterlyData['shareswadil']
-    totalQuarterlyData['rps'] = totalQuarterlyData['rev_ttm'] / totalQuarterlyData['shareswadil']
+    totalQuarterlyData['rps_ttm'] = totalQuarterlyData['rev_ttm'] / totalQuarterlyData['shareswadil']
+    totalQuarterlyData['marketCap_max'] = totalQuarterlyData['sharesbas'] * totalQuarterlyData['max']
+    totalQuarterlyData['marketCap_min'] = totalQuarterlyData['sharesbas'] * totalQuarterlyData['min']
+    totalQuarterlyData['marketCap_last'] = totalQuarterlyData['sharesbas'] * totalQuarterlyData['last']
+    totalQuarterlyData['evMin'] = totalQuarterlyData['marketCap_min'] + totalQuarterlyData['debt'] - totalQuarterlyData['cashnequsd']
+    totalQuarterlyData['evMax'] = totalQuarterlyData['marketCap_max'] + totalQuarterlyData['debt'] - totalQuarterlyData['cashnequsd']
+    totalQuarterlyData['evLast'] = totalQuarterlyData['marketCap_last'] + totalQuarterlyData['debt'] - totalQuarterlyData['cashnequsd']
 
-    lastEps = totalQuarterlyData['eps_ttm'][-1:].sum()
-    lastRps = totalQuarterlyData['rps'][-1:].sum()
-    freeCashFlow = totalQuarterlyData['fcf_ttm'][-1:].sum()
-    sharesbas_ = totalQuarterlyData['sharesbas'][-1:].sum()
+    mostRecentData = sortOutMostRecentQuarterPrice(totalQuarterlyData, priceData2)
+    
+    print(mostRecentData.to_string())
+    return
 
-    startDate = moment.date(startDate)
-    endDate = moment.date(endDate)
+    lastTtmEps = totalQuarterlyData['eps_ttm'][-1:].sum()
+    lastRps = totalQuarterlyData['rps_ttm'][-1:].sum()
+    lastFreeCashFlow = totalQuarterlyData['fcf_ttm'][-1:].sum()
+    lastShareCount = totalQuarterlyData['sharesbas'][-1:].sum()
+
     maxPrice = priceData.loc[startDate.date:endDate.date].max()['close']
-    maxMarketCap = maxPrice * sharesbas_
     minPrice = priceData.loc[startDate.date:endDate.date].min()['close']
-    minMarketCap = minPrice * sharesbas_
+
+
+    def calc1YPEG(ttmEps, ttmEpsPrevYear, currentPrice):
+        # ttmEps = 4.71
+        # ttmEpsPrevYear = 1.82
+        # currentPrice = 151.35
+        ttmPe = currentPrice/ttmEps
+        # if((P124-O124)/if(P124>0, if(O124<=0, 0.01, O124), abs(O124))>2, 2, (P124-O124)/if(P124>0, if(O124<=0, 0.01, O124), abs(O124)))
+        epsGrowth = (ttmEps - ttmEpsPrevYear) / ttmEpsPrevYear
+        oneYearPEG = ttmPe / (epsGrowth * 100)
+        print(oneYearPEG)
+
+
+    # print(totalQuarterlyData.to_string())
+
+    filteredDateData = totalQuarterlyData[(totalQuarterlyData['calendardate'] > startDate.date) & (totalQuarterlyData['calendardate'] < endDate.date)]
+    maxMarketCap = filteredDateData['marketCap_max'].max()
+    minMarketCap = filteredDateData['marketCap_min'].min()
+    evMax = filteredDateData['evMax'].max()
+    evMin = filteredDateData['evMin'].min()
+    evLast = filteredDateData['evLast'][-1:].sum()
+    print(filteredDateData.to_string())
     lastPrice = priceData.iloc[-1:]['close'].sum()
-    lastMarketCap = lastPrice * sharesbas_
-    ev = mrqData['ev'][-1:].sum() + (lastMarketCap - mrqData.iloc['marketcap'][-1:].sum())
-    print("* Enterprise value(EV) %s" % (number_formatter(ev)))
-    print("* EV/Sales %s" % (number_formatter(ev / mrqData['revenue'][-1:].values[0])))
+    lastMarketCap = lastPrice * lastShareCount
+    lastRevenue = mrqData['revenue'][-4:].sum()
+    print(lastPrice, lastShareCount, lastRevenue, lastPrice / (lastRevenue / lastShareCount), lastRps)
 
-
-    startDateFmt = startDate.format('MMM D, YYYY')
-    endDateFmt = endDate.format('MMM D, YYYY')
-    print("* Trading range between %s - %s was %s to %s [%s]" % (startDateFmt, endDateFmt, minPrice, maxPrice, lastPrice))
+    print(
+        "* Trading range between %s - %s was %s to %s [%s]" % (startDateFmt, endDateFmt, minPrice, maxPrice, lastPrice))
     print("* Market cap between %s - %s was %s to %s [%s]" % (
-        startDateFmt, endDateFmt, number_formatter(minMarketCap), number_formatter(maxMarketCap), number_formatter(lastMarketCap)))
+        startDateFmt, endDateFmt, number_formatter(minMarketCap), number_formatter(maxMarketCap),
+        number_formatter(lastMarketCap)))
 
-    if lastEps < 0:
+    if lastTtmEps < 0:
         print("* PE range (%s - %s) not applicable (earnings < 0)" % (startDateFmt, endDateFmt))
     else:
         print("* PE range (%s - %s) was %s to %s [%s]" % (
-            startDateFmt, endDateFmt, minPrice['close'] / lastEps, maxPrice['close'] / lastEps, lastPrice / lastEps))
+            startDateFmt, endDateFmt, minPrice['close'] / lastTtmEps, maxPrice['close'] / lastTtmEps, lastPrice / lastTtmEps))
 
     print("* PS ratio range (%s - %s) was %s to %s [%s]" % (
-        startDateFmt, endDateFmt, number_formatter((minPrice) / lastRps), number_formatter((maxPrice / lastRps)), number_formatter((lastPrice) / lastRps)))
-    # Cash flow yield range was 6.98% to 12.99%
+        startDateFmt, endDateFmt, number_formatter((minPrice) / lastRps), number_formatter((maxPrice / lastRps)),
+        number_formatter(lastPrice / lastRps)))
+
     print("* Free cash flow yield range (%s - %s) was %s to %s [%s]" % (
-        startDateFmt, endDateFmt, number_formatter(freeCashFlow * 100 / maxMarketCap), number_formatter(freeCashFlow * 100 / minMarketCap),
-        number_formatter(freeCashFlow * 100 / lastMarketCap)))
+        startDateFmt, endDateFmt, number_formatter(lastFreeCashFlow * 100 / maxMarketCap),
+        number_formatter(lastFreeCashFlow * 100 / minMarketCap),
+        number_formatter(lastFreeCashFlow * 100 / lastMarketCap)))
+    print("* EV/Sales between %s - %s was %s to %s [%s]" % (
+        startDateFmt, endDateFmt, number_formatter(evMin / lastRevenue), number_formatter(evMax / lastRevenue),
+        number_formatter(evLast / lastRevenue)))
 
-
-    # print(totalQuarterlyData[
-    #           ['max', 'min', 'last', 'fcfyield_last', 'fcfyield_max', 'fcfyield_min', 'fcf', 'mc_max', 'mc_min', 'mc_last', 'marketcap', 'fcf_ttm', 'calendardate']].to_string())
     change = periodChange(['revenue', 'deferredrev', 'netinc', 'eps', 'workingcapital', 'fcf'], mrqData)
-
     change['revenue'] = change['revenue'].map(number_formatter)
     change['revenue_ttm'] = change['revenue_ttm'].map(number_formatter)
     change['revenue_qchange'] = change['revenue_qchange'].map(percent_formatter)
-    change['revenue_prev_qchg'] = change['revenue_prev_qchg'].map(percent_formatter)
+    change['revenue_yoy_qchange'] = change['revenue_yoy_qchange'].map(percent_formatter)
     print("\n### Revenue\n")
-    print(tabulate.tabulate(change[['quarterString', 'revenue', 'revenue_ttm', 'revenue_qchange', 'revenue_prev_qchg']],
-                            headers=['Quarter', 'Revenue', 'TTM', 'Change (q-1)', 'Change (YoY)'],
-                            tablefmt='pipe', showindex=False))
+    print(
+        tabulate.tabulate(change[['quarterString', 'revenue', 'revenue_ttm', 'revenue_qchange', 'revenue_yoy_qchange']],
+                          headers=['Quarter', 'Revenue', 'TTM', 'Change (q-1)', 'Change (YoY)'],
+                          tablefmt='pipe', showindex=False))
     print("\n### Deferred revenue\n")
     change['deferredrev'] = change['deferredrev'].map(number_formatter)
     change['deferredrev_qchange'] = change['deferredrev_qchange'].map(percent_formatter)
-    change['deferredrev_prev_qchg'] = change['deferredrev_prev_qchg'].map(percent_formatter)
-    print(tabulate.tabulate(change[['quarterString', 'deferredrev', 'deferredrev_qchange', 'deferredrev_prev_qchg']],
+    change['deferredrev_yoy_qchange'] = change['deferredrev_yoy_qchange'].map(percent_formatter)
+    print(tabulate.tabulate(change[['quarterString', 'deferredrev', 'deferredrev_qchange', 'deferredrev_yoy_qchange']],
                             headers=['Quarter', 'Def.Revenue', 'Change (q-1)', 'Change (YoY)'],
                             tablefmt='pipe', showindex=False))
 
     print("\n### Margins\n")
     # tabulate.tabulate(lastEightQuarters[['currentratio']], headers="firstrow", tablefmt="pipe"))
-    lastEightQuarters = mrqData[-8:][['quarterString', 'grossmargin', 'ebitdamargin', 'netmargin', 'fcf', 'debtusd', 'equity', 'cashnequsd', 'workingcapital']].reset_index()
-    lastEightQuarters['grossmargin'] = lastEightQuarters['grossmargin'].map(percent_formatter)
-    lastEightQuarters['ebitdamargin'] = lastEightQuarters['ebitdamargin'].map(percent_formatter)
-    lastEightQuarters['netmargin'] = lastEightQuarters['netmargin'].map(percent_formatter)
-    lastEightQuarters['fcf'] = lastEightQuarters['fcf'].map(number_formatter)
-    print(tabulate.tabulate(lastEightQuarters[['quarterString', 'grossmargin', 'ebitdamargin', 'netmargin']], headers=['Quarter', 'Gross margin', 'ebitdamargin', 'netmargin'],
+    capitalStructureData = mrqData[-8:][
+        ['quarterString', 'grossmargin', 'ebitdamargin', 'netmargin', 'fcf', 'debtusd', 'equity', 'cashnequsd',
+         'workingcapital', 'intexp', 'investments', 'intangibles']].reset_index()
+    capitalStructureData['grossmargin'] = capitalStructureData['grossmargin'].map(percent_formatter)
+    capitalStructureData['ebitdamargin'] = capitalStructureData['ebitdamargin'].map(percent_formatter)
+    capitalStructureData['netmargin'] = capitalStructureData['netmargin'].map(percent_formatter)
+    capitalStructureData['fcf'] = capitalStructureData['fcf'].map(number_formatter)
+    print(tabulate.tabulate(capitalStructureData[['quarterString', 'grossmargin', 'ebitdamargin', 'netmargin']],
+                            headers=['Quarter', 'Gross margin', 'ebitdamargin', 'netmargin'],
                             tablefmt='pipe'))
     # print(tabulate.tabulate(mryData[-4:][['year', 'grossmargin', 'ebitdamargin', 'netmargin']], tablefmt='pipe'))
     print("\n### Free cash flow\n")
-    print(tabulate.tabulate(lastEightQuarters[['quarterString', 'fcf', ]], headers=['Quarter', 'FCF'], tablefmt='pipe'))
+    print(tabulate.tabulate(capitalStructureData[['quarterString', 'fcf', ]], headers=['Quarter', 'FCF'],
+                            tablefmt='pipe', showindex=False))
 
-    print("Capital structure")
-    lastEightQuarters['debtEquity'] = (lastEightQuarters['debtusd'] / lastEightQuarters['equity'])
+    print("\n### Capital structure\n")
+    capitalStructureData['debtEquity'] = (capitalStructureData['debtusd'] / capitalStructureData['equity'])
+    capitalStructureData['cashAndInvestment'] = (
+        capitalStructureData['cashnequsd'] + capitalStructureData['investments'])
+    capitalStructureData['cashnequsd'] = capitalStructureData['cashnequsd'].map(number_formatter)
+    capitalStructureData['investments'] = capitalStructureData['investments'].map(number_formatter)
+    capitalStructureData['cashAndInvestment'] = capitalStructureData['cashAndInvestment'].map(number_formatter)
+    capitalStructureData['workingcapital'] = capitalStructureData['workingcapital'].map(number_formatter)
+    capitalStructureData['debtusd'] = capitalStructureData['debtusd'].map(number_formatter)
+    capitalStructureData['intexp'] = capitalStructureData['intexp'].map(number_formatter)
+    capitalStructureData['debtEquity'] = capitalStructureData['debtEquity'].map(number_formatter)
 
-    print(lastEightQuarters[['cashnequsd', 'workingcapital', 'debtusd', 'equity', 'debtEquity']].dropna().to_string())
+    print(tabulate.tabulate(
+        capitalStructureData[
+            ['quarterString', 'cashnequsd', 'investments', 'cashAndInvestment', 'workingcapital', 'debtusd',
+             'debtEquity', 'intexp']].dropna(),
+        headers=['cash', 'Investments', 'Cash and investments', 'Working Capital', 'Debt', 'Debt to Equity',
+                 'Interest'], tablefmt='pipe', showindex=False))
+
+    print("\n### Expenses\n")
+    expensesData = mrqData[-8:][
+        ['quarterString', 'quarter', 'year', 'rnd', 'sgna']].reset_index()
+    expensesData = periodChange(['sgna', 'rnd'], expensesData)
+    expensesData['rnd'] = expensesData['rnd'].map(number_formatter)
+    expensesData['sgna'] = expensesData['sgna'].map(number_formatter)
+    expensesData['rnd_qchange'] = expensesData['rnd_qchange'].map(percent_formatter)
+    expensesData['rnd_yoy_qchange'] = expensesData['rnd_yoy_qchange'].map(percent_formatter)
+    expensesData['sgna_qchange'] = expensesData['sgna_qchange'].map(percent_formatter)
+    expensesData['sgna_yoy_qchange'] = expensesData['sgna_yoy_qchange'].map(percent_formatter)
+
+    print(tabulate.tabulate(
+        expensesData[
+            ['quarterString', 'rnd', 'rnd_qchange', 'rnd_yoy_qchange', 'sgna', 'sgna_qchange',
+             'sgna_yoy_qchange']].dropna(),
+        headers=['Quarter', 'R and D', 'Change (q-1)', 'Change (YoY)', 'Sales, General, Admin',
+                 'Change (q-1)',
+                 'Change (YoY)'], tablefmt='pipe', showindex=False))
 
 
+def sortOutMostRecentQuarterPrice(mrqData, priceData):
+    mostRecentData = mrqData[-1:]
+    print(mostRecentData.to_string())
+    print(mrqData[-2:].to_string())
+    end_ = mostRecentData.at[mostRecentData.index[-1], 'calendardate'] + pd.offsets.QuarterEnd()
+    mostRecentData.at[mostRecentData.index[-1], 'quarterString'] = pd.Period(end_, 'Q')
+    mostRecentData.at[mostRecentData.index[-1], 'quarter'] = end_.quarter
+    mostRecentData.at[mostRecentData.index[-1], 'year'] = end_.year
+    mostRecentData.at[mostRecentData.index[-1], 'calendardate'] = end_
+    mostRecentData = priceData.merge(mostRecentData, on=['year', 'quarter'], suffixes=('', '_y'))
+    print(mostRecentData[['max','max_y']].to_string())
+    del mostRecentData['max_y']
+    del mostRecentData['min_y']
+    del mostRecentData['mean_y']
+    del mostRecentData['last_y']
+    mostRecentData.at[mostRecentData.index[-1],'marketCap_max'] = mostRecentData['shareswadil'] * mostRecentData['max']
+    mostRecentData.at[mostRecentData.index[-1],'marketCap_min'] = mostRecentData['shareswadil'] * mostRecentData['min']
+    mostRecentData.at[mostRecentData.index[-1],'marketCap_last'] = mostRecentData['shareswadil'] * mostRecentData['last']
+    mostRecentData.at[mostRecentData.index[-1],'evMin'] = mostRecentData['marketCap_min'] + mostRecentData['debt'] - mostRecentData['cashnequsd']
+    mostRecentData.at[mostRecentData.index[-1],'evMax'] = mostRecentData['marketCap_max'] + mostRecentData['debt'] - mostRecentData['cashnequsd']
+    mostRecentData.at[mostRecentData.index[-1],'evLast'] = mostRecentData['marketCap_last'] + mostRecentData['debt'] - mostRecentData['cashnequsd']
+    print(mostRecentData.to_string())
+    return mostRecentData
 
-pass
+
 
 
 # quandl_headings = ['ticker', 'dimension', 'calendardate', 'datekey', 'reportperiod', 'lastupdated', 'accoci', 'assets', 'assetsavg', 'assetsc', 'assetsnc', 'assetturnover', 'bvps',
@@ -418,7 +533,8 @@ class DcfAdjustments:
         print("Len", len(mrqData['rnd']))
         print("Len", mrqData['rnd'])
         if ((yearsToAmortise * 4) > len(mrqData)):
-            print("Warning: not enough data to complete amortisation schedule. Years to amortise is:", yearsToAmortise, "but only ", len(mrqData),
+            print("Warning: not enough data to complete amortisation schedule. Years to amortise is:", yearsToAmortise,
+                  "but only ", len(mrqData),
                   "quarters available. Only available data will be used.")
 
         for i in range(0, yearsToAmortise):
@@ -457,7 +573,8 @@ class dcf:
         d = self.dcfParameters
         c = self.convergenceParameters
         df = pd.DataFrame(index=[i for i in range(self.totalYears + 2)],  # 2 extras for the inital and terminal years
-                          columns=['i', 'revenueGrowth', 'revenue', 'ebitMargin', 'ebit', 'taxRate', 'ebitAfterTax', 'reinvestment', 'fcff', 'nol', 'wacc', 'cumDiscountFactor',
+                          columns=['i', 'revenueGrowth', 'revenue', 'ebitMargin', 'ebit', 'taxRate', 'ebitAfterTax',
+                                   'reinvestment', 'fcff', 'nol', 'wacc', 'cumDiscountFactor',
                                    'pvFcff', 'investedCapital'])
         df['i'] = df.index
         df['salesToCapitalRatio'] = d.salesToCapitalRatio
@@ -476,11 +593,17 @@ class dcf:
         for i in range(df.index.size):
             if i == 0:
                 continue
-            df.loc[i, 'revenueGrowth'] = self.constantStartConvergence(c.yearOfRevenueGrowthConvergence, i, d.cagr, d.targetCagr)
-            df.loc[i, 'wacc'] = self.constantStartConvergence(c.constantYearsOfWaccBeforeConvergence, i, d.initialCostOfCapital, d.targetCostOfCapital)
-            df.loc[i, 'cumDiscountFactor'] = (df.loc[i - 1, 'cumDiscountFactor'] * (1 / (1 + df.loc[i, 'wacc']))) if i > 1 else (1 / (1 + df.loc[i, 'wacc']))
-            df.loc[i, 'ebitMargin'] = self.constantEndConvergence(c.yearOfEbitConvergence, i, d.ebit / d.revenue, d.targetEbitMargin)
-            df.loc[i, 'taxRate'] = self.constantStartConvergence(c.yearsToTaxConvergence, i, d.effectiveTaxRate, d.marginalTaxRate)
+            df.loc[i, 'revenueGrowth'] = self.constantStartConvergence(c.yearOfRevenueGrowthConvergence, i, d.cagr,
+                                                                       d.targetCagr)
+            df.loc[i, 'wacc'] = self.constantStartConvergence(c.constantYearsOfWaccBeforeConvergence, i,
+                                                              d.initialCostOfCapital, d.targetCostOfCapital)
+            df.loc[i, 'cumDiscountFactor'] = (
+                df.loc[i - 1, 'cumDiscountFactor'] * (1 / (1 + df.loc[i, 'wacc']))) if i > 1 else (
+                1 / (1 + df.loc[i, 'wacc']))
+            df.loc[i, 'ebitMargin'] = self.constantEndConvergence(c.yearOfEbitConvergence, i, d.ebit / d.revenue,
+                                                                  d.targetEbitMargin)
+            df.loc[i, 'taxRate'] = self.constantStartConvergence(c.yearsToTaxConvergence, i, d.effectiveTaxRate,
+                                                                 d.marginalTaxRate)
 
             df.loc[i, 'revenue'] = (df.loc[i - 1, 'revenue']) * (1 + df.loc[i, 'revenueGrowth'])
             df.loc[i, 'ebit'] = df.loc[i, 'revenue'] * df.loc[i, 'ebitMargin']
@@ -498,7 +621,13 @@ class dcf:
             if df.loc[i, 'ebit'] < 0:
                 df.loc[i, 'ebitAfterTax'] = df.loc[i, 'ebit']  # No tax paid
             else:
-                df.loc[i, 'ebitAfterTax'] = df.loc[i, 'ebit'] if df.loc[i, 'ebit'] < df.loc[i, 'nol'] else (df.loc[i, 'ebit'] - df.loc[i, 'nol']) * (1 - df.loc[i, 'taxRate'])
+                df.loc[i, 'ebitAfterTax'] = df.loc[i, 'ebit'] if df.loc[i, 'ebit'] < df.loc[i, 'nol'] else (df.loc[
+                                                                                                                i, 'ebit'] -
+                                                                                                            df.loc[
+                                                                                                                i, 'nol']) * (
+                                                                                                               1 -
+                                                                                                               df.loc[
+                                                                                                                   i, 'taxRate'])
 
             df.loc[i, 'fcff'] = df.loc[i, 'ebitAfterTax'] - df.loc[i, 'reinvestment']
 
@@ -567,11 +696,12 @@ priceData = loadPriceDataLive(ticker='NTNX')
 adjustments = {
     'NTNX': ntnxAdjustments
 }
-mrqData, mryData = loadData('NTNX', adjustments)
-print(mrqData.to_string())
+mrqData, mryData, arqData = loadData('NTNX', adjustments)
+# ev = arqData['ev'].iat[-1]
+# print(mrqData.to_string())
 
 TMF1000(mrqData, mryData, priceData)
-
+# calc1YPEG()
 # DcfAdjustments().researchAndDevelopment(mrqData)
 
 # cagrRange = np.linspace(0.2, 0.4, num=5)

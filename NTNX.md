@@ -87,7 +87,8 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales.
+##### Hardware agnostic
+Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So long as the hardware is  So less and less revenue will come from hardware, and more from software sales. 
 
 The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
 
@@ -517,7 +518,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzgwMDIwOSwxNTI2OTA0NjQzLC0yMT
+eyJoaXN0b3J5IjpbMTg5MzQyOTY0OCwxNTI2OTA0NjQzLC0yMT
 M3MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMx
 LC0xMDQ5MjE5OTU3XX0=
 -->

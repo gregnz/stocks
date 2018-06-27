@@ -328,12 +328,9 @@ Capital structure looks pretty sound. The debt component is the convertible note
 
 
 ### Comments
-Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
+Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
 
-
-
-
-They've raised a bunch of cash 
+A lot has been made of the software-centric model, where Nutanix sup
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -518,6 +515,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDAxMjQ0MiwtMzY1MzU4Mjg4LDEwNz
-g4OTgzMzEsLTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbNTAyMjg1MzI0LC0zNjUzNTgyODgsMTA3OD
+g5ODMzMSwtMTA0OTIxOTk1N119
 -->

@@ -98,9 +98,9 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 ### Containerisation
 Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
 
-Standing up a new VM will take a while (because you essentially have to install Windows/linux etc, unless you have one ready to go, so in the meantime, your application performance will suffer.
+Standing up a new VM will take a while because you essentially have to stand up a whole new (virtual) machine (unless you have one sitting there waiting) so in the meantime, your application performance will suffer.
 
-Containers just use the underlying 'server' (or virtual machine) operating system and package everything else required to run your application. Containers tend to be pretty small, so can be easily sent around networks, and are much faster to install. You will already have a bunch of virtual machines running, so the idea is that you just install the container on an already running virtual machine, making scale up and down much (much!) faster.
+Containers just use the underlying server (or virtual machine) operating system and package everything else required to run your application. Containers tend to be pretty small (because they don't include the whole operat, so can be easily sent around networks, and are much faster to install. You will already have a bunch of virtual machines running, so the idea is that you just install the container on an already running virtual machine, making scale up and down much (much!) faster.
 
 The use cases are mostly different however. Containerisation makes sense when running multiple copies of the same application. Virtualisation is running multiple machines (which can then run multiple containers). Scaling up becomes a 'simple' matter of targetting a cluster of machines, and asking the provisioning software to make sure there are enough instances running (this is what Pivotal.io do).
 
@@ -510,7 +510,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTQ4Nzk3NCwtMjYwNTk0NzM5LDM0Mj
+eyJoaXN0b3J5IjpbMTI2NTY1NTI2MiwtMjYwNTk0NzM5LDM0Mj
 c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
 MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
 czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz

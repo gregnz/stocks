@@ -90,7 +90,7 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing the 
+Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) 
 
 
 ### Containerisation
@@ -501,8 +501,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTA5ODEwOSwtMTE4MDU1MzAsNTkwOD
-cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
-NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
-E0NzgwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbLTEzMjQ2MjE4OTYsLTExODA1NTMwLDU5MD
+g3MTUyNCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEw
+NDQ0OSwtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC
+0xNDc4MDUzNTc3XX0=
 -->

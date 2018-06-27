@@ -146,7 +146,7 @@ Summary: analytics for all your clouds! It plugs into Prism.
 
 This comes from the company’s recent acquisition of Netsil.
 
-I don't really get what it does. But my best guess is that it extends Prism to allow application level security and firewall specification at a 'higher than app level, lower than perimeter (ie datacenter) level'. For example, in AWS you can specify security groups inside your cloud. Each security group is essentially a firewall, and has different ports allowed access.
+My best guess into Flow is that it extends Prism to allow application level security and firewall specification at a 'higher than app level, lower than perimeter (ie datacenter) level'. For example, in AWS you can specify security groups inside your cloud. Each security group is essentially a firewall, and has different ports allowed access.
 
 On reflection, I believe Flow is really starting to move into the AWS/Security group space. They seem to be building out AWS type capability across the low-level components of datacenter and application deployment. What I mean by that is the blocks that you need in order to get applications to run. They don't package up databases etc. as AWS does, but focus on the server management and security side of things.
 
@@ -165,8 +165,8 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
-### Thoughts (FWIW)
-In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public and private clouds.
+### Thoughts
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're positioning themselves to be the OS of public/private datacenter. The
 
 >We are a compute storage networking security and application mobility company. It's an entire operating system
 
@@ -512,7 +512,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDczNjQ1MSwtMjYwNTk0NzM5LDM0Mj
+eyJoaXN0b3J5IjpbLTUyMDYxMTE4NiwtMjYwNTk0NzM5LDM0Mj
 c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
 MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
 czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz

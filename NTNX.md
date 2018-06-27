@@ -512,10 +512,5 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMwNzEwNzMsLTI2MDU5NDczOSwzND
-I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
-NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
-M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5
-MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNT
-c3XX0=
+eyJoaXN0b3J5IjpbLTE1OTMwNzEwNzNdfQ==
 -->

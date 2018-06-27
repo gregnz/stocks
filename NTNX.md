@@ -179,7 +179,10 @@ Appears to be the big, most direct competition. Simplivity was purchased by HPE 
 HP OneView.
 
 Azure Stack.
-    
+
+## Acquisitions    
+Minjar, Inc.
+
 
 ## Numbers
 
@@ -494,7 +497,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwODcxNTI0LC0xMzczNjMwMjY0LC0xND
-M1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkzNjAyMjUsMjA0MTYx
-NTMyMSw3MDUwODE0NjMsLTE0NzgwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbMTUxOTg2Nzc2Nyw1OTA4NzE1MjQsLTEzNz
+M2MzAyNjQsLTE0MzUwNDYxNjAsLTEzODkxMDQ0NDksLTQ4OTM2
+MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMTQ3ODA1MzU3N1
+19
 -->

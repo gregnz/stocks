@@ -209,7 +209,9 @@ Azure Stack.
 
 ### Most recent quarter ranges min, max [last] 
 uses more recent price data with last reported results.
-TODO: THE MAR 01 2018 Number is wrong. It should be A
+
+TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
+
 * Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
 * Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
 * PE range (Mar 01, 2018 - Jun 27, 2018) not applicable (earnings < 0)
@@ -236,14 +238,9 @@ TODO: THE MAR 01 2018 Number is wrong. It should be A
 
 ### Deferred revenue
 
-| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings             |
-|           |               |           |           | (Rev + 𝝳 def. rev)   |
+| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings (Rev + 𝝳 def. rev) 
 |:----------|:--------------|:----------|:----------|:---------------------|
-| 2015Q2    | 103.60m       |           |           |                      |
-| 2015Q3    |               | 0%        |           |                      |
-| 2015Q4    |               | 0%        |           |                      |
-| 2016Q1    |               | 0%        |           |                      |
-| 2016Q2    | 296.46m       | 186%      | 186%      |                      |
+| 2016Q2    | 296.46m       |           |           |                      |
 | 2016Q3    | 375.43m       | 27%       | 262%      | 267.53m              |
 | 2016Q4    | 420.62m       | 12%       | 306%      | 244.40m              |
 | 2017Q1    | 463.00m       | 10%       | 347%      | 248.05m              |
@@ -491,7 +488,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDI4NTM5OSwtMTE4MDU1MzAsNTkwOD
+eyJoaXN0b3J5IjpbMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwOD
 cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
 NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
 E0NzgwNTM1NzddfQ==

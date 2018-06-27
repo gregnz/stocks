@@ -324,7 +324,7 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 
 >The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
 
-
+They've raised a bunch of cash 
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -509,9 +509,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc0NzcyNTksLTE0NDEzNDkxMzAsLT
-E3OTU3MDE3MjgsNjI0ODM3NTIzLDEyMDI5MjM2MDAsLTExODA1
-NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2MC
-wtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNzA1
-MDgxNDYzLC0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbMzQyNzcwNzA2LC0xNDQxMzQ5MTMwLC0xNz
+k1NzAxNzI4LDYyNDgzNzUyMywxMjAyOTIzNjAwLC0xMTgwNTUz
+MCw1OTA4NzE1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
+EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
+MTQ2MywtMTQ3ODA1MzU3N119
 -->

@@ -333,7 +333,9 @@ Nutanix is growing strongly, over a year and a half more than doubling revenue, 
 
 A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
 
-I think the bottom line is that the transition to HCI is (IMO) inevitable, and Nutanix is a very strong player in the space. As far as I can see, theres no financial concerns to worry about.
+> but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
+
+I think the bottom line is that the transition to HCI is (IMO) inevitable, and Nutanix is a very strong player in the space. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as 
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -518,7 +520,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC0yMD
-czMTAyODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDkyMDUz
-LC0zNjUzNTgyODgsMTA3ODg5ODMzMSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbLTExOTA4NjM0MTcsMTU5ODQ3MjIzNywtMT
+M3MDA1MTc0LC0yMDczMTAyODQsMTUyNjkwNDY0MywtMjEzNzAx
+MiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5ODMzMSwtMT
+A0OTIxOTk1N119
 -->

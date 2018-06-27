@@ -90,7 +90,7 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) 
+Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers.
 
 
 ### Containerisation
@@ -103,8 +103,6 @@ Containers just use the underlying 'server' (or virtual machine) operating syste
 The use cases are mostly different however. Containerisation makes sense when running multiple copies of the same application. Virtualisation is running multiple machines (which can then run multiple containers). Scaling up becomes a 'simple' matter of targetting a cluster of machines, and asking the provisioning software to make sure there are enough instances running (this is what Pivotal.io do).
 
 
-hardware (CI/HCI) -> Software (Virtualization) -> 
-
 ### Other offerings
 Simplivity (HPE)
 HyperFlex (Cisco)
@@ -114,7 +112,7 @@ HyperFlex (Cisco)
 #### Acropolis
 > Distributed storage fabric, Acropolis hypervisor, app mobility fabric.
 
-As far as I can figure, Acropolis is the software that makes all the Nutanix appliances talk to each other and perform their functions. These functions include provision of the virtualisation/hypervisor functionality for the appliances (AHV - not sure how many installs actually use the Acropolis Hypervisor as opposed to other flavours), storage services (including caching, duplication and compression), networking capabilities for the appliances, backup and disaster recovery and I'm sure other stuff.
+Acropolis is the software that makes all the Nutanix appliances talk to each other and perform their functions. These functions include provision of the virtualisation/hypervisor functionality for the appliances (AHV - not sure how many installs actually use the Acropolis Hypervisor as opposed to other flavours), storage services (including caching, duplication and compression), networking capabilities for the appliances, backup and disaster recovery and I'm sure other stuff.
 
 It's the operating system for Nutanix.
 
@@ -501,8 +499,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ2MjE4OTYsLTExODA1NTMwLDU5MD
-g3MTUyNCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEw
-NDQ0OSwtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC
-0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbMTA1MTM1MTAzNSwtMTE4MDU1MzAsNTkwOD
+cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
+NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
+E0NzgwNTM1NzddfQ==
 -->

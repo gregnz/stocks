@@ -267,6 +267,11 @@ Q1 and Q3 are reputedly weak...
 | 2017Q4    | 478.00m       | 17%       | 14%       | 355.90m              |
 | 2018Q1    | 539.89m       | 13%       | 17%       | 351.30m              |
 
+Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is almost all from support contracts. So very little to no subscription revenue.
+
+>The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
+
+
 ### Margins
 
 |    | Quarter   | Gross margin   | ebitdamargin   | netmargin   |
@@ -323,9 +328,8 @@ Q1 and Q3 are reputedly weak...
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
 
-Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is almost all from support contracts. So very little to no subscription revenue.
 
->The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
+
 
 They've raised a bunch of cash 
 
@@ -512,5 +516,5 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMwNzEwNzNdfQ==
+eyJoaXN0b3J5IjpbLTEwNDkyMTk5NTddfQ==
 -->

@@ -311,7 +311,7 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 | 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
 | 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
 
-Capital structure looks pretty sound. The debt component is the convertible note offering that was announced in January 2018 which allows note holders to convert to stock at a price of about $48.85 dollars. There are several clauses as to when the notes can be excercised 
+Capital structure looks pretty sound. The debt component is the convertible note offering that was announced in January 2018 which allows note holders to convert to stock at a price of about $48.85 dollars. There are several clauses as to when the notes can be excercised
 
 ### Expenses
 
@@ -518,6 +518,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTM1ODI4OCwxMDc4ODk4MzMxLC0xMD
-Q5MjE5OTU3XX0=
+eyJoaXN0b3J5IjpbMjAyNDAxMjQ0MiwtMzY1MzU4Mjg4LDEwNz
+g4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

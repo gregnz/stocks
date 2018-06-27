@@ -239,6 +239,7 @@ TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
 | 2017Q4    | 286.74m   | 941.39m | 4%        | 44%       |
 | 2018Q1    | 289.41m   | 1.025b  | 1%        | 41%       |
 
+Revenue is growing strongly, although theres a bit of a 
 ### Deferred revenue
 
 | Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings (Rev + 𝝳 def. rev) 
@@ -310,7 +311,7 @@ Nutanix is growing strongly, over a year and a half more than doubling revenue, 
 
 Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is mainly from support contracts. So very little to no subscription revenue.
 
->The next phase, as presented at our March Investor Day, would be to sell more subscriptions...
+>The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
 
 
 
@@ -497,9 +498,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDY5NTg4NCwtMTQ0MTM0OTEzMCwtMT
-c5NTcwMTcyOCw2MjQ4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1
-MzAsNTkwODcxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC
-0xMzg5MTA0NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUw
-ODE0NjMsLTE0NzgwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbMjYxOTgyODQwLC0xNDQxMzQ5MTMwLC0xNz
+k1NzAxNzI4LDYyNDgzNzUyMywxMjAyOTIzNjAwLC0xMTgwNTUz
+MCw1OTA4NzE1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
+EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
+MTQ2MywtMTQ3ODA1MzU3N119
 -->

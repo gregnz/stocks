@@ -85,13 +85,13 @@ In summary, you get:
 
 The idea is you get a lot of higher level flexibility (which apps run where) and simplicity, and the ability to focus on managing applications and selling jellybeans, rather than having expensive teams setting up servers and hard drives all day. In exchange, you lock into a HCI provider (I can't see it making a lot of sense to mix and match HCI providers), give up the hardware level flexibility and pay the fee.
 
-In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. 
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software, which is sort of true, but ...
 
 >We are a compute storage networking security and application mobility company. It's an entire operating system
 
-So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
+Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
 
-This space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
+I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
@@ -523,7 +523,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxMjM0MzgxLDE1MjY5MDQ2NDMsLTIxMz
+eyJoaXN0b3J5IjpbODc5MDgyMTIxLDE1MjY5MDQ2NDMsLTIxMz
 cwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4OTgzMzEs
 LTEwNDkyMTk5NTddfQ==
 -->

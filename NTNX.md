@@ -104,7 +104,7 @@ Containers just use the underlying server (or virtual machine) operating system 
 
 The use cases are mostly different however. Containerisation makes sense when running multiple copies of the same application. Virtualisation is running multiple machines (which can then run multiple containers). Scaling up becomes a 'simple' matter of targetting a cluster of machines, and asking the provisioning software to make sure there are enough instances running (this is what Pivotal.io do).
 
-Incidentally, you'll hear the Kubernetes word whenever you're l
+Incidentally, you'll hear the Kubernetes word whenever you're looking at this space. Kubernetes organises the deployment and automatic scaling of containers, and is pretty much the (low-level) standard for doing this.
 
 
 ### Other offerings
@@ -512,10 +512,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjczOTQzMTYsLTI2MDU5NDczOSwzND
-I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
-NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
-M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5
-MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNT
-c3XX0=
+eyJoaXN0b3J5IjpbLTU5MDczNjQ1MSwtMjYwNTk0NzM5LDM0Mj
+c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
+MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
+czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz
+NjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0NzgwNTM1Nz
+ddfQ==
 -->

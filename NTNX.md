@@ -208,8 +208,8 @@ Azure Stack.
 * EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
 
 ### Most recent quarter ranges min, max [last] 
-uses more recent price data with last reported results
-
+uses more recent price data with last reported results.
+TODO: THE MAR 01 2018 Number is wrong. It should be A
 * Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
 * Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
 * PE range (Mar 01, 2018 - Jun 27, 2018) not applicable (earnings < 0)
@@ -491,7 +491,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzQ4MjcyOCwtMTE4MDU1MzAsNTkwOD
+eyJoaXN0b3J5IjpbMTc1NDI4NTM5OSwtMTE4MDU1MzAsNTkwOD
 cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
 NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
 E0NzgwNTM1NzddfQ==

@@ -305,7 +305,9 @@ TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
 
-Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is mainly from support contracts.
+Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is mainly from support contracts. So very little to no subscription revenue.
+
+
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -490,8 +492,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjA3NjAxNCwxMjAyOTIzNjAwLC0xMT
-gwNTUzMCw1OTA4NzE1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYx
-NjAsLTEzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLD
-cwNTA4MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbNjI0ODM3NTIzLDEyMDI5MjM2MDAsLTExOD
+A1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2
+MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNz
+A1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
 -->

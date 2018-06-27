@@ -93,10 +93,7 @@ Nutanix wants to be the integration layer across on-premise infrastructure and p
 
 I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
-
->"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
-
-The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
+The main takeaway I have (after years of experience with AWS) is ... there's no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
 
 The only question is, how much of the market can Nutanix capture, and at what margins?
 
@@ -104,8 +101,6 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
 
 Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales. 
-
-
 
 
 
@@ -122,8 +117,13 @@ Incidentally, you'll hear the Kubernetes word whenever you're looking at this sp
 
 
 ### Other offerings
-Simplivity (HPE)
+#### HPE Simplivity
+Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
+
 HyperFlex (Cisco)
+HP OneView.
+
+Azure Stack.
 
 
 ### Products
@@ -182,13 +182,7 @@ Xi Cloud is interesting. My first view on seeing some discussion with the CEO wa
 
 
 
-#### HPE Simplivity
-Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
 
-
-HP OneView.
-
-Azure Stack.
 
 
 ## Numbers
@@ -523,7 +517,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MDgyMTIxLDE1MjY5MDQ2NDMsLTIxMz
-cwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4OTgzMzEs
-LTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbLTE4ODQ4MTczODcsMTUyNjkwNDY0MywtMj
+EzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5ODMz
+MSwtMTA0OTIxOTk1N119
 -->

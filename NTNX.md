@@ -201,14 +201,24 @@ Azure Stack.
 * Gross margins was 0.67 up (7.7%) from 0.62
 * CapExp was 14.10m up (0.5%) from 14.03m
 
-### Ranges min, max [last]
+### Last reported quarter ranges min, max [last]
 
-* Trading range between Jan 01, 2018 - Jun 25, 2018 was 30.34 to 63.71 [54.34]
-* Market cap between Jan 01, 2018 - Jun 25, 2018 was 4.985b to 10.468b [8.929b]
-* PE range (Jan 01, 2018 - Jun 25, 2018) not applicable (earnings < 0)
-* PS ratio range (Jan 01, 2018 - Jun 25, 2018) was 4.94 to 10.37 [8.84]
-* Free cash flow yield range (Jan 01, 2018 - Jun 25, 2018) was 0.16 to 0.35 [0.19]
-* EV/Sales between Jan 01, 2018 - Jun 25, 2018 was 17.38 to 36.33 [31.01]
+* Trading range between Sep 01, 2017 - Mar 31, 2018 was 22.85 to 54.66 [49.11]
+* Market cap between Sep 01, 2017 - Mar 31, 2018 was 3.666b to 8.981b [8.069b]
+* PE range (Sep 01, 2017 - Mar 31, 2018) not applicable (earnings < 0)
+* PS ratio range (Sep 01, 2017 - Mar 31, 2018) was 3.72 to 8.90 [7.99]
+* Free cash flow yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
+* EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
+
+### Most recent quarter ranges min, max [last] 
+(uses more recent price data with last reported results)
+
+* Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
+* Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
+* PE range (Mar 01, 2018 - Jun 27, 2018) not applicable (earnings < 0)
+* PS ratio range (Mar 01, 2018 - Jun 27, 2018) was 7.76 to 10.37 [8.40]
+* Free cash flow yield range (Mar 01, 2018 - Jun 27, 2018) was 0.16 to 0.22 [0.20]
+* EV/Sales between Mar 01, 2018 - Jun 27, 2018 was 7.80 to 10.41 [8.45]
 
 ### Revenue
 
@@ -295,6 +305,7 @@ Azure Stack.
 | 2017Q3    | 64.51m    | -5%            | -14%           | 161.46m                 | 8%             | 2%             |
 | 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
 | 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
+
 
 
 ### Comments
@@ -483,7 +494,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
-EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
-MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbLTI5MjI5OTIyOSwtMTM3MzYzMDI2NCwtMT
+QzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2
+MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
 -->

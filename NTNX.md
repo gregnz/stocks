@@ -330,7 +330,9 @@ Capital structure looks pretty sound. The debt component is the convertible note
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
 
-A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. 
+A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
+
+I think the bottom line is that 
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -515,6 +517,6 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTE0MjQwOCwxMDE2NDkyMDUzLC0zNj
-UzNTgyODgsMTA3ODg5ODMzMSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1Mz
+U4Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

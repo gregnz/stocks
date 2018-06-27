@@ -85,6 +85,15 @@ In summary, you get:
 
 The idea is you get a lot of higher level flexibility (which apps run where) and simplicity, and the ability to focus on managing applications and selling jellybeans, rather than having expensive teams setting up servers and hard drives all day. In exchange, you lock into a HCI provider (I can't see it making a lot of sense to mix and match HCI providers), give up the hardware level flexibility and pay the fee.
 
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. 
+
+>We are a compute storage networking security and application mobility company. It's an entire operating system
+
+So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
+
+This space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
+
+
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
 The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
@@ -95,6 +104,9 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
 
 Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales. 
+
+
+
 
 
 #### Containerisation
@@ -167,14 +179,6 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
-### Thoughts
-In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're positioning themselves to be the OS of public/private datacenter.
-
->We are a compute storage networking security and application mobility company. It's an entire operating system
-
-So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
-
-After looking, this space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
 
 
@@ -519,7 +523,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTEwOTcxMywxNTI2OTA0NjQzLC0yMT
-M3MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMx
-LC0xMDQ5MjE5OTU3XX0=
+eyJoaXN0b3J5IjpbNTkxMjM0MzgxLDE1MjY5MDQ2NDMsLTIxMz
+cwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4OTgzMzEs
+LTEwNDkyMTk5NTddfQ==
 -->

@@ -1,6 +1,4 @@
 # NTNX 
-GCon = 1 to 5 scale of ‘Gregs conviction’.  
-Most buzzwords are in the 'Definitions' section.
 
 ## My understanding
 Nutanix is a leader in 'Hyper-converged infrastructure'. Uh... cool.
@@ -509,9 +507,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNzcwNzA2LC0xNDQxMzQ5MTMwLC0xNz
-k1NzAxNzI4LDYyNDgzNzUyMywxMjAyOTIzNjAwLC0xMTgwNTUz
-MCw1OTA4NzE1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
-EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
-MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbLTI2MDU5NDczOSwzNDI3NzA3MDYsLTE0ND
+EzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3NTIzLDEyMDI5MjM2
+MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2NCwtMT
+QzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2
+MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
 -->

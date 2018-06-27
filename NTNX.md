@@ -239,7 +239,10 @@ TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
 | 2017Q4    | 286.74m   | 941.39m | 4%        | 44%       |
 | 2018Q1    | 289.41m   | 1.025b  | 1%        | 41%       |
 
-Revenue is growing strongly, although theres a bit of a 
+Revenue is growing strongly, although theres a bit of a decrease in growth going on. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (TODO - Fill in CC discussion).
+
+Q1 and Q3 are reputedly weak
+
 ### Deferred revenue
 
 | Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings (Rev + 𝝳 def. rev) 
@@ -498,9 +501,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxOTgyODQwLC0xNDQxMzQ5MTMwLC0xNz
-k1NzAxNzI4LDYyNDgzNzUyMywxMjAyOTIzNjAwLC0xMTgwNTUz
-MCw1OTA4NzE1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
-EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
-MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbMjA4NTUxNjEwMSwtMTQ0MTM0OTEzMCwtMT
+c5NTcwMTcyOCw2MjQ4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1
+MzAsNTkwODcxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC
+0xMzg5MTA0NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUw
+ODE0NjMsLTE0NzgwNTM1NzddfQ==
 -->

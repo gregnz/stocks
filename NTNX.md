@@ -182,6 +182,7 @@ Azure Stack.
 
 ## Acquisitions    
 Minjar, Inc.
+Netsil, Inc.
 
 
 ## Numbers
@@ -497,8 +498,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTg2Nzc2Nyw1OTA4NzE1MjQsLTEzNz
-M2MzAyNjQsLTE0MzUwNDYxNjAsLTEzODkxMDQ0NDksLTQ4OTM2
-MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMTQ3ODA1MzU3N1
-19
+eyJoaXN0b3J5IjpbLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3Mz
+YzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYw
+MjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX
+0=
 -->

@@ -188,7 +188,8 @@ Netsil, Inc.
 ## Numbers
 
 
-### Basic data (TMF1000)
+
+### Basic data (based on TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
 * TTM Revenue was 1.025b up (59.6%) from 642.25m 
@@ -214,8 +215,7 @@ Netsil, Inc.
 * Free cash flow yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
 * EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
 
-### Most recent quarter ranges min, max [last] 
->uses more recent price data with last reported results
+### Most recent quarter ranges min, max [last] (uses more recent price data with last reported results)
 
 * Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
 * Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
@@ -226,37 +226,38 @@ Netsil, Inc.
 
 ### Revenue
 
-| Quarter   | Revenue   | TTM     | Change (q-1)   | Change (YoY)   |
-|:----------|:----------|:--------|:---------------|:---------------|
-| 2015Q2    |           |         |                |                |
-| 2015Q3    | 87.76m    |         |                |                |
-| 2015Q4    | 102.70m   |         | 17%            |                |
-| 2016Q1    | 114.69m   |         | 12%            |                |
-| 2016Q2    | 139.78m   | 444.93m | 22%            |                |
-| 2016Q3    | 188.56m   | 545.73m | 35%            | 115%           |
-| 2016Q4    | 199.21m   | 642.25m | 6%             | 94%            |
-| 2017Q1    | 205.67m   | 733.23m | 3%             | 79%            |
-| 2017Q2    | 173.42m   | 766.87m | -16%           | 24%            |
-| 2017Q3    | 275.55m   | 853.86m | 59%            | 46%            |
-| 2017Q4    | 286.74m   | 941.39m | 4%             | 44%            |
-| 2018Q1    | 289.41m   | 1.025b  | 1%             | 41%            |
+| Quarter   | Revenue   | TTM     | 𝝳 (q-1)   | 𝝳 (YoY)   |
+|:----------|:----------|:--------|:----------|:----------|
+| 2015Q2    |           |         |           |           |
+| 2015Q3    | 87.76m    |         |           |           |
+| 2015Q4    | 102.70m   |         | 17%       |           |
+| 2016Q1    | 114.69m   |         | 12%       |           |
+| 2016Q2    | 139.78m   | 444.93m | 22%       |           |
+| 2016Q3    | 188.56m   | 545.73m | 35%       | 115%      |
+| 2016Q4    | 199.21m   | 642.25m | 6%        | 94%       |
+| 2017Q1    | 205.67m   | 733.23m | 3%        | 79%       |
+| 2017Q2    | 173.42m   | 766.87m | -16%      | 24%       |
+| 2017Q3    | 275.55m   | 853.86m | 59%       | 46%       |
+| 2017Q4    | 286.74m   | 941.39m | 4%        | 44%       |
+| 2018Q1    | 289.41m   | 1.025b  | 1%        | 41%       |
 
 ### Deferred revenue
 
-| Quarter   | Def.Revenue   | Change (q-1)   | Change (YoY)   |
-|:----------|:--------------|:---------------|:---------------|
-| 2015Q2    | 103.60m       |                |                |
-| 2015Q3    |               | 0%             |                |
-| 2015Q4    |               | 0%             |                |
-| 2016Q1    |               | 0%             |                |
-| 2016Q2    | 296.46m       | 186%           | 186%           |
-| 2016Q3    | 375.43m       | 27%            | 262%           |
-| 2016Q4    | 420.62m       | 12%            | 306%           |
-| 2017Q1    | 463.00m       | 10%            | 347%           |
-| 2017Q2    | 369.06m       | -20%           | 24%            |
-| 2017Q3    | 408.84m       | 11%            | 9%             |
-| 2017Q4    | 478.00m       | 17%            | 14%            |
-| 2018Q1    | 539.89m       | 13%            | 17%            |
+| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings             |
+|           |               |           |           | (Rev + 𝝳 def. rev)   |
+|:----------|:--------------|:----------|:----------|:---------------------|
+| 2015Q2    | 103.60m       |           |           |                      |
+| 2015Q3    |               | 0%        |           |                      |
+| 2015Q4    |               | 0%        |           |                      |
+| 2016Q1    |               | 0%        |           |                      |
+| 2016Q2    | 296.46m       | 186%      | 186%      |                      |
+| 2016Q3    | 375.43m       | 27%       | 262%      | 267.53m              |
+| 2016Q4    | 420.62m       | 12%       | 306%      | 244.40m              |
+| 2017Q1    | 463.00m       | 10%       | 347%      | 248.05m              |
+| 2017Q2    | 369.06m       | -20%      | 24%       | 79.48m               |
+| 2017Q3    | 408.84m       | 11%       | 9%        | 315.34m              |
+| 2017Q4    | 478.00m       | 17%       | 14%       | 355.90m              |
+| 2018Q1    | 539.89m       | 13%       | 17%       | 351.30m              |
 
 ### Margins
 
@@ -309,7 +310,6 @@ Netsil, Inc.
 | 2017Q3    | 64.51m    | -5%            | -14%           | 161.46m                 | 8%             | 2%             |
 | 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
 | 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
-
 
 
 ### Comments
@@ -498,8 +498,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3Mz
-YzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYw
-MjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX
-0=
+eyJoaXN0b3J5IjpbNDY5OTA5OTMwLC0xMTgwNTUzMCw1OTA4Nz
+E1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLTEzODkxMDQ0
+NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMT
+Q3ODA1MzU3N119
 -->

@@ -70,9 +70,6 @@ Thats the private datacenter story. It's really a simplicity versus cost story, 
 
 However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface.
 
-The main takeaway I have (after years of experience with AWS) is ... whats the alternative to AWS'ing your private datacenter? There is none. You have to go down this journey to make sure you're getting the best value for your 
-
-
 #### My understanding...
 
 Hyper-convergence is a big trend in order to get the simplicity of cloud infrastructure into private datacenters, as well as controllable performance. Essentially, a software-defined datacenter, built on pre-configured appliances that define your compute, storage, virtualisation set up, and nice software that a) gets everything talking to each other (big pool of compute and storage, as well as backups etc) and b) lets you manage everything in one nice UI.
@@ -91,6 +88,10 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
 Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers.
+
+The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter? There is none. You have to go down this journey to make sure you're getting the best value for your IT spend. I doubt any CTO of any company running their own hardware would not make this journey.
+
+The only question is, how much of the market can Nutanix capture, and at what margins?
 
 
 
@@ -509,7 +510,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODMzNDg5MjIsLTI2MDU5NDczOSwzND
+eyJoaXN0b3J5IjpbLTEyMjc5NjE5MzQsLTI2MDU5NDczOSwzND
 I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
 NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
 M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5

@@ -66,6 +66,7 @@ Your clever software lets you see all your compute as something you can define. 
 
 But the secret is the software. It's very analogous to Arista. What Arista do for networks, Nutanix is doing for datacenters. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
 
+Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. It's like Windows for datacenter servers.
 
 ### Enterprise Cloud
 Thats the private datacenter story. It's really a simplicity versus cost story, and personally I found it pretty compelling. Is it more compelling than the other options? Not sure.
@@ -498,8 +499,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNjE1OTczLC0xMTgwNTUzMCw1OTA4Nz
-E1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLTEzODkxMDQ0
-NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMT
-Q3ODA1MzU3N119
+eyJoaXN0b3J5IjpbMjEyMjEzNTE3MiwtMTE4MDU1MzAsNTkwOD
+cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
+NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
+E0NzgwNTM1NzddfQ==
 -->

@@ -170,9 +170,11 @@ In the beginning, I was pegging Nutanix more or less as an HCI provider with som
 
 >We are a compute storage networking security and application mobility company. It's an entire operating system
 
-So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it. 
+So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
 
-This approach (if correct) would be a big software play. They would need to build out a big chunk of AWS/Azure's API, add their own interface (ie, Prism) and make sure everything worked seamlessly. That's a pretty big job.
+After looking, this space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. 
+
+
 
 #### HPE Simplivity
 Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
@@ -510,7 +512,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzI4OTYxOCwtMjYwNTk0NzM5LDM0Mj
+eyJoaXN0b3J5IjpbLTM0NDQ0MDI1NiwtMjYwNTk0NzM5LDM0Mj
 c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
 MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
 czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz

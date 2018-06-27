@@ -68,7 +68,9 @@ But the secret is the software. It's very analogous to Arista. What Arista do fo
 ### Enterprise Cloud
 Thats the private datacenter story. It's really a simplicity versus cost story, and personally I found it pretty compelling. Is it more compelling than the other options? Not sure.
 
-However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface. 
+However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface.
+
+The main takeaway I have (after years of experience with AWS) is ... whats the alternative to AWS'ing your private datacenter? There is none. You have to go down this journey to make sure you're getting the best value for your 
 
 
 #### My understanding...
@@ -507,7 +509,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI5NTUwMTQsLTI2MDU5NDczOSwzND
+eyJoaXN0b3J5IjpbLTE0ODMzNDg5MjIsLTI2MDU5NDczOSwzND
 I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
 NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
 M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5

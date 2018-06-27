@@ -87,18 +87,17 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-##### Hardware agnostic
-Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there? 
-
-Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales. 
-
 The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
 
 The only question is, how much of the market can Nutanix capture, and at what margins?
 
+##### Hardware agnostic
+A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
+
+Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales. 
 
 
-### Containerisation
+#### Containerisation
 Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
 
 Standing up a new VM will take a while because you essentially have to stand up a whole new (virtual) machine (unless you have one sitting there waiting) so in the meantime, your application performance will suffer.
@@ -520,7 +519,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE0NzIyNzcsMTUyNjkwNDY0MywtMj
-EzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5ODMz
-MSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbMjE0MTEwOTcxMywxNTI2OTA0NjQzLC0yMT
+M3MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMx
+LC0xMDQ5MjE5OTU3XX0=
 -->

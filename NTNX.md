@@ -113,7 +113,7 @@ HyperFlex (Cisco)
 
 As far as I can figure, Acropolis is the software that makes all the Nutanix appliances talk to each other and perform their functions. These functions include provision of the virtualisation/hypervisor functionality for the appliances (AHV - not sure how many installs actually use the Acropolis Hypervisor as opposed to other flavours), storage services (including caching, duplication and compression), networking capabilities for the appliances, backup and disaster recovery and I'm sure other stuff.
 
-Consider it the operating system for Nutanix. Inst
+It's the operating system for Nutanix.
 
 #### Prism
 > A unified management plane to manage applications and infrastructure across different datacenters and clouds. Prism enables comprehensive datacenter management, operational insights, planning, and performance.
@@ -498,8 +498,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDUyMDcwOCwtMTE4MDU1MzAsNTkwOD
-cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
-NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
-E0NzgwNTM1NzddfQ==
+eyJoaXN0b3J5IjpbNDgwNjE1OTczLC0xMTgwNTUzMCw1OTA4Nz
+E1MjQsLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLTEzODkxMDQ0
+NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4MTQ2MywtMT
+Q3ODA1MzU3N119
 -->

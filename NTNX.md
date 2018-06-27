@@ -93,6 +93,7 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers.
 
 
+
 ### Containerisation
 Not sure how relevant this is, but containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application so your load-balancers can use more CPU.
 
@@ -162,7 +163,7 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
 ### Thoughts (FWIW)
-In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they seem to be moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds.
+In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public a
 
 The weakness of public clouds is that they have no support for on-premise infrastructure, which is Nutanix's bread and butter. 
 
@@ -494,8 +495,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU3MDE3MjgsNjI0ODM3NTIzLDEyMD
-I5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2
-NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LD
-IwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbLTg0OTM4ODk2OCwtMTc5NTcwMTcyOCw2Mj
+Q4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0
+LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC
+00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0Nzgw
+NTM1NzddfQ==
 -->

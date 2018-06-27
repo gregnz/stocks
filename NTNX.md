@@ -163,11 +163,13 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
 ### Thoughts (FWIW)
-In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public a
+In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public and private clouds.
+
+>We are a compute storage networking security and application mobility company. It's an entire operating system
 
 The weakness of public clouds is that they have no support for on-premise infrastructure, which is Nutanix's bread and butter. 
 
-This seems to be where Nutanix is heading, to be the integration layer between on-premise infrastructure and public cloud. So end-users of the 'cloud' interact with Nutanix Prism, that abstracts all the cloud components.
+Thats definitely where Nutanix is heading, to be the integration layer or OS across on-premise infrastructure and public cloud. So end-users of the 'cloud' interact with Nutanix Prism, that abstracts all the cloud components.
 
 This approach (if correct) would be a big software play. They would need to build out a big chunk of AWS/Azure's API, add their own interface (ie, Prism) and make sure everything worked seamlessly. That's a pretty big job.
 
@@ -495,9 +497,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTM4ODk2OCwtMTc5NTcwMTcyOCw2Mj
-Q4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0
-LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC
-00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0Nzgw
-NTM1NzddfQ==
+eyJoaXN0b3J5IjpbLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNj
+I0ODM3NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUy
+NCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OS
+wtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4
+MDUzNTc3XX0=
 -->

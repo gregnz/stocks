@@ -166,13 +166,11 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
 ### Thoughts
-In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're positioning themselves to be the OS of public/private datacenter. The
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're positioning themselves to be the OS of public/private datacenter.
 
 >We are a compute storage networking security and application mobility company. It's an entire operating system
 
-The weakness of public clouds is that they have no support for on-premise infrastructure, which is Nutanix's bread and butter. 
-
-Thats definitely where Nutanix is heading, to be the integration layer or OS across on-premise infrastructure and public cloud. So end-users of the 'cloud' interact with Nutanix Prism, that abstracts all the cloud components.
+So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it. 
 
 This approach (if correct) would be a big software play. They would need to build out a big chunk of AWS/Azure's API, add their own interface (ie, Prism) and make sure everything worked seamlessly. That's a pretty big job.
 
@@ -512,7 +510,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDYxMTE4NiwtMjYwNTk0NzM5LDM0Mj
+eyJoaXN0b3J5IjpbLTUyNzI4OTYxOCwtMjYwNTk0NzM5LDM0Mj
 c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
 MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
 czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz

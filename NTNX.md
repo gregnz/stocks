@@ -48,7 +48,7 @@ At a basic level, HCI is convergence plus. The appliances are physically smaller
 
 So you give up even more flexibility to gain more simplicity.
 
-So this is what Nutanix do (sort of. Not completely. See below). They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
+So this is what Nutanix do (Kind of. It's the basis of what they do. See below). They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
 
 For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute units (each with a storage controller) and each with a configurable number of SSDs and HDDs in a 2U form factor. The software replicates data across units (and across cluster) (as opposed to RAID which uses redundant disk space or drives on the same unit). Adding a new appliance, just rack and stack, the node is auto discovered, and can be set up with a couple of clicks in the UI.
 
@@ -507,9 +507,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDU5NDczOSwzNDI3NzA3MDYsLTE0ND
-EzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3NTIzLDEyMDI5MjM2
-MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2NCwtMT
-QzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2
-MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbLTEwMDI5NTUwMTQsLTI2MDU5NDczOSwzND
+I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
+NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
+M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5
+MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNT
+c3XX0=
 -->

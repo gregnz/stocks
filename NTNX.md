@@ -163,7 +163,7 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
 ### Thoughts (FWIW)
-In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public and private clouds.
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they're moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds, and the method of integrating public and private clouds.
 
 >We are a compute storage networking security and application mobility company. It's an entire operating system
 
@@ -497,9 +497,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNj
-I0ODM3NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUy
-NCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OS
-wtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4
-MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbLTU5MDY5NTg4NCwtMTQ0MTM0OTEzMCwtMT
+c5NTcwMTcyOCw2MjQ4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1
+MzAsNTkwODcxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC
+0xMzg5MTA0NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUw
+ODE0NjMsLTE0NzgwNTM1NzddfQ==
 -->

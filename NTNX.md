@@ -301,7 +301,7 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 
 ### Capital structure
 
-|        | cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
+|        | Cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
 |:-------|:--------|:--------------|:-----------------------|:------------------|:--------|-----------------:|-----------:|
 | 2016Q2 | 99.21m  | 85.99m        | 185.20m                | 117.10m           | 73.26m  |            -0.19 |          0 |
 | 2016Q3 | 225.46m | 121.65m       | 347.11m                | 272.44m           | 0.00    |             0    |          0 |
@@ -333,7 +333,7 @@ Nutanix is growing strongly, over a year and a half more than doubling revenue, 
 
 A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
 
-I think the bottom line is that the transition to HCI is (IMO) inevitable, and Nutanix is a very strong player in the space. As far as I can see, theres no financial concerns to worry about, so performance 
+I think the bottom line is that the transition to HCI is (IMO) inevitable, and Nutanix is a very strong player in the space. As far as I can see, theres no financial concerns to worry about, so performance will come d
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -518,7 +518,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI1MDk0NCwtMjA3MzEwMjg0LDE1Mj
+eyJoaXN0b3J5IjpbLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1Mj
 Y5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4
 LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

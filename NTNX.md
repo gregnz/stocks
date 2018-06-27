@@ -161,9 +161,6 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
 
-
-
-
 ### Thoughts (FWIW)
 In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they seem to be moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds.
 
@@ -181,14 +178,8 @@ HP OneView.
 
 Azure Stack.
 
-## Acquisitions    
-Minjar, Inc.
-Netsil, Inc.
-
 
 ## Numbers
-
-
 
 ### Basic data (based on TMF1000)
 
@@ -216,7 +207,8 @@ Netsil, Inc.
 * Free cash flow yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
 * EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
 
-### Most recent quarter ranges min, max [last] (uses more recent price data with last reported results)
+### Most recent quarter ranges min, max [last] 
+uses more recent price data with last reported results
 
 * Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
 * Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
@@ -499,7 +491,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTM1MTAzNSwtMTE4MDU1MzAsNTkwOD
+eyJoaXN0b3J5IjpbMjA0NzQ4MjcyOCwtMTE4MDU1MzAsNTkwOD
 cxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0
 NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLT
 E0NzgwNTM1NzddfQ==

@@ -172,7 +172,7 @@ In the beginning, I was pegging Nutanix more or less as an HCI provider with som
 
 So Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
 
-After looking, this space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier
+After looking, this space is much more compelling than I first thought. I believe this transition is inevitable, because public clouds won't do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
 
 
@@ -512,10 +512,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjYxMTMzMywtMjYwNTk0NzM5LDM0Mj
-c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
-MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
-czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz
-NjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0NzgwNTM1Nz
-ddfQ==
+eyJoaXN0b3J5IjpbLTE1OTMwNzEwNzMsLTI2MDU5NDczOSwzND
+I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
+NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
+M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5
+MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNT
+c3XX0=
 -->

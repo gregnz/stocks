@@ -298,6 +298,9 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 | 2017Q4    | 32.37m  |
 | 2018Q1    | -788k   |
 
+Free cash flow looks fine. There's enough cash coming in that operations can 
+
+
 ### Capital structure
 
 |        | cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
@@ -517,7 +520,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ4MTczODcsMTUyNjkwNDY0MywtMj
-EzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5ODMz
-MSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbLTIwNzMxMDI4NCwxNTI2OTA0NjQzLC0yMT
+M3MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMx
+LC0xMDQ5MjE5OTU3XX0=
 -->

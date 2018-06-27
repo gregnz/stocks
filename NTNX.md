@@ -240,10 +240,12 @@ TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
 | 2018Q1    | 289.41m   | 1.025b  | 1%        | 41%       |
 
 Revenue for Nutanix comes from 3 major parts,
- 1. software sales
- 2. hardware sales
- 3. 
-Revenue is growing strongly, although theres a bit of a decrease in growth going on. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (TODO - Fill in CC discussion).
+ 1. Software sales
+ 2. Hardware sales
+ 3. Services
+So (almost) all of the deferred revenue comes from the services section, see below for a discussion.
+
+Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quar. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (TODO - Fill in CC discussion).
 
 Q1 and Q3 are reputedly weak...
 
@@ -507,7 +509,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDY4OTY2NywtMTQ0MTM0OTEzMCwtMT
+eyJoaXN0b3J5IjpbLTE4NDUzMzEyMiwtMTQ0MTM0OTEzMCwtMT
 c5NTcwMTcyOCw2MjQ4Mzc1MjMsMTIwMjkyMzYwMCwtMTE4MDU1
 MzAsNTkwODcxNTI0LC0xMzczNjMwMjY0LC0xNDM1MDQ2MTYwLC
 0xMzg5MTA0NDQ5LC00ODkzNjAyMjUsMjA0MTYxNTMyMSw3MDUw

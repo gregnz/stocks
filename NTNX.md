@@ -87,9 +87,9 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers.
+Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from soft
 
-The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter? There is none. You have to go down this journey to make sure you're getting the best value for your IT spend. I doubt any CTO of any company running their own hardware would not make this journey.
+The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
 
 The only question is, how much of the market can Nutanix capture, and at what margins?
 
@@ -510,10 +510,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc5NjE5MzQsLTI2MDU5NDczOSwzND
-I3NzA3MDYsLTE0NDEzNDkxMzAsLTE3OTU3MDE3MjgsNjI0ODM3
-NTIzLDEyMDI5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMT
-M3MzYzMDI2NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5
-MzYwMjI1LDIwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNT
-c3XX0=
+eyJoaXN0b3J5IjpbLTY3MjQyNzQ3OCwtMjYwNTk0NzM5LDM0Mj
+c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
+MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
+czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz
+NjAyMjUsMjA0MTYxNTMyMSw3MDUwODE0NjMsLTE0NzgwNTM1Nz
+ddfQ==
 -->

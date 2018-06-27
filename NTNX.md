@@ -307,6 +307,8 @@ Nutanix is growing strongly, over a year and a half more than doubling revenue, 
 
 Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is mainly from support contracts. So very little to no subscription revenue.
 
+>The next phase, as presented at our March Investor Day, would be to sell more subscriptions...
+
 
 
 ### DCF
@@ -492,8 +494,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODM3NTIzLDEyMDI5MjM2MDAsLTExOD
-A1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2NCwtMTQzNTA0NjE2
-MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LDIwNDE2MTUzMjEsNz
-A1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
+eyJoaXN0b3J5IjpbLTE3OTU3MDE3MjgsNjI0ODM3NTIzLDEyMD
+I5MjM2MDAsLTExODA1NTMwLDU5MDg3MTUyNCwtMTM3MzYzMDI2
+NCwtMTQzNTA0NjE2MCwtMTM4OTEwNDQ0OSwtNDg5MzYwMjI1LD
+IwNDE2MTUzMjEsNzA1MDgxNDYzLC0xNDc4MDUzNTc3XX0=
 -->

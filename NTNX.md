@@ -87,7 +87,7 @@ The idea is you get a lot of higher level flexibility (which apps run where) and
 
 >"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
 
-Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from soft
+Also note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales.
 
 The main takeaway I have (after years of experience with AWS) is ... theres no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
 
@@ -96,9 +96,9 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 
 
 ### Containerisation
-Not sure how relevant this is, but containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application so your load-balancers can use more CPU.
+Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
 
-Standing up a new VM will take a while, unless you have one ready to go, so in the meantime, your application performance will suffer.
+Standing up a new VM will take a while (because you essentially have to install Windows/linux etc, unless you have one ready to go, so in the meantime, your application performance will suffer.
 
 Containers just use the underlying 'server' (or virtual machine) operating system and package everything else required to run your application. Containers tend to be pretty small, so can be easily sent around networks, and are much faster to install. You will already have a bunch of virtual machines running, so the idea is that you just install the container on an already running virtual machine, making scale up and down much (much!) faster.
 
@@ -510,7 +510,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjQyNzQ3OCwtMjYwNTk0NzM5LDM0Mj
+eyJoaXN0b3J5IjpbMTE4NTQ4Nzk3NCwtMjYwNTk0NzM5LDM0Mj
 c3MDcwNiwtMTQ0MTM0OTEzMCwtMTc5NTcwMTcyOCw2MjQ4Mzc1
 MjMsMTIwMjkyMzYwMCwtMTE4MDU1MzAsNTkwODcxNTI0LC0xMz
 czNjMwMjY0LC0xNDM1MDQ2MTYwLC0xMzg5MTA0NDQ5LC00ODkz

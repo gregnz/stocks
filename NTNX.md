@@ -64,7 +64,7 @@ Your clever software lets you see all your compute as something you can define. 
 
 But the secret is the software. It's very analogous to Arista. What Arista do for networks, Nutanix is doing for datacenters. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
 
-**Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners**
+**Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners.**
 
 
 ### Enterprise Cloud
@@ -520,8 +520,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjcxNTQ1OCwtMTA5OTA4ODI4LDEwOT
-EyNDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC0yMDczMTAy
-ODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNj
-UzNTgyODgsMTA3ODg5ODMzMSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMD
+kxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEw
+Mjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMz
+Y1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

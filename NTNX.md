@@ -346,12 +346,12 @@ Any decrease in revenue growth or margins (all things equal) will decrease this 
 
 #### DCF examples
 
----------|5 year compounded revenue growth rate | 20% | 25% | 30% | 40%
----------|--------------------------------------|-----|-----|-----|-----
+---------|5 year CAGR | 20% | 25% | 30% | 40%
+---------|------------|-----|-----|-----|-----
 Operating margin|Implied 10 year revenue.              |$38b |$57b |$75b |$129b
-20% |                                  | $93 |$118 |$149 |$237 
-30% |                                  | $140|$179 |$228 |$367
-40% |                                 | $194|$248 |$318 |$516
+20% |                 | $18 |$118 |$149 |$237 
+30% |                 | $140|$179 |$228 |$367
+40% |                 | $194|$248 |$318 |$516
 
 #### Comparisons
 Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
@@ -520,8 +520,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMD
-kxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEw
-Mjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMz
-Y1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbLTEzODE3MTAxODUsLTE4OTA2OTY1OTIsLT
+EwOTkwODgyOCwxMDkxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAw
+NTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMT
+AxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDky
+MTk5NTddfQ==
 -->

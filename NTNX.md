@@ -349,9 +349,9 @@ Any decrease in revenue growth or margins (all things equal) will decrease this 
 ---------|5 year CAGR | 20% | 25% | 30% | 35% | 40%
 ---------|------------|-----|-----|-----|-----|-----
 Operating margin|Implied 10 year revenue. |$38b |$57b |$75b |$129b
-20% |                 | $18 |$21 |$26 |$33 |$41
-30% |                 | $36 |$46 |$58 |$74 |$93
-40% |                 | $54 |$70 |$90 |$516
+20% |                 | $18 |$21 |$26 |$33  |$41
+30% |                 | $36 |$46 |$58 |$74  |$93
+40% |                 | $54 |$70 |$90 |$115 |$146
 
 #### Comparisons
 Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
@@ -520,7 +520,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU5ODI0NywtMTg5MDY5NjU5MiwtMT
+eyJoaXN0b3J5IjpbLTIzNTAzMDgyMSwtMTg5MDY5NjU5MiwtMT
 A5OTA4ODI4LDEwOTEyNDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1
 MTc0LC0yMDczMTAyODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMD
 E2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5ODMzMSwtMTA0OTIx

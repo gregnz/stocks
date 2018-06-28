@@ -335,7 +335,7 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 > but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
 
-I think the bottom line is that the transition to HCI is (IMO) inevitable, and Nutanix is a very strong player in the space. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software centric model.
+I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
@@ -520,8 +520,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwMzY1NTQsMTA5MTI0MTI2MiwxNT
-k4NDcyMjM3LC0xMzcwMDUxNzQsLTIwNzMxMDI4NCwxNTI2OTA0
-NjQzLC0yMTM3MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMD
-c4ODk4MzMxLC0xMDQ5MjE5OTU3XX0=
+eyJoaXN0b3J5IjpbMTUxMjcwMDI0LDEwOTEyNDEyNjIsMTU5OD
+Q3MjIzNywtMTM3MDA1MTc0LC0yMDczMTAyODQsMTUyNjkwNDY0
+MywtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3OD
+g5ODMzMSwtMTA0OTIxOTk1N119
 -->

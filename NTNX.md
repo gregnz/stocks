@@ -338,7 +338,7 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
 ### DCF
-Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
+Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$202_.
 
 Over the ten year period, revenue will grow to around $50b, around about the current revenues of Disney (2017 - $55b), Cisco ($49b), and Intel ($59b).
 
@@ -520,9 +520,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLT
-EwOTkwODgyOCwxMDkxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAw
-NTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMT
-AxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDky
-MTk5NTddfQ==
+eyJoaXN0b3J5IjpbMTA2MDQ4MDM4NCwtMTU3NTMyNDkyOSwtMT
+g5MDY5NjU5MiwtMTA5OTA4ODI4LDEwOTEyNDEyNjIsMTU5ODQ3
+MjIzNywtMTM3MDA1MTc0LC0yMDczMTAyODQsMTUyNjkwNDY0My
+wtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3ODg5
+ODMzMSwtMTA0OTIxOTk1N119
 -->

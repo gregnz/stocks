@@ -21,14 +21,14 @@ Except... what happens when you need more compute power? Or more hard drive spac
 
 Imagine doing that for hundreds of servers. This is what (expensive) teams of infrastructure people do. And generally, its easier to keep compute separate from storage, and have separate teams. Which is more expense, and slower trouble shooting.
 
-You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust those cloud people anyway.
+You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust your sensitive jellybean customer information to those cloud people anyway.
 
 #### A bit more on Hypervisors (feel free to skip)
 I glossed over the hypervisor above, and you can probably skip this section. But to recap, the Hypervisor is like a super-minimal operating system that lets multiple operating system in virtual machines to have access to the underlying hardware.
 
 There are 'type 1' and 'type 2' hypervisors. A type-1 hypervisor runs directly on the underlying hardware, while a 'type 2' needs an installed operating system. 
 
-MORE HERE about AVM
+TODO: MORE HERE about AVM
 
 ^1: I made this up. It's probably right. It's definitely mostly right.
 
@@ -518,7 +518,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjY1NjcyNiwxMDkxMjQxMjYyLDE1OT
+eyJoaXN0b3J5IjpbLTEwOTkwODgyOCwxMDkxMjQxMjYyLDE1OT
 g0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2
 NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNz
 g4OTgzMzEsLTEwNDkyMTk5NTddfQ==

@@ -100,9 +100,7 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 ##### Hardware agnostic
 A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
 
-Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales. 
-
-
+Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales, which suggests that cost of revenue will decrease and gross margins go up.
 
 #### Containerisation
 Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
@@ -520,8 +518,8 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjcwMDI0LDEwOTEyNDEyNjIsMTU5OD
-Q3MjIzNywtMTM3MDA1MTc0LC0yMDczMTAyODQsMTUyNjkwNDY0
-MywtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNjUzNTgyODgsMTA3OD
-g5ODMzMSwtMTA0OTIxOTk1N119
+eyJoaXN0b3J5IjpbMTUzMjY1NjcyNiwxMDkxMjQxMjYyLDE1OT
+g0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2
+NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNz
+g4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

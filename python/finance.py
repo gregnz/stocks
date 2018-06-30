@@ -8,7 +8,7 @@ import json
 import requests
 import matplotlib
 
-from DCF import DCF
+from dcf import DCF
 from dataloader import DataLoader
 
 matplotlib.use('TkAgg')

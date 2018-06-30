@@ -1,6 +1,4 @@
 # NTNX 
-GCon = 1 to 5 scale of ‘Gregs conviction’.  
-Most buzzwords are in the 'Definitions' section.
 
 ## My understanding
 Nutanix is a leader in 'Hyper-converged infrastructure'. Uh... cool.
@@ -23,14 +21,14 @@ Except... what happens when you need more compute power? Or more hard drive spac
 
 Imagine doing that for hundreds of servers. This is what (expensive) teams of infrastructure people do. And generally, its easier to keep compute separate from storage, and have separate teams. Which is more expense, and slower trouble shooting.
 
-You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust those cloud people anyway.
+You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust your sensitive jellybean customer information to those cloud people anyway.
 
 #### A bit more on Hypervisors (feel free to skip)
 I glossed over the hypervisor above, and you can probably skip this section. But to recap, the Hypervisor is like a super-minimal operating system that lets multiple operating system in virtual machines to have access to the underlying hardware.
 
 There are 'type 1' and 'type 2' hypervisors. A type-1 hypervisor runs directly on the underlying hardware, while a 'type 2' needs an installed operating system. 
 
-MORE HERE about AVM
+TODO: MORE HERE about AVM
 
 ^1: I made this up. It's probably right. It's definitely mostly right.
 
@@ -50,7 +48,7 @@ At a basic level, HCI is convergence plus. The appliances are physically smaller
 
 So you give up even more flexibility to gain more simplicity.
 
-So this is what Nutanix do (sort of. Not completely. See below). They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
+So this is what Nutanix do (Kind of. It's the basis of what they do. See below). They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
 
 For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute units (each with a storage controller) and each with a configurable number of SSDs and HDDs in a 2U form factor. The software replicates data across units (and across cluster) (as opposed to RAID which uses redundant disk space or drives on the same unit). Adding a new appliance, just rack and stack, the node is auto discovered, and can be set up with a couple of clicks in the UI.
 
@@ -66,12 +64,13 @@ Your clever software lets you see all your compute as something you can define. 
 
 But the secret is the software. It's very analogous to Arista. What Arista do for networks, Nutanix is doing for datacenters. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
 
+**Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners.**
+
 
 ### Enterprise Cloud
 Thats the private datacenter story. It's really a simplicity versus cost story, and personally I found it pretty compelling. Is it more compelling than the other options? Not sure.
 
-However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface. 
-
+However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface.
 
 #### My understanding...
 
@@ -88,32 +87,52 @@ In summary, you get:
 
 The idea is you get a lot of higher level flexibility (which apps run where) and simplicity, and the ability to focus on managing applications and selling jellybeans, rather than having expensive teams setting up servers and hard drives all day. In exchange, you lock into a HCI provider (I can't see it making a lot of sense to mix and match HCI providers), give up the hardware level flexibility and pay the fee.
 
->"It took longer to open the boxes and rack the servers than to set them up" Kawa Ferid, Infrastructure director Hyundai Australia (from a Nutanix video)
+In the beginning, I was pegging Nutanix more or less as an HCI provider with some nice software, which is sort of true, but ...
 
-### Containerisation
-Not sure how relevant this is, but containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application so your load-balancers can use more CPU.
+>We are a compute storage networking security and application mobility company. It's an entire operating system
 
-Standing up a new VM will take a while, unless you have one ready to go, so in the meantime, your application performance will suffer.
+Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
 
-Containers just use the underlying 'server' (or virtual machine) operating system and package everything else required to run your application. Containers tend to be pretty small, so can be easily sent around networks, and are much faster to install. You will already have a bunch of virtual machines running, so the idea is that you just install the container on an already running virtual machine, making scale up and down much (much!) faster.
+I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
+
+The main takeaway I have (after years of experience with AWS) is ... there's no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
+
+The only question is, how much of the market can Nutanix capture, and at what margins?
+
+##### Hardware agnostic
+A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
+
+Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales, which suggests that cost of revenue will decrease and gross margins go up.
+
+#### Containerisation
+Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
+
+Standing up a new VM will take a while because you essentially have to stand up a whole new (virtual) machine (unless you have one sitting there waiting) so in the meantime, your application performance will suffer.
+
+Containers just use the underlying server (or virtual machine) operating system and package everything else required to run your application. Containers tend to be pretty small (because they don't include the whole operating system unlike VMs), so can be easily sent around networks, and are much faster to install. You will already have a bunch of virtual machines running, so the idea is that you just install the container on an already running virtual machine that is running on a server with a bit of capacity, making scale up and down much (much!) faster.
 
 The use cases are mostly different however. Containerisation makes sense when running multiple copies of the same application. Virtualisation is running multiple machines (which can then run multiple containers). Scaling up becomes a 'simple' matter of targetting a cluster of machines, and asking the provisioning software to make sure there are enough instances running (this is what Pivotal.io do).
 
+Incidentally, you'll hear the Kubernetes word whenever you're looking at this space. Kubernetes organises the deployment and automatic scaling of containers, and is pretty much the (low-level) standard for doing this.
 
-hardware (CI/HCI) -> Software (Virtualization) -> 
 
 ### Other offerings
-Simplivity (HPE)
+#### HPE Simplivity
+Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
+
 HyperFlex (Cisco)
+HP OneView.
+
+Azure Stack.
 
 
 ### Products
 #### Acropolis
 > Distributed storage fabric, Acropolis hypervisor, app mobility fabric.
 
-As far as I can figure, Acropolis is the software that makes all the Nutanix appliances talk to each other and perform their functions. These functions include provision of the virtualisation/hypervisor functionality for the appliances (AHV - not sure how many installs actually use the Acropolis Hypervisor as opposed to other flavours), storage services (including caching, duplication and compression), networking capabilities for the appliances, backup and disaster recovery and I'm sure other stuff.
+Acropolis is the software that makes all the Nutanix appliances talk to each other and perform their functions. These functions include provision of the virtualisation/hypervisor functionality for the appliances (AHV - not sure how many installs actually use the Acropolis Hypervisor as opposed to other flavours), storage services (including caching, duplication and compression), networking capabilities for the appliances, backup and disaster recovery and I'm sure other stuff.
 
-Consider it the operating system for Nutanix.
+It's the operating system for Nutanix.
 
 #### Prism
 > A unified management plane to manage applications and infrastructure across different datacenters and clouds. Prism enables comprehensive datacenter management, operational insights, planning, and performance.
@@ -141,7 +160,7 @@ Summary: analytics for all your clouds! It plugs into Prism.
 
 This comes from the company’s recent acquisition of Netsil.
 
-I don't really get what it does. But my best guess is that it extends Prism to allow application level security and firewall specification at a 'higher than app level, lower than perimeter (ie datacenter) level'. For example, in AWS you can specify security groups inside your cloud. Each security group is essentially a firewall, and has different ports allowed access.
+My best guess into Flow is that it extends Prism to allow application level security and firewall specification at a 'higher than app level, lower than perimeter (ie datacenter) level'. For example, in AWS you can specify security groups inside your cloud. Each security group is essentially a firewall, and has different ports allowed access.
 
 On reflection, I believe Flow is really starting to move into the AWS/Security group space. They seem to be building out AWS type capability across the low-level components of datacenter and application deployment. What I mean by that is the blocks that you need in order to get applications to run. They don't package up databases etc. as AWS does, but focus on the server management and security side of things.
 
@@ -163,28 +182,12 @@ Xi Cloud is interesting. My first view on seeing some discussion with the CEO wa
 
 
 
-### Thoughts (FWIW)
-In the beginning... I was pegging Nutanix more or less as an HCI provider with some nice software. Which is pretty much what they are. Interestingly however, they seem to be moving into the space of the public cloud giants, not so much in terms of offering, but in terms of being the gateway to those public clouds.
-
-The weakness of public clouds is that they have no support for on-premise infrastructure, which is Nutanix's bread and butter. 
-
-This seems to be where Nutanix is heading, to be the integration layer between on-premise infrastructure and public cloud. So end-users of the 'cloud' interact with Nutanix Prism, that abstracts all the cloud components.
-
-This approach (if correct) would be a big software play. They would need to build out a big chunk of AWS/Azure's API, add their own interface (ie, Prism) and make sure everything worked seamlessly. That's a pretty big job.
-
-#### HPE Simplivity
-Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
 
 
-HP OneView.
-
-Azure Stack.
-    
 
 ## Numbers
 
-
-### Basic data (TMF1000)
+### Basic data (based on TMF1000)
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
 * TTM Revenue was 1.025b up (59.6%) from 642.25m 
@@ -198,51 +201,76 @@ Azure Stack.
 * Cash flow for quarter was -788k down (102.5%) from 31.58m
 * Cash flow for TTM was 17.26m up (194.8%) from -18.20m
 * Cash flow per share for TTM was $0.10
-* Gross margins was 0.67 up (7.7%) from 0.62
+* Gross margins was 67% up (7.7%) from 62%
 * CapExp was 14.10m up (0.5%) from 14.03m
 
-### Ranges min, max [last]
+### Last reported quarter ranges min, max [last]
 
-* Trading range between Jan 01, 2018 - Jun 25, 2018 was 30.34 to 63.71 [54.34]
-* Market cap between Jan 01, 2018 - Jun 25, 2018 was 4.985b to 10.468b [8.929b]
-* PE range (Jan 01, 2018 - Jun 25, 2018) not applicable (earnings < 0)
-* PS ratio range (Jan 01, 2018 - Jun 25, 2018) was 4.94 to 10.37 [8.84]
-* Free cash flow yield range (Jan 01, 2018 - Jun 25, 2018) was 0.16 to 0.35 [0.19]
-* EV/Sales between Jan 01, 2018 - Jun 25, 2018 was 17.38 to 36.33 [31.01]
+* Trading range between Sep 01, 2017 - Mar 31, 2018 was 22.85 to 54.66 [49.11]
+* Market cap between Sep 01, 2017 - Mar 31, 2018 was 3.666b to 8.981b [8.069b]
+* PE range (Sep 01, 2017 - Mar 31, 2018) not applicable (earnings < 0)
+* PS ratio range (Sep 01, 2017 - Mar 31, 2018) was 3.72 to 8.90 [7.99]
+* Free cash flow yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
+* EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
+
+### Most recent quarter ranges min, max [last] 
+uses more recent price data with last reported results.
+
+TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
+
+* Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
+* Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
+* PE range (Mar 01, 2018 - Jun 27, 2018) not applicable (earnings < 0)
+* PS ratio range (Mar 01, 2018 - Jun 27, 2018) was 7.76 to 10.37 [8.40]
+* Free cash flow yield range (Mar 01, 2018 - Jun 27, 2018) was 0.16 to 0.22 [0.20]
+* EV/Sales between Mar 01, 2018 - Jun 27, 2018 was 7.80 to 10.41 [8.45]
 
 ### Revenue
 
-| Quarter   | Revenue   | TTM     | Change (q-1)   | Change (YoY)   |
-|:----------|:----------|:--------|:---------------|:---------------|
-| 2015Q2    |           |         |                |                |
-| 2015Q3    | 87.76m    |         |                |                |
-| 2015Q4    | 102.70m   |         | 17%            |                |
-| 2016Q1    | 114.69m   |         | 12%            |                |
-| 2016Q2    | 139.78m   | 444.93m | 22%            |                |
-| 2016Q3    | 188.56m   | 545.73m | 35%            | 115%           |
-| 2016Q4    | 199.21m   | 642.25m | 6%             | 94%            |
-| 2017Q1    | 205.67m   | 733.23m | 3%             | 79%            |
-| 2017Q2    | 173.42m   | 766.87m | -16%           | 24%            |
-| 2017Q3    | 275.55m   | 853.86m | 59%            | 46%            |
-| 2017Q4    | 286.74m   | 941.39m | 4%             | 44%            |
-| 2018Q1    | 289.41m   | 1.025b  | 1%             | 41%            |
+| Quarter   | Revenue   | TTM     | 𝝳 (q-1)   | 𝝳 (YoY)   |
+|:----------|:----------|:--------|:----------|:----------|
+| 2015Q2    |           |         |           |           |
+| 2015Q3    | 87.76m    |         |           |           |
+| 2015Q4    | 102.70m   |         | 17%       |           |
+| 2016Q1    | 114.69m   |         | 12%       |           |
+| 2016Q2    | 139.78m   | 444.93m | 22%       |           |
+| 2016Q3    | 188.56m   | 545.73m | 35%       | 115%      |
+| 2016Q4    | 199.21m   | 642.25m | 6%        | 94%       |
+| 2017Q1    | 205.67m   | 733.23m | 3%        | 79%       |
+| 2017Q2    | 173.42m   | 766.87m | -16%      | 24%       |
+| 2017Q3    | 275.55m   | 853.86m | 59%       | 46%       |
+| 2017Q4    | 286.74m   | 941.39m | 4%        | 44%       |
+| 2018Q1    | 289.41m   | 1.025b  | 1%        | 41%       |
+
+Revenue for Nutanix comes from 3 major parts,
+ 1. Software sales
+ 2. Hardware sales
+ 3. Services
+So (almost) all of the deferred revenue comes from the services section, see below for a discussion.
+
+Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quarters. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (TODO - Fill in CC discussion).
+
+Q1 and Q3 are reputedly weak...
+
+
 
 ### Deferred revenue
 
-| Quarter   | Def.Revenue   | Change (q-1)   | Change (YoY)   |
-|:----------|:--------------|:---------------|:---------------|
-| 2015Q2    | 103.60m       |                |                |
-| 2015Q3    |               | 0%             |                |
-| 2015Q4    |               | 0%             |                |
-| 2016Q1    |               | 0%             |                |
-| 2016Q2    | 296.46m       | 186%           | 186%           |
-| 2016Q3    | 375.43m       | 27%            | 262%           |
-| 2016Q4    | 420.62m       | 12%            | 306%           |
-| 2017Q1    | 463.00m       | 10%            | 347%           |
-| 2017Q2    | 369.06m       | -20%           | 24%            |
-| 2017Q3    | 408.84m       | 11%            | 9%             |
-| 2017Q4    | 478.00m       | 17%            | 14%            |
-| 2018Q1    | 539.89m       | 13%            | 17%            |
+| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings (Rev + 𝝳 def. rev) 
+|:----------|:--------------|:----------|:----------|:---------------------|
+| 2016Q2    | 296.46m       |           |           |                      |
+| 2016Q3    | 375.43m       | 27%       | 262%      | 267.53m              |
+| 2016Q4    | 420.62m       | 12%       | 306%      | 244.40m              |
+| 2017Q1    | 463.00m       | 10%       | 347%      | 248.05m              |
+| 2017Q2    | 369.06m       | -20%      | 24%       | 79.48m               |
+| 2017Q3    | 408.84m       | 11%       | 9%        | 315.34m              |
+| 2017Q4    | 478.00m       | 17%       | 14%       | 355.90m              |
+| 2018Q1    | 539.89m       | 13%       | 17%       | 351.30m              |
+
+Deferred revenue really confused me. I didn't think Nutanix had any sort of subscription revenue, so ... where was all the deferred revenue coming from? Reading the 10Q's seemed to confirm my initial thoughts. I contacted Investor Relations (who were really helpful) who confirmed that the deferred revenue is almost all from support contracts. So very little to no subscription revenue.
+
+>The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
+
 
 ### Margins
 
@@ -270,9 +298,10 @@ Azure Stack.
 | 2017Q4    | 32.37m  |
 | 2018Q1    | -788k   |
 
+
 ### Capital structure
 
-|        | cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
+|        | Cash    | Investments   | Cash and investments   | Working Capital   | Debt    |   Debt to Equity |   Interest |
 |:-------|:--------|:--------------|:-----------------------|:------------------|:--------|-----------------:|-----------:|
 | 2016Q2 | 99.21m  | 85.99m        | 185.20m                | 117.10m           | 73.26m  |            -0.19 |          0 |
 | 2016Q3 | 225.46m | 121.65m       | 347.11m                | 272.44m           | 0.00    |             0    |          0 |
@@ -282,6 +311,8 @@ Azure Stack.
 | 2017Q3 | 132.46m | 233.49m       | 365.94m                | 273.95m           | 0.00    |             0    |          0 |
 | 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
 | 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
+
+Capital structure looks pretty sound. The debt component is the convertible note offering that was announced in January 2018 which allows note holders to convert to stock at a price of about $48.85 dollars. There are several clauses as to when the notes can be exercised... TODO MORE HERE. Is it even relevant? Check TMF1000 to see the kind of commentary
 
 ### Expenses
 
@@ -298,23 +329,29 @@ Azure Stack.
 
 
 ### Comments
-Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%. 
+Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
+
+A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
+
+> but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
+
+I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
 ### DCF
-Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
+The current share price is at $52 (28 June 18). Using a compounded revenue growth rate of 25% over the next 5 years (dropping to 2.25% over the next 5) and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$46_. 
 
-Over the ten year period, revenue will grow to around $50b, around about the current revenues of Disney (2017 - $55b), Cisco ($49b), and Intel ($59b).
+Over the ten year period, revenue will grow to around $5.3b.
 
 Any decrease in revenue growth or margins (all things equal) will decrease this share price.
 
 #### DCF examples
 
----------|5 year compounded revenue growth rate | 20% | 25% | 30% | 40%
----------|--------------------------------------|-----|-----|-----|-----
-Operating margin|Implied 10 year revenue.              |$38b |$57b |$75b |$129b
-20% |                                  | $93 |$118 |$149 |$237 
-30% |                                  | $140|$179 |$228 |$367
-40% |                                 | $194|$248 |$318 |$516
+---------|5 year CAGR | 20% | 25% | 30% | 35% | 40%
+---------|------------|-----|-----|-----|-----|-----
+Operating margin|Implied 10 year revenue. |$4b |$5.3b |$7b |$9.2b | $12b
+20% |                 | $18 |$21 |$26 |$33  |$41
+30% |                 | $36 |$46 |$58 |$74  |$93
+40% |                 | $54 |$70 |$90 |$115 |$146
 
 #### Comparisons
 Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
@@ -483,7 +520,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM2MzAyNjQsLTE0MzUwNDYxNjAsLT
-EzODkxMDQ0NDksLTQ4OTM2MDIyNSwyMDQxNjE1MzIxLDcwNTA4
-MTQ2MywtMTQ3ODA1MzU3N119
+eyJoaXN0b3J5IjpbLTEyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLT
+E4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMjYyLDE1OTg0
+NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2ND
+MsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4
+OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

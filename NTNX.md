@@ -269,6 +269,8 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 
 >The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
 
+Deferred revenue is ... pretty substantial, although they also have deferred commissions payable, which takes a little of the shine off (for example, in the 
+
 
 ### Margins
 
@@ -353,11 +355,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OT
-U2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEw
-ODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLT
-g0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMjI5NzY4
-NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5MDg4Mj
-gsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0xMzcwMDUxNzQsLTIw
-NzMxMDI4NF19
+eyJoaXN0b3J5IjpbLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NT
+UyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4
+MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLD
+EzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5
+MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NT
+kyLC0xMDk5MDg4MjgsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0x
+MzcwMDUxNzRdfQ==
 -->

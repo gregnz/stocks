@@ -179,12 +179,7 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 >One of the first applications for this approach is disaster recovery as a service, where Nutanix on premise customers can access the cloud service using Xi and run the primary applications there, should there be a problem with the on premise systems.
 
-Xi Cloud is interesting. My first view on seeing some discussion with the CEO was that they were trying to replicate AWS, Azure etc. My current understanding is that Xi is actually an integration layer between Nutanix Prism and public cloud.
-
-
-
-
-
+TODO
 
 
 ## Numbers
@@ -520,7 +515,7 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzIyODAyNywzMTkyOTI0MSwtMTIyOT
+eyJoaXN0b3J5IjpbMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOT
 c2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4
 ODI4LDEwOTEyNDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC
 0yMDczMTAyODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDky

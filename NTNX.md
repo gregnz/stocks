@@ -249,7 +249,7 @@ Revenue is growing strongly, although theres a bit of a slowing in growth going 
 
 Q1 and Q3 are reputedly weak...
 
-
+TODO
 
 ### Deferred revenue
 
@@ -515,10 +515,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOT
-c2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4
-ODI4LDEwOTEyNDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC
-0yMDczMTAyODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDky
-MDUzLC0zNjUzNTgyODgsMTA3ODg5ODMzMSwtMTA0OTIxOTk1N1
-19
+eyJoaXN0b3J5IjpbLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOT
+I5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2
+NTkyLC0xMDk5MDg4MjgsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC
+0xMzcwMDUxNzQsLTIwNzMxMDI4NCwxNTI2OTA0NjQzLC0yMTM3
+MDEyLDEwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMxLC
+0xMDQ5MjE5OTU3XX0=
 -->

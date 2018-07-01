@@ -340,9 +340,7 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 ### DCF
 The current share price is at $52 (28 June 18). Using a compounded revenue growth rate of 25% over the next 5 years (dropping to 2.25% over the next 5) and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$46_. 
 
-Over the ten year period, revenue will grow to around $5.3b.
-
-Any decrease in revenue growth or margins (all things equal) will decrease this share price.
+Over the ten year period using these values, revenue will grow to around $5.3b. Any increase (decrease) in revenue growth or margins (all things equal) will increase (decrease) this share price.
 
 #### DCF examples
 
@@ -520,9 +518,9 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLT
-E4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMjYyLDE1OTg0
-NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1MjY5MDQ2ND
-MsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LDEwNzg4
-OTgzMzEsLTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1Nz
+UzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQx
+MjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LD
+E1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4
+Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
 -->

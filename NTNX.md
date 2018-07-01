@@ -201,7 +201,7 @@ TODO
 * Gross margins was 67% up (7.7%) from 62%
 * CapExp was 14.10m up (0.5%) from 14.03m
 
-Cash flow is pretty up and down (tending down!), but not huge amounts. Nutanix is losing money, and there doesn't really seem to be any indication that they'll stop anytime soon. The numbers don't sugge
+Cash flow is pretty up and down (tending down!), but not huge amounts. Nutanix is losing money, and there doesn't really seem to be any indication that they'll stop anytime soon. Nothing super concerning, and good to see the improvement in gross margins.
 
 TODO: What was the 32m FCF in Q4 2017?
 
@@ -356,11 +356,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2NDUxOTIsMTU5Njk0MTA4OCwyNT
-c3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEz
-MTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLT
-E1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkx
-MjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMj
-g0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1
-MzU4Mjg4XX0=
+eyJoaXN0b3J5IjpbLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nz
+c1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMx
+NjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMT
+U3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEwOTEy
+NDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC0yMDczMTAyOD
+QsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNjUz
+NTgyODhdfQ==
 -->

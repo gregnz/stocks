@@ -66,6 +66,8 @@ But the secret is the software. It's very analogous to Arista. What Arista do fo
 
 **Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners.**
 
+**Note: Nutanix is not a SaaS company (at the moment). Very little of their revenue comes from subscripti**
+
 
 ### Enterprise Cloud
 Thats the private datacenter story. It's really a simplicity versus cost story, and personally I found it pretty compelling. Is it more compelling than the other options? Not sure.
@@ -518,9 +520,10 @@ Virtual storage appliance - A virtual storage appliance (VSA) is a storage contr
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1Nz
-UzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQx
-MjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LD
-E1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4
-Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbLTI1NDEwNjg4LDMxOTI5MjQxLC0xMjI5Nz
+Y4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5MDg4
+MjgsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0xMzcwMDUxNzQsLT
+IwNzMxMDI4NCwxNTI2OTA0NjQzLC0yMTM3MDEyLDEwMTY0OTIw
+NTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMxLC0xMDQ5MjE5OTU3XX
+0=
 -->

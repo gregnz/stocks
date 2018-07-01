@@ -96,7 +96,7 @@ In the beginning, I was pegging Nutanix more or less as an HCI provider with som
 and
 > We now have a meaningful competitive advantage in being the most portable operating system built for the enterprise cloud. This kept growing our total addressable market as we ported our software to all these platforms in the last three years. A software only form factor gives us ubiquity.
 
-So all the hardware stuff I mentioned above... you can pretty much forget about it. Nutanix's play is to be the datacenter operating system, which works across your datacenter and across the cloud.
+So all the cool hardware stuff I mentioned above... you can pretty much forget about it. Nutanix's play is to be the datacenter operating system, which works across your datacenter and across the cloud.
 
 Nutanix wants to be the integration layer across on-premise infrastructure and public cloud. You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
 
@@ -361,7 +361,7 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDI4ODIyMSwtMTQwOTQ2OTA4NywtNT
+eyJoaXN0b3J5IjpbMTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNT
 QzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5
 ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLD
 MxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkw

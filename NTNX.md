@@ -211,7 +211,7 @@ TODO: What was the 32m FCF in Q4 2017?
 * Market cap between Sep 01, 2017 - Mar 31, 2018 was 3.666b to 8.981b [8.069b]
 * PE range (Sep 01, 2017 - Mar 31, 2018) not applicable (earnings < 0)
 * PS ratio range (Sep 01, 2017 - Mar 31, 2018) was 3.72 to 8.90 [7.99]
-* Free cash flow yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
+* Free cash flow yield (TTM) range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
 * EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
 
 ### Most recent quarter ranges min, max [last] 
@@ -356,11 +356,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nz
-c1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMx
-NjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMT
-U3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEwOTEy
-NDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MTc0LC0yMDczMTAyOD
-QsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2NDkyMDUzLC0zNjUz
-NTgyODhdfQ==
+eyJoaXN0b3J5IjpbLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
+k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4
+NTA0LC04NDE4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMT
+IyOTc2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5
+OTA4ODI4LDEwOTEyNDEyNjIsMTU5ODQ3MjIzNywtMTM3MDA1MT
+c0LC0yMDczMTAyODQsMTUyNjkwNDY0MywtMjEzNzAxMiwxMDE2
+NDkyMDUzXX0=
 -->

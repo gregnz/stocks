@@ -203,6 +203,8 @@ TODO
 
 Cash flow is pretty up and down (tending down!), but not huge amounts. Nutanix are losing money, and there doesn't really seem to be any indication that they'll stop anytime soon.
 
+TODO: What was the 32m FCF in Q4 2017?
+
 ### Last reported quarter ranges min, max [last]
 
 * Trading range between Sep 01, 2017 - Mar 31, 2018 was 22.85 to 54.66 [49.11]
@@ -354,7 +356,7 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4ODI5MCwyNTc3NTg3OTUsLTE5MT
+eyJoaXN0b3J5IjpbMTU5Njk0MTA4OCwyNTc3NTg3OTUsLTE5MT
 YyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMzU0OTk2
 NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLT
 E4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMjYyLDE1OTg0

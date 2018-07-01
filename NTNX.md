@@ -348,22 +348,15 @@ Operating margin|Implied 10 year revenue. |$4b |$5.3b |$7b |$9.2b | $12b
 30% |                 | $36 |$46 |$58 |$74  |$93
 40% |                 | $54 |$70 |$90 |$115 |$146
 
-#### Comparisons
-Revenues (2017) for comparison include Amazon ($135b), Microsoft ($85b), Alphabet ($90b), Cisco ($49b), Oracle ($37b).
-
-Company      | Rev (TTM)| Rev Growth% | OpMargin% | NP %
--------------|----------|-----|-----|-----
-Amazon       | $93      |$118 |$149 |$237 
-Microsoft    | $140.    |$179 |$228 |$367
-Alphabet     | $111b    |23% |24% |20%
 
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMz
-U0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5
-MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMjYyLD
-E1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1MjY5
-MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1MywtMzY1MzU4Mjg4LD
-EwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
+eyJoaXN0b3J5IjpbLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtOD
+QxODEzMTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3
+MjQsLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOC
+wxMDkxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3
+MzEwMjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1My
+wtMzY1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
+
 -->

@@ -324,16 +324,6 @@ Capital structure looks pretty sound. The debt component is the convertible note
 | 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
 | 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
 
-
-### Comments
-Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
-
-A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
-
-> but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
-
-I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
-
 ### DCF
 The current share price is at $52 (28 June 18). Using a compounded revenue growth rate of 25% over the next 5 years (dropping to 2.25% over the next 5) and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$46_. 
 
@@ -349,14 +339,24 @@ Operating margin|Implied 10 year revenue. |$4b |$5.3b |$7b |$9.2b | $12b
 40% |                 | $54 |$70 |$90 |$115 |$146
 
 
+
+### Comments
+Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
+
+A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
+
+> but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
+
+I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
+
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtOD
-QxODEzMTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3
-MjQsLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOC
-wxMDkxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3
-MzEwMjg0LDE1MjY5MDQ2NDMsLTIxMzcwMTIsMTAxNjQ5MjA1My
-wtMzY1MzU4Mjg4LDEwNzg4OTgzMzEsLTEwNDkyMTk5NTddfQ==
-
+eyJoaXN0b3J5IjpbMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMT
+cwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQx
+LC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC
+0xMDk5MDg4MjgsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0xMzcw
+MDUxNzQsLTIwNzMxMDI4NCwxNTI2OTA0NjQzLC0yMTM3MDEyLD
+EwMTY0OTIwNTMsLTM2NTM1ODI4OCwxMDc4ODk4MzMxLC0xMDQ5
+MjE5OTU3XX0=
 -->

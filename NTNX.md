@@ -250,11 +250,7 @@ Revenue for Nutanix comes from 3 major parts,
  3. Services
 So (almost) all of the deferred revenue comes from the services section, see below for a discussion.
 
-Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quarters. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (TODO - Fill in CC discussion).
-
-Q1 and Q3 are reputedly weak...
-
-TODO
+Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quarters. They are transitioning from hardware sales to software sales, with less revenue coming from hardware as they build Acropolis etc to be ubiquitous across different hardware platforms.
 
 ### Deferred revenue
 
@@ -357,11 +353,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg0NDAyMDksLTU1NTI1NzQ3MSwxMT
-g5NTYyNjI2LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0
-MTA4OCwyNTc3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNC
-wtODQxODEzMTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3
-Njg3MjQsLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwOD
-gyOCwxMDkxMjQxMjYyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwt
-MjA3MzEwMjg0XX0=
+eyJoaXN0b3J5IjpbNzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OT
+U2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEw
+ODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLT
+g0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMjI5NzY4
+NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5MDg4Mj
+gsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0xMzcwMDUxNzQsLTIw
+NzMxMDI4NF19
 -->

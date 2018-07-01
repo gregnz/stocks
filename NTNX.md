@@ -96,9 +96,7 @@ In the beginning, I was pegging Nutanix more or less as an HCI provider with som
 and
 > We now have a meaningful competitive advantage in being the most portable operating system built for the enterprise cloud. This kept growing our total addressable market as we ported our software to all these platforms in the last three years. A software only form factor gives us ubiquity.
 
-So all the cool hardware stuff I mentioned above... you can pretty much forget about it. Nutanix's play is to be the datacenter operating system, which works across your datacenter and across the cloud.
-
- You stop caring about public versus private compute, and just use what you need when you need it, within whatever policy you have for putting things on public clouds.
+So all the cool hardware stuff I mentioned above... you can pretty much forget about it. Nutanix wants to be the "enterprise cloud operating systems company", which works across your datacenter and across the cloud.
 
 I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
@@ -361,11 +359,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE3OTM1MDYsMTE4OTU2MjYyNiwtMT
-QwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4
-Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NS
-wyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1
-MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5MDg4MjgsMTA5MTI0MT
-I2MiwxNTk4NDcyMjM3LC0xMzcwMDUxNzQsLTIwNzMxMDI4NCwx
-NTI2OTA0NjQzXX0=
+eyJoaXN0b3J5IjpbLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xND
+A5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3
+OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LD
+IwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUz
+MjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMj
+YyLDE1OTg0NzIyMzcsLTEzNzAwNTE3NCwtMjA3MzEwMjg0LDE1
+MjY5MDQ2NDNdfQ==
 -->

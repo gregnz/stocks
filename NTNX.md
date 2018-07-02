@@ -159,30 +159,31 @@ I expect Nutanix to build out capabilities in Xi Cloud for those common use-case
 
 ### Basic data (based on TMF1000)
 
+
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
-* TTM Revenue was 1.025b up (59.6%) from 642.25m 
-* TTM Revenue per share was 6.39 down (33.6%) from 9.63
-* Earnings (prev quarter): was -0.51 down (30.8%) from -0.39
+* TTM Revenue was 1.025b up (39.8%) from 733.23m 
+* TTM Revenue per share (diluted) was 6.39 down (24.6%) from 8.48
+* EPS diluted (prev quarter): was -0.51 down (30.8%) from -0.39
 * Earnings (same quarter prev year): was -0.51 up (23.9%) from -0.67
-* TTM eps was -1.79 up (61.0%) from -4.59
+* TTM eps was -1.79 up (57.5%) from -4.21
 * Diluted share count was 166.85m up (15.8%) from 144.05m
-* Cash  was 376.79m down (38.3%) from 610.45m (prev quarter)
+* Cash and short-term investments  was 923.46m up (0.6%) from 918.25m (prev quarter)
 * Debt (prev quarter) was 422.57m up (1.7%) from 415.65m (prev quarter)
 * Cash flow for quarter was -788k down (102.5%) from 31.58m
-* Cash flow for TTM was 17.26m up (194.8%) from -18.20m
+* Cash flow for TTM was 17.26m up (147.4%) from -36.40m
 * Cash flow per share for TTM was $0.10
-* Gross margins was 67% up (7.7%) from 62%
+* Gross margins was 0.67 up (7.7%) from 0.62
 * CapExp was 14.10m up (0.5%) from 14.03m
+
 
 Cash flow is pretty up and down (tending down!), but not huge amounts. Nutanix is losing money, and there doesn't really seem to be any indication that they'll stop anytime soon. Nothing super concerning, and good to see the improvement in gross margins, which is (I'm guessing) a result of the movement to software-only sales.
 
 ### Last reported quarter ranges min, max [last]
-
 * Trading range between Sep 01, 2017 - Mar 31, 2018 was 22.85 to 54.66 [49.11]
 * Market cap between Sep 01, 2017 - Mar 31, 2018 was 3.666b to 8.981b [8.069b]
 * PE range (Sep 01, 2017 - Mar 31, 2018) not applicable (earnings < 0)
 * PS ratio range (Sep 01, 2017 - Mar 31, 2018) was 3.72 to 8.90 [7.99]
-* Free cash flow yield (TTM) range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
+* Free cash flow (TTM) yield range (Sep 01, 2017 - Mar 31, 2018) was 0.19 to 0.47 [0.21]
 * EV/Sales between Sep 01, 2017 - Mar 31, 2018 was 3.39 to 8.81 [7.92]
 
 ### Most recent quarter ranges min, max [last] 
@@ -334,11 +335,5 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjIxNjU0MiwxMzEzMTUyOCwtODU5Nj
-I5NjkzLDc4MzkzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0x
-ODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1Nj
-I2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4
-LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04ND
-E4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcy
-NF19
+eyJoaXN0b3J5IjpbLTEzMzE2MzE5NjRdfQ==
 -->

@@ -358,9 +358,8 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
-They also report 33% of their NX nodes are using their own AHV hypervisor. This rate is not growing super-fast (probably because adopters already have purchased alternate hypervisors and support) but I would imagine use of the (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI0NjEwNiw1ODIxNTQ1NzcsLTE4OD
+eyJoaXN0b3J5IjpbMjAzODA2ODUzMSw1ODIxNTQ1NzcsLTE4OD
 U3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OTU2MjYy
 NiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMj
 U3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgx

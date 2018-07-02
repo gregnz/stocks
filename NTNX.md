@@ -189,14 +189,12 @@ Cash flow is pretty up and down (tending down!), but not huge amounts. Nutanix i
 ### Most recent quarter ranges min, max [last] 
 uses more recent price data with last reported results.
 
-TODO: THE MAR 01 2018 Number is wrong. It should be APR 1 2018
-
-* Trading range between Mar 01, 2018 - Jun 27, 2018 was 47.66 to 63.71 [51.64]
-* Market cap between Mar 01, 2018 - Jun 27, 2018 was 7.952b to 10.630b [8.485b]
-* PE range (Mar 01, 2018 - Jun 27, 2018) not applicable (earnings < 0)
-* PS ratio range (Mar 01, 2018 - Jun 27, 2018) was 7.76 to 10.37 [8.40]
-* Free cash flow yield range (Mar 01, 2018 - Jun 27, 2018) was 0.16 to 0.22 [0.20]
-* EV/Sales between Mar 01, 2018 - Jun 27, 2018 was 7.80 to 10.41 [8.45]
+* Trading range between Apr 01, 2018 - Jun 30, 2018 was 47.66 to 63.71 [51.57]
+* Market cap between Apr 01, 2018 - Jun 30, 2018 was 7.952b to 10.630b [8.473b]
+* PE range (Apr 01, 2018 - Jun 30, 2018) not applicable (earnings < 0)
+* PS ratio range (Apr 01, 2018 - Jun 30, 2018) was 7.76 to 10.37 [8.39]
+* Free cash flow (TTM) yield range (Apr 01, 2018 - Jun 30, 2018) was 0.16 to 0.22 [0.20]
+* EV/Sales between Apr 01, 2018 - Jun 30, 2018 was 7.27 to 9.88 [7.90]
 
 ### Revenue
 
@@ -335,5 +333,5 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE2MzE5NjRdfQ==
+eyJoaXN0b3J5IjpbNzMyNTI0OTExLC0xMzMxNjMxOTY0XX0=
 -->

@@ -11,9 +11,9 @@ And then what happens? Someone wants to run a reporting application. Except it r
 
 Virtualisation splits your physical server into abstract servers. Normally, your operating system interacts with the hardware (memory, cpu, harddrive etc) of your server. However, install some special software called a _Hypervisor_, and the OS talks to the hypervisor, and the hypervisor then talks to the actual hardware.
 
-What does that do? It lets you install multiple pretend-computers (virtual machines) on your single server. The hypervisor is in charge of divvying up the server resources (memory, compute, storage etc) to each virtual machines. Each virtual machine has no idea it's running on a single server, its all hidden by the hypervisor.
+What does that do? It lets you install multiple abstract servers (virtual machines) on your single server. The hypervisor is in charge of divvying up the server resources (memory, compute, storage etc) to each virtual machine. Each virtual machine has no idea it's running on a single server, its all hidden by the hypervisor.
 
-So you could pretend you had two servers (for example, a windows server and a linux server) all the while running them on one physical server in your datacenter. Or 3 servers. Or as many servers as you had capacity for on your physical hardware.
+So you could pretend you had 2 servers (for example, a windows server and a linux server) all the while running them on one physical server in your datacenter. Or 3. Or as many servers as you had capacity for on your physical hardware.
 
 It's very cool, and virtual machines are the basis for every^1 data-center architecture.
 
@@ -333,6 +333,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MjIzMDc3LDczMjUyNDkxMSwtMTMzMT
+eyJoaXN0b3J5IjpbNDMxMjU5Nzc1LDczMjUyNDkxMSwtMTMzMT
 YzMTk2NF19
 -->

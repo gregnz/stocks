@@ -361,13 +361,13 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 
 Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%, so higher share price would require exceeding those values. But, thats not off the table.
 
-The fact they're spending a lot more than they're making is also 
+The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTc1MzQ1LDU4MjE1NDU3NywtMTg4NT
-c4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2
-LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNT
-c3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEz
-MTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLT
-E1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkx
-MjQxMjYyXX0=
+eyJoaXN0b3J5IjpbLTE0NjYyODU3MDksNTgyMTU0NTc3LC0xOD
+g1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2
+MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LD
+I1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4
+MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNC
+wtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEw
+OTEyNDEyNjJdfQ==
 -->

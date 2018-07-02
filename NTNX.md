@@ -49,17 +49,18 @@ For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute uni
 
 Exactly! But that's old history, kind of like Nutanix's entry to the game. All the stuff above (more or less) is hardware focussed.
 
-The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds. 
+The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds, a bit like what Arista does for networking. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
 
 > My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
 
-Your clever software lets you see all your compute as something you can define. You can set up software-defined storage that cleverly lets you access all the storage across your datacenter, and deals with backups and compression and so forth that lets you sell jellybeans 24/7 with 0.9999 uptime. It might even let you do no-downtime deploys of your jellybean-selling app. The same way that AWS lets you add new 'servers' (in reality virtual machines)
 
-But the secret is the software. It's very analogous to Arista. What Arista do for networks, Nutanix is doing for datacenters. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
+ 
 
 **Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners.**
 
-**Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward. **
+>asd
+
+** Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward. **
 
 
 
@@ -343,11 +344,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIyNzMyMDEsLTg1OTYyOTY5Myw3OD
-M5Mzg0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1
-Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xND
-A5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3
-OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LD
-IwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUz
-MjQ5MjldfQ==
+eyJoaXN0b3J5IjpbLTU0ODM1MDk3NywtODU5NjI5NjkzLDc4Mz
+kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
+LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
+k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
+NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
+AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
+NDkyOV19
 -->

@@ -359,13 +359,13 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
 
-Overall, I really like Nutanix, much more than when I started this deep-dive. Are the share
+Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDc2OTA4LDU4MjE1NDU3NywtMTg4NT
-c4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2
-LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNT
-c3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEz
-MTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLT
-E1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkx
-MjQxMjYyXX0=
+eyJoaXN0b3J5IjpbLTE0ODgyNTUxNzIsNTgyMTU0NTc3LC0xOD
+g1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2
+MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LD
+I1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4
+MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNC
+wtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEw
+OTEyNDEyNjJdfQ==
 -->

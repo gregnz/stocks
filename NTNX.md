@@ -330,10 +330,12 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 
-I think the next quarter report will be the critical one. If growth rates continue and it looks like they're going to beat their 
+The downside is that sales cycles are likely to be a bi
+
+I think the next quarter report will be the critical one. If growth rates continue and it looks like they're going to beat their estimates
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk2NTY2MTgsLTEzMTk3NTA3NzAsNz
-MyNTI0OTExLC0xMzMxNjMxOTY0XX0=
+eyJoaXN0b3J5IjpbMjM1ODA1ODU3LC0xMzE5NzUwNzcwLDczMj
+UyNDkxMSwtMTMzMTYzMTk2NF19
 -->

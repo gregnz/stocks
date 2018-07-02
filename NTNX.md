@@ -53,7 +53,7 @@ But future view of Nutanix is about shifting from the hardware focus of CI/HCI t
 
 You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
 
-> My take: Nutanix is sitting above your private datacenter and your public clouds and 
+> My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
 
 Your clever software lets you see all your compute as something you can define. You can set up software-defined storage that cleverly lets you access all the storage across your datacenter, and deals with backups and compression and so forth that lets you sell jellybeans 24/7 with 0.9999 uptime. It might even let you do no-downtime deploys of your jellybean-selling app. The same way that AWS lets you add new 'servers' (in reality virtual machines)
 
@@ -64,10 +64,6 @@ But the secret is the software. It's very analogous to Arista. What Arista do fo
 **Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward. **
 
 
-### Enterprise Cloud
-Thats the private datacenter story. It's really a simplicity versus cost story, and personally I found it pretty compelling. Is it more compelling than the other options? Not sure.
-
-However, the more interesting is that Nutanix has a major focus on 'Enterprise cloud', which means seeing your private datacenter _and_ your public cloud as parts of the same thing. If you want to run your main applications in your private datacenter, and then failover to public cloud, thats something you can do using the same Nutanix interface.
 
 #### My understanding...
 
@@ -114,16 +110,6 @@ Containers just use the underlying server (or virtual machine) operating system 
 The use cases are mostly different however. Containerisation makes sense when running multiple copies of the same application. Virtualisation is running multiple machines (which can then run multiple containers). Scaling up becomes a 'simple' matter of targetting a cluster of machines, and asking the provisioning software to make sure there are enough instances running (this is what Pivotal.io do).
 
 Incidentally, you'll hear the Kubernetes word whenever you're looking at this space. Kubernetes organises the deployment and automatic scaling of containers, and is pretty much the (low-level) standard for doing this.
-
-
-### Other offerings
-#### HPE Simplivity
-Appears to be the big, most direct competition. Simplivity was purchased by HPE at the start of 2017, which is pretty much the same as Nutanix's HCI offering.
-
-HyperFlex (Cisco)
-HP OneView.
-
-Azure Stack.
 
 
 ### Products
@@ -358,11 +344,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzE3NTA0Miw2NjQ4MTE0MDMsNTgyMT
-U0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcx
-LDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
-k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4
-NTA0LC04NDE4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMT
-IyOTc2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5
-OTA4ODI4XX0=
+eyJoaXN0b3J5IjpbNzUyNzc2NzcxLDY2NDgxMTQwMyw1ODIxNT
+Q1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEs
+MTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OT
+Y5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1
+MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMj
+I5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5
+MDg4MjhdfQ==
 -->

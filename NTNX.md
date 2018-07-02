@@ -144,7 +144,7 @@ Time machine for databases. Moving along the same "do what AWS do but include pr
 From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries-to-make-the-clouds-all-disappear/
 >The objective of Xi is to make all the clouds used by any business effectively invisible by bringing them under one management environment, which is effectively an abstraction layer.
 
->...
+and...
 
 >One of the first applications for this approach is disaster recovery as a service, where Nutanix on premise customers can access the cloud service using Xi and run the primary applications there, should there be a problem with the on premise systems.
 
@@ -332,11 +332,11 @@ The fact they're spending a lot more than they're making is also an issue obviou
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzE3Mjg0NywtODU5NjI5NjkzLDc4Mz
-kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
-LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
-k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
-NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
-AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
-NDkyOV19
+eyJoaXN0b3J5IjpbMTMxMzE1MjgsLTg1OTYyOTY5Myw3ODM5Mz
+g0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1Miw3
+NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5ND
+Y5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUs
+LTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMz
+U0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5
+MjldfQ==
 -->

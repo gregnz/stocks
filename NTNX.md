@@ -28,7 +28,7 @@ You might be thinking... who wants to do all that? We're a jellybean company, no
 ### Convergence (Converged Infrastructure - CI)
 Now the CTO starts talking about convergence. Companies like Hewlett Packard Enterprise and Cisco started offering pre-configured appliances that combine compute, storage, virtualisation control and (sometimes) networking components that are guaranteed to work well together. A bit like the Apple approach, where they have complete control of the components, rather than having to deal with different components from different suppliers which may or may not work well together.
 
-Because those appliances all came pre-validated from one point of contact, it becomes much simpler to configure and manage them. Note the components themselves may be from different vendors (eg: Cisco using EMC storage and VMware virtualisation, or Nutanix, with Lenovo, Dell, Supermicro components).
+Because those appliances all came pre-validated from one point of contact, it becomes much simpler to configure and manage them ("one throat to choke"). Note the components themselves may be from different vendors (eg: Cisco using EMC storage and VMware virtualisation, or Nutanix, with Lenovo, Dell, Supermicro components).
 
 In short, you're removing decisions (type/provider of storage and compute, virtualisation, what works with what etc), and losing some flexibility (particular brand of hard-drive, virtualisation, motherboards etc) in the process. But your CTO assures you, it makes things simple. For example, it gets rid of the whole concept of a storage-area network, because your storage is part of the same appliance as your compute.
 
@@ -333,6 +333,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNDcyOTkxLDczMjUyNDkxMSwtMTMzMT
-YzMTk2NF19
+eyJoaXN0b3J5IjpbMjA0Njg5NDg5NSw3MzI1MjQ5MTEsLTEzMz
+E2MzE5NjRdfQ==
 -->

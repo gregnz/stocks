@@ -167,9 +167,7 @@ So... Xi cloud services is Nutanixs first move into selling services that integr
 
 That sounds a bit gobbledygook! The first service is disaster recovery, which I believe provisions resources in Google Cloud. You click a few buttons in Prism, and suddenly you have robust DR across multiple data-centers, regions etc. The fact that its Google Cloud under the covers is invisible to you. Sure, you could do the same thing yourself, but ... it would take a lot of work. 
 
-I expect Nutanix to build out capabilities in Xi Cloud for those common use-cases that span public and private datacenters. 
-
-IMO, Xi Cloud Services will be the most interesting part of their business going forward, as well as 
+I expect Nutanix to build out capabilities in Xi Cloud for those common use-cases that span public and private datacenters (security would be an obvious one, but am sure theres a bunch of others).
 
 
 ## Numbers
@@ -347,11 +345,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTYyOTY5Myw3ODM5Mzg0NDYsNjY0OD
-ExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1Miw3NDMwNTc3OTYs
-LTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5NDY5MDg3LC01ND
-MyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUsLTE5MTYyODk4
-OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMzU0OTk2NjEsMz
-E5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLTE4OTA2
-OTY1OTJdfQ==
+eyJoaXN0b3J5IjpbLTE4MzAxNDc3NTksLTg1OTYyOTY5Myw3OD
+M5Mzg0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1
+Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xND
+A5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3
+OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LD
+IwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUz
+MjQ5MjldfQ==
 -->

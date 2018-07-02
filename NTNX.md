@@ -53,14 +53,10 @@ The future of Nutanix is software. They want to be an enterprise cloud operating
 
 > My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
 
-
+So they're moving (quickly) away from selling hardware boxes, to just selling software that runs on 'white-box' HCI appliances.
  
 
-**Update: Nutanix is agressively moving away from appliances to the software side of things. So selling the Acropolis/Prism suite while running on OEM hardware from partners.**
-
->asd
-
-** Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward. **
+**Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward.**
 
 
 
@@ -344,7 +340,7 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODM1MDk3NywtODU5NjI5NjkzLDc4Mz
+eyJoaXN0b3J5IjpbMTYwNzE1MDEyOCwtODU5NjI5NjkzLDc4Mz
 kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
 LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
 k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5

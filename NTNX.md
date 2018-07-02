@@ -34,7 +34,7 @@ In short, you're removing decisions (type/provider of storage and compute, virtu
 
 "Simple" you say, "I like simple!". 
 
-"Maybe we should look at... Nutanix then" your CTO replies.
+"Maybe we should look at Nutanix then" your CTO replies.
 
 ### What about hyper-converged infrastructure (HCI)? 
 At a basic level, HCI is convergence plus. The appliances are physically smaller and more tightly integrated. Nutanxi deliver hyper-converged appliances. You can't separate the bits (eg: you can't pull out and replace a hard drive) like you could do with CI.
@@ -335,7 +335,7 @@ Operating margin|Implied 10 year revenue. |$4b |$5.3b |$7b |$9.2b | $12b
 ### Comments
 Nutanix is growing strongly, over a year and a half more than doubling revenue, with really good gross margins of above 60%, and appear to have a fairly stable free-cash-flow situation.
 
-A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but perhaps it's making the first steps towards that goal.
+A lot has been made of the software-centric model, where Nutanix supplies software to OEM HCI boxes. I was a bit surprised when I discovered that the Billings increase was due to support contracts, rather than ongoing software subscriptions. Nutanix definitely isn't a SaaS business, but  it's making the first steps towards that goal (with Calm, Beam, Flow, Era and Xi).
 
 > but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
 
@@ -345,11 +345,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzAxNDc3NTksLTg1OTYyOTY5Myw3OD
-M5Mzg0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1
-Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xND
-A5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3
-OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LD
-IwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUz
-MjQ5MjldfQ==
+eyJoaXN0b3J5IjpbLTUzOTc3MTY4NSwtODU5NjI5NjkzLDc4Mz
+kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
+LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
+k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
+NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
+AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
+NDkyOV19
 -->

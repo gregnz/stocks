@@ -1,9 +1,9 @@
 # NTNX 
 
 ## My understanding
-Nutanix is a leader in 'Hyper-converged infrastructure'. Uh... cool.
+Nutanix is a leader in 'Hyper-converged infrastructure'. Uh... cool. Whats that again?
 
-Lets say you've decided to run a datacenter to power your jellybean company. You've got a windows app you want to run that lets you sell jellybeans. You tell your CTO and they run out and buy some servers, hard-drives and a (Arista!) switch to plug everything together. They set everything up, install Windows, and the devops team slap your application on top, and you're done. Easy.
+Let's say you've decided to set up a datacenter to power your jellybean company. You've got a windows app you want to run that lets you sell jellybeans. You tell your CTO and they run out and buy some servers, hard-drives and a (Arista!) switch to plug everything together. They set everything up, install Windows, and the devops team slap your application on top, and you're done. Easy.
 
 And then what happens? Someone wants to run a reporting application. Except it runs on Linux, not Windows. You don't really want to buy a whole new server, just to run a little linux app. Your CTO starts talking about virtualisation and the benefits of virtual machines.
 
@@ -332,7 +332,7 @@ The fact they're spending a lot more than they're making is also an issue obviou
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgxMDAxNywtODU5NjI5NjkzLDc4Mz
+eyJoaXN0b3J5IjpbMTM1NzE3Mjg0NywtODU5NjI5NjkzLDc4Mz
 kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
 LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
 k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5

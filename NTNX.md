@@ -269,7 +269,7 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 
 >The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
 
-Deferred revenue is ... pretty substantial, although they also have deferred commissions payable, which takes a little of the shine off (for example, in the 
+Deferred revenue is ... pretty substantial, although they also have deferred commissions payable, which takes a little of the shine off (for example, in the last Quarter, they had about $100m of deferred commissions payable).
 
 
 ### Margins
@@ -284,6 +284,8 @@ Deferred revenue is ... pretty substantial, although they also have deferred com
 |  5 | 2017Q3    | 61%            | -17%           | -22%        |
 |  6 | 2017Q4    | 62%            | -17%           | -22%        |
 |  7 | 2018Q1    | 67%            | -25%           | -30%        |
+
+Gross margins are improving, as would be expected as they move away from the low margin hardware business. 
 
 ### Free cash flow
 
@@ -355,11 +357,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NT
-UyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4
-MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLD
-EzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5
-MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NT
-kyLC0xMDk5MDg4MjgsMTA5MTI0MTI2MiwxNTk4NDcyMjM3LC0x
-MzcwMDUxNzRdfQ==
+eyJoaXN0b3J5IjpbNTk0MDM1MzYzLC0xODg1NzgzMDUyLDc0Mz
+A1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MDk0Njkw
+ODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5NSwtMT
+kxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMjAzNTQ5
+OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMyNDkyOS
+wtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEwOTEyNDEyNjIsMTU5
+ODQ3MjIzN119
 -->

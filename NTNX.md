@@ -299,7 +299,7 @@ Capital structure looks pretty sound (my opinion FWIW!). The debt component is t
 | 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
 | 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
 
-As you'd expect sales, general and admin make up the biggest chunk of expenses for Nutanix. Their business model is the land-and-expand model, so sales people will be an increasing part of their expenses.
+As you'd expect sales, general and admin make up the biggest chunk of expenses for Nutanix (the number for . Their business model is the land-and-expand model, so sales people will be an increasing part of their expenses.
 
 ### DCF
 The current share price is at $52 (28 June 18). Using a compounded revenue growth rate of 25% over the next 5 years (dropping to 2.25% over the next 5) and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$46_. 
@@ -334,6 +334,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk3NTA3NzAsNzMyNTI0OTExLC0xMz
-MxNjMxOTY0XX0=
+eyJoaXN0b3J5IjpbMTQyNDAyMDY4MywtMTMxOTc1MDc3MCw3Mz
+I1MjQ5MTEsLTEzMzE2MzE5NjRdfQ==
 -->

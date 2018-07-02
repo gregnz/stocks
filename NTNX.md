@@ -312,8 +312,6 @@ Capital structure looks pretty sound (my opinion FWIW!). The debt component is t
 
 As you'd expect sales, general and admin make up the biggest chunk of expenses for Nutanix. Their business model is the land-and-expand model, so sales people will be an increasing part of their expenses.
 
-
-
 ### DCF
 The current share price is at $52 (28 June 18). Using a compounded revenue growth rate of 25% over the next 5 years (dropping to 2.25% over the next 5) and an EBIT margin of 30% (as per current year) and a WACC of 9% gives an estimated share value of _$46_. 
 
@@ -343,11 +341,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODkzMzM1NCw2NjQ4MTE0MDMsNTgyMT
-U0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcx
-LDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
-k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4
-NTA0LC04NDE4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMT
-IyOTc2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5
-OTA4ODI4XX0=
+eyJoaXN0b3J5IjpbNzgzOTM4NDQ2LDY2NDgxMTQwMyw1ODIxNT
+Q1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEs
+MTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OT
+Y5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1
+MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMj
+I5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5
+MDg4MjhdfQ==
 -->

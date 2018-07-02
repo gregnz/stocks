@@ -329,7 +329,7 @@ Capital structure looks pretty sound. The debt component is the convertible note
 | 2017Q4    | 70.92m    | 10%            | 0%             | 167.15m                 | 4%             | 32%            |
 | 2018Q1    | 81.29m    | 15%            | 9%             | 194.79m                 | 17%            | 37%            |
 
-As you'd expect sales, general and admin make up the biggest chunk of expenses for Nutanix. Their business model is the land-
+As you'd expect sales, general and admin make up the biggest chunk of expenses for Nutanix. Their business model is the land-and-expand model, so sales people will be an increasing part of their expenses.
 
 
 
@@ -361,11 +361,11 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjE4NzE0NywtMTg4NTc4MzA1Miw3ND
-MwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5NDY5
-MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUsLT
-E5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMzU0
-OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5Mj
-ksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkxMjQxMjYyLDE1
-OTg0NzIyMzddfQ==
+eyJoaXN0b3J5IjpbNTgyMTU0NTc3LC0xODg1NzgzMDUyLDc0Mz
+A1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MDk0Njkw
+ODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5NSwtMT
+kxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMjAzNTQ5
+OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMyNDkyOS
+wtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEwOTEyNDEyNjIsMTU5
+ODQ3MjIzN119
 -->

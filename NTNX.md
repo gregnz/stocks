@@ -42,12 +42,11 @@ At a basic level, HCI is convergence plus. The appliances are physically smaller
 So you give up even more flexibility to gain more simplicity.
 
 So this is what Nutanix do.
-> Kind of. It's the basis of what they did. See below. 
+> Kind of. It's more what they did. See below. 
 
-They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
+They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system (Acropolis), virtualisation solution (AHV), and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
 
 For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute units (each with a storage controller) and each with a configurable number of SSDs and HDDs in a 2U form factor. The software replicates data across units (and across cluster) (as opposed to RAID which uses redundant disk space or drives on the same unit). Adding a new appliance, just rack and stack, the node is auto discovered, and can be set up with a couple of clicks in the UI.
-
 
 ### Forget everything above...
 
@@ -336,6 +335,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjc5NDA4Myw3MzI1MjQ5MTEsLTEzMz
-E2MzE5NjRdfQ==
+eyJoaXN0b3J5IjpbMzQxMTQwMTkxLDczMjUyNDkxMSwtMTMzMT
+YzMTk2NF19
 -->

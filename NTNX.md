@@ -47,11 +47,9 @@ For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute uni
 
 ### So Nutanix make HCI hardware you can plug and play?
 
-Exactly! But that's Nutanix's history. All the stuff above (more or less) is hardware focussed. Smaller, integrated hardware. 
+Exactly! But that's old history. All the stuff above (more or less) is hardware focussed. Smaller, integrated hardware. Just un-read it.
 
-But future view of Nutanix is about shifting from the hardware focus of CI/HCI to being software-focussed. An enterprise cloud operating system across both public and private clouds. 
-
-You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
+The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds. 
 
 > My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
 
@@ -345,11 +343,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTc3MTY4NSwtODU5NjI5NjkzLDc4Mz
-kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
-LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
-k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
-NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
-AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
-NDkyOV19
+eyJoaXN0b3J5IjpbLTYxMzc5MDYsLTg1OTYyOTY5Myw3ODM5Mz
+g0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1Miw3
+NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5ND
+Y5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUs
+LTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMz
+U0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5
+MjldfQ==
 -->

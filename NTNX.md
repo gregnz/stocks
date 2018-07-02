@@ -9,7 +9,7 @@ And then what happens? Someone wants to run a reporting application. Except it r
 
 ### What's a virtual machine?
 
-Virtualisation splits your physical server into abstracted servers. Normally, your operating system interacts with the hardware (memory, cpu, harddrive etc) of your server. However, install some special software called a _Hypervisor_, and the OS talks to the hypervisor. The hypervisor then talks to the actual hardware.
+Virtualisation splits your physical server into abstract servers. Normally, your operating system interacts with the hardware (memory, cpu, harddrive etc) of your server. However, install some special software called a _Hypervisor_, and the OS talks to the hypervisor, and the hypervisor then talks to the actual hardware.
 
 What does that do? It lets you install multiple pretend-computers (virtual machines) on your single server. The hypervisor is in charge of divvying up the server resources (memory, compute, storage etc) to each virtual machines. Each virtual machine has no idea it's running on a single server, its all hidden by the hypervisor.
 
@@ -333,5 +333,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNTI0OTExLC0xMzMxNjMxOTY0XX0=
+eyJoaXN0b3J5IjpbMjU4MjIzMDc3LDczMjUyNDkxMSwtMTMzMT
+YzMTk2NF19
 -->

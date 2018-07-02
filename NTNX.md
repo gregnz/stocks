@@ -28,7 +28,7 @@ I glossed over the hypervisor above, and you can probably skip this section. But
 
 There are 'type 1' and 'type 2' hypervisors. A type-1 hypervisor runs directly on the underlying hardware, while a 'type 2' needs an installed operating system. 
 
-TODO: MORE HERE about AVM
+
 
 ^1: I made this up. It's probably right. It's definitely mostly right.
 
@@ -363,11 +363,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYyODU3MDksNTgyMTU0NTc3LC0xOD
-g1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2
-MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LD
-I1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4
-MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNC
-wtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5OTA4ODI4LDEw
-OTEyNDEyNjJdfQ==
+eyJoaXN0b3J5IjpbNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NT
+c4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2
+LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNT
+c3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEz
+MTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLT
+E1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkx
+MjQxMjYyXX0=
 -->

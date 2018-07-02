@@ -330,13 +330,15 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 
+I think the next quarter report will be the critical one. If growth rates continue and it looks like they're going to beat their 
+
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzE1MjgsLTg1OTYyOTY5Myw3ODM5Mz
-g0NDYsNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1Miw3
-NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5ND
-Y5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUs
-LTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMz
-U0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5
-MjldfQ==
+eyJoaXN0b3J5IjpbLTcxMjIxNjU0MiwxMzEzMTUyOCwtODU5Nj
+I5NjkzLDc4MzkzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0x
+ODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1Nj
+I2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4
+LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04ND
+E4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcy
+NF19
 -->

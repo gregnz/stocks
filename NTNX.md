@@ -165,7 +165,9 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 So... Xi cloud services is Nutanixs first move into selling services that integrate into their software. What you get is the simplicity of the familiar user interface, and Xi handles the provisioning off cloud services to support your requirements.
 
-That sounds a bit gobbledygook! The first service is disaster recovery, which I believe provisions resources in Google Cloud. You click a few buttons in Prism, and suddenly you have robust DR across multiple data-centers, regions etc
+That sounds a bit gobbledygook! The first service is disaster recovery, which I believe provisions resources in Google Cloud. You click a few buttons in Prism, and suddenly you have robust DR across multiple data-centers, regions etc. The fact that its Google Cloud under the covers is invisible to you. Sure, you could do the same thing yourself, but ... it would take a lot of work. 
+
+I expect Nutanix to build out capabilities in Xi Cloud for those common 
 
 
 ## Numbers
@@ -343,7 +345,7 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMzI5NjM1LDc4MzkzODQ0Niw2NjQ4MT
+eyJoaXN0b3J5IjpbNjE5NjI1MTkxLDc4MzkzODQ0Niw2NjQ4MT
 E0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5Niwt
 NTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0Mz
 I1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5

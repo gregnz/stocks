@@ -49,9 +49,11 @@ For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute uni
 
 Exactly! But that's Nutanix's history. All the stuff above (more or less) is hardware focussed. Smaller, integrated hardware. 
 
-But future view of Nutanix is about shifting from the hardware focus of CI/HCI to being software-focussed. An enterprise cloud operating system. You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
+But future view of Nutanix is about shifting from the hardware focus of CI/HCI to being software-focussed. An enterprise cloud operating system across both public and private clouds. 
 
-> My take: _HCI is "AWS'ing" your companies datacenter_.
+You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
+
+> My take: Nutanix is sitting above your private datacenter and your public clouds and 
 
 Your clever software lets you see all your compute as something you can define. You can set up software-defined storage that cleverly lets you access all the storage across your datacenter, and deals with backups and compression and so forth that lets you sell jellybeans 24/7 with 0.9999 uptime. It might even let you do no-downtime deploys of your jellybean-selling app. The same way that AWS lets you add new 'servers' (in reality virtual machines)
 
@@ -356,7 +358,7 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzQ2MTYyMyw2NjQ4MTE0MDMsNTgyMT
+eyJoaXN0b3J5IjpbLTcyNzE3NTA0Miw2NjQ4MTE0MDMsNTgyMT
 U0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcx
 LDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
 k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4

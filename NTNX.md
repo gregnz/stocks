@@ -295,7 +295,7 @@ Gross margins are improving, as would be expected as they move away from the low
 | 2017Q4 | 610.45m | 307.81m       | 918.25m                | 788.00m           | 415.65m |             1.38 |          0 |
 | 2018Q1 | 376.79m | 546.67m       | 923.46m                | 796.63m           | 422.57m |             1.19 |          0 |
 
-Capital structure looks pretty sound. The debt component is the convertible note offering that was announced in January 2018 which allows note holders to convert to stock at a price of about $48.85 dollars.
+Capital structure looks pretty sound (my opinion FWIW!). The debt component is the convertible note offering that was announced in January 2018 which allows note holders to convert to stock at a price of about $48.85 dollars.
 
 ### Expenses
 
@@ -339,16 +339,15 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
-
 Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%, so higher share price would require exceeding those values. But, thats not off the table.
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYxMjAxMTEsNjY0ODExNDAzLDU4Mj
-E1NDU3NywtMTg4NTc4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3
-MSwxMTg5NTYyNjI2LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMT
-U5Njk0MTA4OCwyNTc3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAx
-ODUwNCwtODQxODEzMTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLT
-EyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEw
-OTkwODgyOF19
+eyJoaXN0b3J5IjpbMjExODkzMzM1NCw2NjQ4MTE0MDMsNTgyMT
+U0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcx
+LDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
+k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4
+NTA0LC04NDE4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMT
+IyOTc2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5
+OTA4ODI4XX0=
 -->

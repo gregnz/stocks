@@ -163,7 +163,7 @@ From: https://diginomica.com/2018/05/15/nutanix-partners-with-google-as-it-tries
 
 >One of the first applications for this approach is disaster recovery as a service, where Nutanix on premise customers can access the cloud service using Xi and run the primary applications there, should there be a problem with the on premise systems.
 
-TODO
+So... Xi cloud services is Nutanixs first move into selling ser
 
 
 ## Numbers
@@ -341,11 +341,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzOTM4NDQ2LDY2NDgxMTQwMyw1ODIxNT
-Q1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEs
-MTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OT
-Y5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1
-MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMj
-I5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5
-MDg4MjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTc5MTUwOTksNzgzOTM4NDQ2LDY2ND
+gxMTQwMyw1ODIxNTQ1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2
+LC01NTUyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNT
+QzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5
+ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLD
+MxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkw
+Njk2NTkyXX0=
 -->

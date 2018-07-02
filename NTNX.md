@@ -285,7 +285,7 @@ Deferred revenue is ... pretty substantial, although they also have deferred com
 |  6 | 2017Q4    | 62%            | -17%           | -22%        |
 |  7 | 2018Q1    | 67%            | -25%           | -30%        |
 
-Gross margins are improving, as would be expected as they move away from the low margin hardware business. They estimate that gross margins could approach  76% (using 0% margin for the hardware business and 80% for the software business) 
+Gross margins are improving, as would be expected as they move away from the low margin hardware business. They estimate that gross margins could approach  76% (using 0% margin for the hardware business and 80% for the software business).
 
 ### Free cash flow
 
@@ -358,10 +358,11 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
+They also repo
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzk4Mzk3MSw1ODIxNTQ1NzcsLTE4OD
+eyJoaXN0b3J5IjpbLTE3NDUwNTEzNiw1ODIxNTQ1NzcsLTE4OD
 U3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OTU2MjYy
 NiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMj
 U3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgx

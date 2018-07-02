@@ -45,22 +45,8 @@ So this is what Nutanix do (Kind of. It's the basis of what they do. See below).
 
 For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute units (each with a storage controller) and each with a configurable number of SSDs and HDDs in a 2U form factor. The software replicates data across units (and across cluster) (as opposed to RAID which uses redundant disk space or drives on the same unit). Adding a new appliance, just rack and stack, the node is auto discovered, and can be set up with a couple of clicks in the UI.
 
-### So Nutanix make HCI hardware you can plug and play?
 
-Exactly! But that's old history, kind of like Nutanix's entry to the game. All the stuff above (more or less) is hardware focussed.
-
-The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds, a bit like what Arista does for networking. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
-
-> My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
-
-So they're moving (quickly) away from selling hardware boxes, to just selling software that runs on 'white-box' HCI appliances.
- 
-
-**Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward.**
-
-
-
-#### My understanding...
+### Forget everything above...
 
 Hyper-convergence is a big trend in order to get the simplicity of cloud infrastructure into private datacenters, as well as controllable performance. Essentially, a software-defined datacenter, built on pre-configured appliances that define your compute, storage, virtualisation set up, and nice software that a) gets everything talking to each other (big pool of compute and storage, as well as backups etc) and b) lets you manage everything in one nice UI.
 
@@ -94,6 +80,23 @@ The only question is, how much of the market can Nutanix capture, and at what ma
 A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it on other hardware in your datacenter. This is an important  point, because who wants to buy brand new Nutanix boxes when you've got a datacenter full of OEM boxes just sitting there?
 
 Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales, which suggests that cost of revenue will decrease and gross margins go up.
+
+### So Nutanix make HCI hardware you can plug and play?
+
+Exactly! But that's old history, kind of like Nutanix's entry to the game. All the stuff above (more or less) is hardware focussed.
+
+The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds, a bit like what Arista does for networking. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
+
+> My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
+
+So they're moving (quickly) away from selling hardware boxes, to just selling software that runs on 'white-box' HCI appliances.
+ 
+
+**Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward.**
+
+
+
+
 
 #### Containerisation
 Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
@@ -340,11 +343,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzE1MDEyOCwtODU5NjI5NjkzLDc4Mz
-kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
-LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
-k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
-NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
-AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
-NDkyOV19
+eyJoaXN0b3J5IjpbLTg2MTgwNzUyLC04NTk2Mjk2OTMsNzgzOT
+M4NDQ2LDY2NDgxMTQwMyw1ODIxNTQ1NzcsLTE4ODU3ODMwNTIs
+NzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOT
+Q2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1
+LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMD
+M1NDk5NjYxLDMxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0
+OTI5XX0=
 -->

@@ -37,11 +37,14 @@ In short, you're removing decisions (type/provider of storage and compute, virtu
 "Maybe we should look at Nutanix then" your CTO replies.
 
 ### What about hyper-converged infrastructure (HCI)? 
-At a basic level, HCI is convergence plus. The appliances are physically smaller and more tightly integrated. Nutanxi deliver hyper-converged appliances. You can't separate the bits (eg: you can't pull out and replace a hard drive) like you could do with CI.
+At a basic level, HCI is convergence plus. The appliances are physically smaller and more tightly integrated. Nutanix delivers hyper-converged appliances. You can't separate the bits (eg: you can't pull out and replace a hard drive) like you could do with CI.
 
 So you give up even more flexibility to gain more simplicity.
 
-So this is what Nutanix do (Kind of. It's the basis of what they do. See below). They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
+So this is what Nutanix do.
+> Kind of. It's the basis of what they did. See below. 
+
+They provide pre-packaged boxes you plug into your server rack (hyper-converged appliances). They're all set up with storage and compute and network, as well as having the Nutanix operating system, virtualisation solution, and storage controller software installed. In short, they're ready to go, and probably much more performant (?) because the storage is located on the same box as the compute, ie, no network traffic for data access.
 
 For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute units (each with a storage controller) and each with a configurable number of SSDs and HDDs in a 2U form factor. The software replicates data across units (and across cluster) (as opposed to RAID which uses redundant disk space or drives on the same unit). Adding a new appliance, just rack and stack, the node is auto discovered, and can be set up with a couple of clicks in the UI.
 
@@ -333,6 +336,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Njg5NDg5NSw3MzI1MjQ5MTEsLTEzMz
+eyJoaXN0b3J5IjpbMTYyMjc5NDA4Myw3MzI1MjQ5MTEsLTEzMz
 E2MzE5NjRdfQ==
 -->

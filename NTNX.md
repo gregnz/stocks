@@ -17,11 +17,11 @@ So you could pretend you had 2 servers (for example, a windows server and a linu
 
 It's very cool, and virtual machines are the basis for every^1 data-center architecture.
 
-Except... what happens when you need more compute power? Or more hard drive space? You've still got the problem of actually managing and provisioning all the servers. You've got a couple of options. Tell your CTO to buy another server, and maybe another hard drive, wait weeks for them to arrive, plug them in and add manually into your network. Hire people to manage the storage, manage the compute, make sure everything worked, set up your hypervisor. You'd have to make sure that the drivers (software which interfaces with hardware) were correct, and worked with your existing infrastructure.
+Except... what happens when you need more compute power? Or more hard drive space? You've still got the problem of actually managing and provisioning all the servers. You've got a couple of options. Tell your CTO to buy another server, and maybe another hard drive, wait weeks for them to arrive, plug them in and add manually into your network. Hire people to manage the storage, manage the compute, make sure everything works, set up your hypervisor. You'd have to make sure that the drivers (software which interfaces with hardware) were correct, and worked with your existing infrastructure.
 
 Imagine doing that for hundreds of servers. This is what (expensive) teams of infrastructure people do. And generally, its easier to keep compute separate from storage, and have separate teams. Which is more expense, and slower trouble shooting.
 
-You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust your sensitive jellybean customer information to those cloud people anyway.
+You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought some servers! You want to use it, and you don't really trust your sensitive jellybean information to those cloud people anyway.
 
 ^1: I made this up. It's probably right. It's definitely mostly right.
 
@@ -333,6 +333,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMjU5Nzc1LDczMjUyNDkxMSwtMTMzMT
+eyJoaXN0b3J5IjpbOTAzNDcyOTkxLDczMjUyNDkxMSwtMTMzMT
 YzMTk2NF19
 -->

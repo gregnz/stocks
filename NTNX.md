@@ -126,7 +126,7 @@ For geeks, as an example, you can set up a Kubernetes cluster on your Nutanix cl
 
 Minjar Botmetic acquistion. I believe it provides insight and control over cloud costs, whats being spent on what by whom, and allow identification of underutilised (ie, over cost) capabilities. That is, analytics across all of your private and public cloud environments. So it grabs data from your Nutanix datacenters (can it grab data from non-Nutanix servers?) and data from AWS/Azure/Google etc., normalises it, and presents it so you can compare apples-to-apples across all clouds.
 
-Summary: analytics for all your clouds! It plugs into Prism.
+Summary: Analytics for all your clouds! It plugs into Prism.
 
 #### Flow 
 "Native virtual networking built into Nutanix AHV that includes VM Microsegmentation for application security. Flow Microsegmentation leverages an application-centric policy model that is backed by the granular control offered by a distributed stateful VM level firewall, all centrally managed via Prism."
@@ -160,7 +160,6 @@ I expect Nutanix to build out capabilities in Xi Cloud for those common use-case
 ## Numbers
 
 ### Basic data (based on TMF1000)
-
 
 * Revenue was 289.41m up (0.9%) from 286.74m from the previous quarter (205.67m same quarter last year)
 * TTM Revenue was 1.025b up (39.8%) from 733.23m 
@@ -335,6 +334,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjkzMTA3LDczMjUyNDkxMSwtMTMzMT
-YzMTk2NF19
+eyJoaXN0b3J5IjpbLTE2OTc5NzkyMjcsNzMyNTI0OTExLC0xMz
+MxNjMxOTY0XX0=
 -->

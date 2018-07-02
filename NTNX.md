@@ -76,7 +76,7 @@ So all the cool hardware stuff I mentioned above... you can pretty much forget a
 
 I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
-The main takeaway I have (after years of experience with AWS) is ... there's no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
+The main takeaway I have (after years of experience with AWS) is ... there's no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. And if you're running your own datacenter, you probably still want to utilise cloud resources for non-critical workloads
 
 The only question is, how much of the market can Nutanix capture, and at what margins?
 
@@ -335,6 +335,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMTQwMTkxLDczMjUyNDkxMSwtMTMzMT
-YzMTk2NF19
+eyJoaXN0b3J5IjpbMTM3ODgwNDE5Nyw3MzI1MjQ5MTEsLTEzMz
+E2MzE5NjRdfQ==
 -->

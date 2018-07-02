@@ -255,7 +255,7 @@ Deferred revenue is pretty substantial, although they also have deferred commiss
 |  6 | 2017Q4    | 62%            | -17%           | -22%        |
 |  7 | 2018Q1    | 67%            | -25%           | -30%        |
 
-Gross margins are improving, as would be expected as they move away from the low margin hardware business. They estimate that gross margins could approach  76% (using 0% margin for the hardware business and 80% for the software business).
+Gross margins are improving, as would be expected as they move away from the low margin hardware business. I estimate that gross margins could approach mid to low seventies.
 
 ### Free cash flow
 
@@ -334,6 +334,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc5NzkyMjcsNzMyNTI0OTExLC0xMz
+eyJoaXN0b3J5IjpbLTEzMTk3NTA3NzAsNzMyNTI0OTExLC0xMz
 MxNjMxOTY0XX0=
 -->

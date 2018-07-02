@@ -23,13 +23,6 @@ Imagine doing that for hundreds of servers. This is what (expensive) teams of in
 
 You might be thinking... who wants to do all that? We're a jellybean company, not a hardware infrastructure company. Pain in the ass. Along come AWS, Microsoft, Google who want to sell you their clouds. Except, you've just bought a server! You want to use it, and you don't really trust your sensitive jellybean customer information to those cloud people anyway.
 
-#### A bit more on Hypervisors (feel free to skip)
-I glossed over the hypervisor above, and you can probably skip this section. But to recap, the Hypervisor is like a super-minimal operating system that lets multiple operating system in virtual machines to have access to the underlying hardware.
-
-There are 'type 1' and 'type 2' hypervisors. A type-1 hypervisor runs directly on the underlying hardware, while a 'type 2' needs an installed operating system. 
-
-
-
 ^1: I made this up. It's probably right. It's definitely mostly right.
 
 ### Convergence (Converged Infrastructure - CI)
@@ -54,9 +47,9 @@ For geek interest, each Nutanix appliance has 1-4 nodes, that is 1-4 compute uni
 
 ### So Nutanix make HCI hardware you can plug and play?
 
-Exactly! But that's the wood for the trees. All the stuff above (more or less) is hardware focussed. Smaller, integrated hardware. 
+Exactly! But that's Nutanix's history. All the stuff above (more or less) is hardware focussed. Smaller, integrated hardware. 
 
-But tree view of Nutanix is about shifting from the hardware focus of CI/HCI to being software-focussed. A software-defined datacenter. You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
+But future view of Nutanix is about shifting from the hardware focus of CI/HCI to being software-focussed. An enterprise cloud operating system. You can plug these HCI appliances (that contain compute, storage, virtualisation and network) into your racks, and use your management console to create new virtual machines, and just run your applications on them. 
 
 > My take: _HCI is "AWS'ing" your companies datacenter_.
 
@@ -363,11 +356,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0ODExNDAzLDU4MjE1NDU3NywtMTg4NT
-c4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3MSwxMTg5NTYyNjI2
-LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMTU5Njk0MTA4OCwyNT
-c3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAxODUwNCwtODQxODEz
-MTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLTEyMjk3Njg3MjQsLT
-E1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEwOTkwODgyOCwxMDkx
-MjQxMjYyXX0=
+eyJoaXN0b3J5IjpbLTY2NzQ2MTYyMyw2NjQ4MTE0MDMsNTgyMT
+U0NTc3LC0xODg1NzgzMDUyLDc0MzA1Nzc5NiwtNTU1MjU3NDcx
+LDExODk1NjI2MjYsLTE0MDk0NjkwODcsLTU0MzI1ODIwMywxNT
+k2OTQxMDg4LDI1Nzc1ODc5NSwtMTkxNjI4OTg5MSwxMzE3MDE4
+NTA0LC04NDE4MTMxNjUsMjAzNTQ5OTY2MSwzMTkyOTI0MSwtMT
+IyOTc2ODcyNCwtMTU3NTMyNDkyOSwtMTg5MDY5NjU5MiwtMTA5
+OTA4ODI4XX0=
 -->

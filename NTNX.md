@@ -70,6 +70,8 @@ and
 
 So all the cool hardware stuff I mentioned above... you can pretty much forget about it. Nutanix wants to be the "enterprise cloud operating systems company", which works across your datacenter and across the cloud.
 
+> My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
+
 I believe this transition is inevitable, because public clouds won't (and will never) do everything for everyone. Anyone who is running their own datacenter will have to make this sort of transition at some stage, otherwise you'll be left with a private datacenter that uses crappy tools and is difficult to scale, while the public cloud tools become easier and more compelling.
 
 The main takeaway I have (after years of experience with AWS) is ... there's no alternative to AWS'ing your private datacenter. You have to go down this road to make sure you're getting the best value for your IT spend. 
@@ -85,9 +87,8 @@ Nutanix is actively pursuing this software focus, I guess similarly to how Micro
 
 Exactly! But that's old history, kind of like Nutanix's entry to the game. All the stuff above (more or less) is hardware focussed.
 
-The future of Nutanix is software. They want to be an enterprise cloud operating system across both public and private clouds, a bit like what Arista does for networking. They're really both software companies, selling simplicity and performance on top of pretty boxes made of commodity components.
 
-> My take: Nutanix is sitting above your private datacenter and your public clouds and acting as an operating system across everything.
+
 
 So they're moving (quickly) away from selling hardware boxes, to just selling software that runs on 'white-box' HCI appliances.
  
@@ -343,11 +344,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTgwNzUyLC04NTk2Mjk2OTMsNzgzOT
-M4NDQ2LDY2NDgxMTQwMyw1ODIxNTQ1NzcsLTE4ODU3ODMwNTIs
-NzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOT
-Q2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1
-LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMD
-M1NDk5NjYxLDMxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0
-OTI5XX0=
+eyJoaXN0b3J5IjpbMTAzNTc4MDMwNywtODU5NjI5NjkzLDc4Mz
+kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
+LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
+k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5
+NSwtMTkxNjI4OTg5MSwxMzE3MDE4NTA0LC04NDE4MTMxNjUsMj
+AzNTQ5OTY2MSwzMTkyOTI0MSwtMTIyOTc2ODcyNCwtMTU3NTMy
+NDkyOV19
 -->

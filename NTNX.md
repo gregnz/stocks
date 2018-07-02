@@ -83,23 +83,9 @@ A final note, Acropolis doesn't need to run on Nutanix hardware. You can run it 
 
 Nutanix is actively pursuing this software focus, I guess similarly to how Microsoft took over the PC, by licensing the software (Windows) to OEM manufacturers. So less and less revenue will come from hardware, and more from software sales, which suggests that cost of revenue will decrease and gross margins go up.
 
-### So Nutanix make HCI hardware you can plug and play?
-
-Exactly! But that's old history, kind of like Nutanix's entry to the game. All the stuff above (more or less) is hardware focussed.
-
-
-
-
-So they're moving (quickly) away from selling hardware boxes, to just selling software that runs on 'white-box' HCI appliances.
- 
-
 **Note: Nutanix is not a SaaS company (at the moment). Very little of their deferred revenue comes from subscriptions, but from support contracts. They're looking to change this going forward.**
 
-
-
-
-
-#### Containerisation
+#### Containerisation (feel free to skip)
 Not sure how relevant this is, just for completeness. Containerisation is another level of virtualisation. With virtual machines, each 'machine' has its own copy of the operating system (eg, linux or windows). Operating systems are pretty large (sometimes, mostly, especially windows) which can make rolling out another version of the virtual machine unweildy, so scaling up can be slow. Think of the use case where your application suddenly gets a big spike in traffic (because you put out a special offer on jellybeans for example). You need more copies of your application.
 
 Standing up a new VM will take a while because you essentially have to stand up a whole new (virtual) machine (unless you have one sitting there waiting) so in the meantime, your application performance will suffer.
@@ -338,13 +324,13 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 > but the next 12 to 18 months, we really have to think about a hybrid license model - Dheeraj Pandey
 
-I think the bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
+I think my bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
 Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%, so higher share price would require exceeding those values. But, thats not off the table.
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTc4MDMwNywtODU5NjI5NjkzLDc4Mz
+eyJoaXN0b3J5IjpbMTI2NjYyNTA2OSwtODU5NjI5NjkzLDc4Mz
 kzODQ0Niw2NjQ4MTE0MDMsNTgyMTU0NTc3LC0xODg1NzgzMDUy
 LDc0MzA1Nzc5NiwtNTU1MjU3NDcxLDExODk1NjI2MjYsLTE0MD
 k0NjkwODcsLTU0MzI1ODIwMywxNTk2OTQxMDg4LDI1Nzc1ODc5

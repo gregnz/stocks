@@ -285,7 +285,7 @@ Deferred revenue is ... pretty substantial, although they also have deferred com
 |  6 | 2017Q4    | 62%            | -17%           | -22%        |
 |  7 | 2018Q1    | 67%            | -25%           | -30%        |
 
-Gross margins are improving, as would be expected as they move away from the low margin hardware business. They estimate that gross margins could approach around 
+Gross margins are improving, as would be expected as they move away from the low margin hardware business. They estimate that gross margins could approach  76% (using 0% margin for the hardware business and 80% for the software business) 
 
 ### Free cash flow
 
@@ -361,7 +361,7 @@ I think the bottom line is that the transition to HCI is (IMO) inevitable for al
 resources
 https://www.youtube.com/watch?v=N46PFNZE9zM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Nzc5ODU2MSw1ODIxNTQ1NzcsLTE4OD
+eyJoaXN0b3J5IjpbMTEyNzk4Mzk3MSw1ODIxNTQ1NzcsLTE4OD
 U3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEsMTE4OTU2MjYy
 NiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OTY5NDEwODgsMj
 U3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1MDQsLTg0MTgx

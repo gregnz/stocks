@@ -169,7 +169,7 @@ That sounds a bit gobbledygook! The first service is disaster recovery, which I 
 
 I expect Nutanix to build out capabilities in Xi Cloud for those common use-cases that span public and private datacenters. 
 
-Xi Cloud Services will be the most inter
+IMO, Xi Cloud Services will be the most interesting part of their business going forward, as well as 
 
 
 ## Numbers
@@ -347,11 +347,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA1NTYzNjMsNzgzOTM4NDQ2LDY2ND
-gxMTQwMyw1ODIxNTQ1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2
-LC01NTUyNTc0NzEsMTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNT
-QzMjU4MjAzLDE1OTY5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5
-ODkxLDEzMTcwMTg1MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLD
-MxOTI5MjQxLC0xMjI5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkw
-Njk2NTkyXX0=
+eyJoaXN0b3J5IjpbLTg1OTYyOTY5Myw3ODM5Mzg0NDYsNjY0OD
+ExNDAzLDU4MjE1NDU3NywtMTg4NTc4MzA1Miw3NDMwNTc3OTYs
+LTU1NTI1NzQ3MSwxMTg5NTYyNjI2LC0xNDA5NDY5MDg3LC01ND
+MyNTgyMDMsMTU5Njk0MTA4OCwyNTc3NTg3OTUsLTE5MTYyODk4
+OTEsMTMxNzAxODUwNCwtODQxODEzMTY1LDIwMzU0OTk2NjEsMz
+E5MjkyNDEsLTEyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLTE4OTA2
+OTY1OTJdfQ==
 -->

@@ -308,12 +308,12 @@ Over the ten year period using these values, revenue will grow to around $5.3b. 
 
 #### DCF examples
 
----------|5 year CAGR | 20% | 25% | 30% | 35% | 40%
+.|5 year CAGR | 20% | 25% | 30% | 35% | 40%
 ---------|------------|-----|-----|-----|-----|-----
 Operating margin|Implied 10 year revenue. |$4b |$5.3b |$7b |$9.2b | $12b
 20% |                 | $18 |$21 |$26 |$33  |$41
-30% |                 | $36 |$46 |**$58** |$74  |$93
-40% |                 | $54 |$70 |$90 |$115 |$146
+30% |                 | $36 |$46 |**$58** |**$74**  |**$93**
+40% |                 | **$54** |**$70** |**$90** |**$115** |**$146**
 
 
 
@@ -334,6 +334,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjk0MTQ5NSwtMTMxOTc1MDc3MCw3Mz
-I1MjQ5MTEsLTEzMzE2MzE5NjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzk2NTY2MTgsLTEzMTk3NTA3NzAsNz
+MyNTI0OTExLC0xMzMxNjMxOTY0XX0=
 -->

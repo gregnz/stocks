@@ -220,7 +220,7 @@ Revenue for Nutanix comes from 3 major parts,
  3. Services
 So (almost) all of the deferred revenue comes from the services section, see below for a discussion.
 
-Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quarters. They are transitioning from hardware sales to software sales, with less revenue coming from hardware as they build Acropolis etc to be ubiquitous across different hardware platforms.
+Revenue is growing strongly, although theres a bit of a slowing in growth going on over the last few quarters. They are transitioning from hardware sales to software sales, with less revenue coming from hardware (although still running around 21%) as they build Acropolis etc to be ubiquitous across different hardware platforms.
 
 ### Deferred revenue
 
@@ -336,6 +336,6 @@ I think the next quarter report will be the critical one. If growth rates contin
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzQ4MDA1LC0xMzE5NzUwNzcwLDczMj
-UyNDkxMSwtMTMzMTYzMTk2NF19
+eyJoaXN0b3J5IjpbLTExMzQ3NjE5MzYsMTI5MzQ4MDA1LC0xMz
+E5NzUwNzcwLDczMjUyNDkxMSwtMTMzMTYzMTk2NF19
 -->

@@ -250,7 +250,7 @@ Deferred revenue really confused me. I didn't think Nutanix had any sort of subs
 
 >The next phase, as presented at our March Investor Day, would be to sell more subscriptions... - Investor Relations
 
-Deferred revenue is ... pretty substantial, although they also have deferred commissions payable, which takes a little of the shine off (for example, in the last Quarter, they had about $100m of deferred commissions payable).
+Deferred revenue is pretty substantial, although they also have deferred commissions payable, which takes a little of the shine off (for example, in the last Quarter, they had about $100m of deferred commissions payable).
 
 
 ### Margins
@@ -344,11 +344,11 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyNzc2NzcxLDY2NDgxMTQwMyw1ODIxNT
-Q1NzcsLTE4ODU3ODMwNTIsNzQzMDU3Nzk2LC01NTUyNTc0NzEs
-MTE4OTU2MjYyNiwtMTQwOTQ2OTA4NywtNTQzMjU4MjAzLDE1OT
-Y5NDEwODgsMjU3NzU4Nzk1LC0xOTE2Mjg5ODkxLDEzMTcwMTg1
-MDQsLTg0MTgxMzE2NSwyMDM1NDk5NjYxLDMxOTI5MjQxLC0xMj
-I5NzY4NzI0LC0xNTc1MzI0OTI5LC0xODkwNjk2NTkyLC0xMDk5
-MDg4MjhdfQ==
+eyJoaXN0b3J5IjpbLTE5MjYxMjAxMTEsNjY0ODExNDAzLDU4Mj
+E1NDU3NywtMTg4NTc4MzA1Miw3NDMwNTc3OTYsLTU1NTI1NzQ3
+MSwxMTg5NTYyNjI2LC0xNDA5NDY5MDg3LC01NDMyNTgyMDMsMT
+U5Njk0MTA4OCwyNTc3NTg3OTUsLTE5MTYyODk4OTEsMTMxNzAx
+ODUwNCwtODQxODEzMTY1LDIwMzU0OTk2NjEsMzE5MjkyNDEsLT
+EyMjk3Njg3MjQsLTE1NzUzMjQ5MjksLTE4OTA2OTY1OTIsLTEw
+OTkwODgyOF19
 -->

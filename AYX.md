@@ -1,6 +1,7 @@
 # AYX 
 Sauls coverage starts around: #34874
 
+
 ## My understanding
 Alteryx lets you hook up a wide variety of datasources (your own databases, google analytics, salesforce, etc), clean up the data, mash it all together, cut and filter and slice and dice, and then perform a variety of analyses on them. Excel stuff sure, but also think regression models, AB tests, etc. The more advanced stuff that Excel would struggle with, and Excel doesn't do connection and cleanup well.
 
@@ -414,6 +415,6 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjA0OTU0MSwtMTU4MjQ4NDE1NywtMz
-I0NjM2NjQ2XX0=
+eyJoaXN0b3J5IjpbLTEwOTI3MDcyNTEsLTc5MjA0OTU0MSwtMT
+U4MjQ4NDE1NywtMzI0NjM2NjQ2XX0=
 -->

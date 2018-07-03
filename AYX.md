@@ -208,6 +208,7 @@ Talend win with a ranking of 4.1 fwiw.
 Revenue growth TTM: Q1-2017 versus Q1-2018 = _52%_
 
 Q      | Q1 16| Q2 16| Q3 16|Q4 16|Q1 17|Q2 17|Q3 17|Q4 17|Q1 18
+
 -------|----- |-----|------|------|-----|-----|-----|-----|------
 Revenue|$18   |$20  |$22   |$25   |$29  |$30  |$34  |$39  |$43
 .      |      |9%   |12%   |11%   |14%  |6%   |13%  |13%  |11%
@@ -305,3 +306,6 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 ## QUESTIONS
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAyMzU4OTQyMF19
+-->

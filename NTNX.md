@@ -326,17 +326,17 @@ A lot has been made of the software-centric model, where Nutanix supplies softwa
 
 I think my bottom line is that the transition to HCI is (IMO) inevitable for all companies running their own datacenter. They either do that, or shift entirely to the public cloud, and Nutanix is a very strong player in the top end of that market. As far as I can see, theres no financial concerns to worry about, and it will be a matter of watching revenue (and customer) growth, as well as margin control. Cost of revenue should continue to decrease as a percentage of revenue as Nutanix shift to the software-centric model.
 
-Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%, so higher share price would require exceeding those values. But, thats not off the table.
-
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 
 Nutanix is definitely a B2(large)B company, with potential risks including long sales cycles and competition from large companies (most notably Cisco, Dell, HPE, VMWare). However, it looks like Nutanix are executing really well.
 
 I think the next quarter report will be the critical one. If growth rates continue and it looks like they're going to beat their estimates, I believe the stock price will rise commensurately. My other belief is that this market is bigger than the market is estimating.
 
+Overall, I really like Nutanix, much more than when I started this deep-dive. Are the shares cheap? Not really, the DCF is suggesting (all other things being equal!) growth of around 30% and EBIT margins of 30%, so higher share price would require exceeding those values. But, thats not off the table.
+
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MTA2OTExLC0xMTM0NzYxOTM2LDEyOT
-M0ODAwNSwtMTMxOTc1MDc3MCw3MzI1MjQ5MTEsLTEzMzE2MzE5
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTkxNjcwMTU5MSwtMTEzNDc2MTkzNiwxMj
+kzNDgwMDUsLTEzMTk3NTA3NzAsNzMyNTI0OTExLC0xMzMxNjMx
+OTY0XX0=
 -->

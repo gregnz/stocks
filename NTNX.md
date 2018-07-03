@@ -157,7 +157,8 @@ That sounds a bit gobbledygook! The first service is disaster recovery, which I 
 I expect Nutanix to build out capabilities in Xi Cloud for those common use-cases that span public and private datacenters (security would be an obvious one, but am sure theres a bunch of others).
 
 ### OEM Providers
-Nutanix has teamed up with some big names, Dell EMC, Lenovo, and IBM 
+Nutanix has teamed up with some big names, Dell EMC, Lenovo, and IBM to provide the HCI nodes, running Nutanix's Acropolis software. 
+
 https://www.emc.com/collateral/analyst-reports/esg-why-hw-matters-for-hci.pdf
 
 
@@ -341,7 +342,7 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjc1Njc4NSwtOTE2NzAxNTkxLC0xMT
+eyJoaXN0b3J5IjpbMTA4MDAyMjMyMiwtOTE2NzAxNTkxLC0xMT
 M0NzYxOTM2LDEyOTM0ODAwNSwtMTMxOTc1MDc3MCw3MzI1MjQ5
 MTEsLTEzMzE2MzE5NjRdfQ==
 -->

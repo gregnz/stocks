@@ -342,14 +342,12 @@ Note, Alteryx state that they include customers who have churned in the period, 
 
         
  Metric  |Q12017 | Q22017 | Q32017 | Q42017 | Q1 2018
----------|----------|------------|-----------|-----------|----------
-DBNRR.   |133 %   |     134 % |    133 %  |    131 % | 132 %
-Customers|2,565  |     2,823|    133 %  |    131 % | 132 %
+---------|--------|-------|--------|--------|----------
+DBNRR.   |133 %   | 134 % | 133 %  |  131 % | 132 %
+Customers|2,565   |  2,823| 3,054  |  3,392 | 3,673
 
 
-3,054
-3,392
-3,673
+
 ### DCF
 
 Using a compounded revenue growth rate of 32% over the next 5 years and an EBIT margin of 30% (a bit over industry average) and a WACC of 9% gives an estimated share value of **$31**.
@@ -430,7 +428,7 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3OTA2MTYsLTE1NzQ3NjM3MTEsLT
-UzOTYwODg0OSwxNjE5NDE4NTQ0LC03OTIwNDk1NDEsLTE1ODI0
-ODQxNTcsLTMyNDYzNjY0Nl19
+eyJoaXN0b3J5IjpbMjAyMzYyNTg5NiwtMTU3NDc2MzcxMSwtNT
+M5NjA4ODQ5LDE2MTk0MTg1NDQsLTc5MjA0OTU0MSwtMTU4MjQ4
+NDE1NywtMzI0NjM2NjQ2XX0=
 -->

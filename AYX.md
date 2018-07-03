@@ -330,7 +330,7 @@ $200m in the bank with no debt gives them a reasonable amount of free cash. They
 | 2018Q1    | 10.77m    | 34.09m | 28%            | 79%            | 32.90m                  | 27%            | 41%            |
 
 
-### Dollar based net revenue retention
+### Customers and Dollar based net revenue retention
 
 These values were something mentioned on Sauls original post. Whats it mean?
 
@@ -341,8 +341,9 @@ Anything over 100% means that that cohort is spending more in the 2nd year than 
 Note, Alteryx state that they include customers who have churned in the period, so DBNRR of >100% is something to be proud of.
 
         
-Q12016 | Q22016 | Q32016 | Q42016 |Q12017 | Q22017 | Q32017 | Q42017 | Q1 2018
-126 %  |         127 %|     129 %|    135 % | 133 %   |     134 % |    133 %  |    131 % |
+Q12017 | Q22017 | Q32017 | Q42017 | Q1 2018
+----------|------------|-----------|-----------|----------
+133 %   |     134 % |    133 %  |    131 % | 132 %
 
 ### DCF
 
@@ -424,7 +425,7 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NTA0OTMxLC0xNTc0NzYzNzExLC01Mz
+eyJoaXN0b3J5IjpbMTM5NDk3NDc4LC0xNTc0NzYzNzExLC01Mz
 k2MDg4NDksMTYxOTQxODU0NCwtNzkyMDQ5NTQxLC0xNTgyNDg0
 MTU3LC0zMjQ2MzY2NDZdfQ==
 -->

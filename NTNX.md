@@ -330,13 +330,13 @@ Overall, I really like Nutanix, much more than when I started this deep-dive. Ar
 
 The fact they're spending a lot more than they're making is also an issue obviously, but my consideration is that once you're in with Nutanix it would be very difficult to switch, so the land-and-expand model makes a lot of sense.
 
-Nutanix is definitely a B2(large)B company, with the potential risks (long sales cycles, 
+Nutanix is definitely a B2(large)B company, with the potential risks long sales cycles and competition from large companies (most notably Cisco, Dell, HPE, VMWare)
 
 I think the next quarter report will be the critical one. If growth rates continue and it looks like they're going to beat their estimates
 
 ## Updates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjcxNDQ4LC0xMTM0NzYxOTM2LDEyOT
-M0ODAwNSwtMTMxOTc1MDc3MCw3MzI1MjQ5MTEsLTEzMzE2MzE5
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTQyNjg5NzA3MCwtMTEzNDc2MTkzNiwxMj
+kzNDgwMDUsLTEzMTk3NTA3NzAsNzMyNTI0OTExLC0xMzMxNjMx
+OTY0XX0=
 -->

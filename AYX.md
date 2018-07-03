@@ -258,7 +258,7 @@ Talend win with a ranking of 4.1 fwiw.
 
 ### Deferred revenue
 
-| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings   | (Rev + 𝝳 def. rev)   
+| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings(Rev + 𝝳 def. rev)   |
 |:----------|:--------------|:----------|:----------|:---------------------|
 | 2015Q4    | 44.18m        |           |           |                      |
 | 2016Q1    |               | 0%        |           |                      |
@@ -415,5 +415,5 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjQxNzYyNF19
+eyJoaXN0b3J5IjpbLTMyNDYzNjY0Nl19
 -->

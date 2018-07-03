@@ -341,8 +341,7 @@ Anything over 100% means that that cohort is spending more in the 2nd year than 
 Note, Alteryx state that they include customers who have churned in the period, so DBNRR of >100% is something to be proud of.
 
         
-                                     Mar. 31,        Jun. 30,        Sep. 30,        Dec. 31,        Mar. 31,        Jun. 30,        Sep. 30,        Dec. 31,
-                                       2016            2016            2016            2016            2017            2017            2017            2017
+Q12016 | Q22016 | Q32016 | Q42016 |Q12016 | Q22016 | Q32016 | Q42016 |
 Dollar-based net revenue
 retention rate                             126 %           127 %           129 %           135 %           133 %           134 %           133 %           131 %
 
@@ -426,7 +425,7 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ3NjM3MTEsLTUzOTYwODg0OSwxNj
-E5NDE4NTQ0LC03OTIwNDk1NDEsLTE1ODI0ODQxNTcsLTMyNDYz
-NjY0Nl19
+eyJoaXN0b3J5IjpbLTkyODE0MTcxOSwtMTU3NDc2MzcxMSwtNT
+M5NjA4ODQ5LDE2MTk0MTg1NDQsLTc5MjA0OTU0MSwtMTU4MjQ4
+NDE1NywtMzI0NjM2NjQ2XX0=
 -->

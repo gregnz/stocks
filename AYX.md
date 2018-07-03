@@ -220,7 +220,7 @@ Talend win with a ranking of 4.1 fwiw.
 * Cash flow for quarter was 10.69m down (51.0%) from 21.82m
 * Cash flow for TTM was 21.44m up (388.7%) from -7.43m
 * Cash flow per share for TTM was $0.36
-* Gross margins was 0.88 up (5.4%) from 0.84
+* Gross margins was 88% up (5.4%) from 84%
 * CapExp was 1.42m up (3.7%) from 1.37m
 
 ### Last reported quarter ranges min, max [last]
@@ -414,5 +414,6 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0ODQxNTcsLTMyNDYzNjY0Nl19
+eyJoaXN0b3J5IjpbLTc5MjA0OTU0MSwtMTU4MjQ4NDE1NywtMz
+I0NjM2NjQ2XX0=
 -->

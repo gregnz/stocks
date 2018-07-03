@@ -232,7 +232,8 @@ Talend win with a ranking of 4.1 fwiw.
 * Free cash flow (TTM) yield range (Oct 01, 2017 - Dec 31, 2017) was 0.93 to 1.78 [1.04]
 * EV/Sales between Oct 01, 2017 - Dec 31, 2017 was 7.45 to 15.46 [13.69]
 
-### Most recent quarter ranges min, max [last] (uses more recent price data with last reported results)
+### Most recent quarter ranges min, max [last] 
+(uses more recent price data with last reported results)
 
 * Trading range between Apr 01, 2018 - Jun 30, 2018 was 30.62 to 40.6 [38.16]
 * Market cap between Apr 01, 2018 - Jun 30, 2018 was 1.839b to 2.438b [2.298b]
@@ -301,8 +302,6 @@ Talend win with a ranking of 4.1 fwiw.
 
 |        | cash    | Investments   | Cash and investments   | Working Capital   | Debt   | Debt to Equity   |   Interest |
 |:-------|:--------|:--------------|:-----------------------|:------------------|:-------|:-----------------|-----------:|
-| 2016Q2 |         |               |                        |                   |        |                  |          0 |
-| 2016Q3 |         |               |                        |                   |        |                  |          0 |
 | 2016Q4 | 31.51m  | 21.39m        | 52.90m                 | 14.86m            | 329k   | -0.00            |          0 |
 | 2017Q1 | 141.59m | 28.89m        | 170.48m                | 115.70m           | 0.00   | 0.00             |          0 |
 | 2017Q2 | 98.42m  | 84.30m        | 182.72m                | 98.12m            | 0.00   | 0.00             |          0 |
@@ -415,5 +414,5 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDYzNjY0Nl19
+eyJoaXN0b3J5IjpbLTE1ODI0ODQxNTcsLTMyNDYzNjY0Nl19
 -->

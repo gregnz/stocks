@@ -379,25 +379,6 @@ Tableau      | $923     |     8%      |    -20.3% | -9.7%
 Datawatch    | $38      |     16%     |    -15.9% | 2.1%
 
 
-
-#### Other numbers. 
-
-
-Metric                 | Value
------------------------|----------
-Revenue Growth(TTM)    | 52%  |
-P/E (TTM)              | -   |
-PEG                    | -   |
-Gross Margin (TTM)     | 84.9% |
-EV/FCF                 | 85 (1.789b/21m) |
-[Zacks Rank](https://www.zacks.com/stock/research/AYX/stock-style-scores)            | 3 |
-Morningstar fair value[^morningstar] | $25.88 [28May18] |
-
-
-[^morningstar]: This is a quantitative value they don't cover this stock.
-
-
-
 ### +'s and -'s [Big trends]
 1. \+ More data needing analysis.
 2. \+ More complex data requiring complex modelling.
@@ -428,7 +409,8 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwNzEyMjM0LC03NDg3Mzg5MjEsLTE1Nz
-Q3NjM3MTEsLTUzOTYwODg0OSwxNjE5NDE4NTQ0LC03OTIwNDk1
-NDEsLTE1ODI0ODQxNTcsLTMyNDYzNjY0Nl19
+eyJoaXN0b3J5IjpbMzQ3NzI5OTA4LDYxMDcxMjIzNCwtNzQ4Nz
+M4OTIxLC0xNTc0NzYzNzExLC01Mzk2MDg4NDksMTYxOTQxODU0
+NCwtNzkyMDQ5NTQxLC0xNTgyNDg0MTU3LC0zMjQ2MzY2NDZdfQ
+==
 -->

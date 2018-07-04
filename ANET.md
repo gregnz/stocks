@@ -140,7 +140,7 @@ https://www.fool.com/premium/stock-advisor/coverage/18/coverage/updates/2018/04/
 
 * Trading range between Apr 01, 2018 - Jun 30, 2018 was 239.44 to 286.62 [257.49]
 * Market cap between Apr 01, 2018 - Jun 30, 2018 was 19.328b to 23.136b [19.022b]
-* PE range (Apr 01, 2018 - Jun 30, 2018) was 36.11463046757165 to 43.23076923076924 [38.837104072398205]
+* PE range (Apr 01, 2018 - Jun 30, 2018) was 36.11 to 43.23 [38.84]
 * PS ratio range (Apr 01, 2018 - Jun 30, 2018) was 10.84 to 12.97 [11.66]
 * Free cash flow (TTM) yield range (Apr 01, 2018 - Jun 30, 2018) was 2.80 to 3.35 [3.40]
 * EV/Sales between Apr 01, 2018 - Jun 30, 2018 was 9.89 to 12.02 [10.70]
@@ -420,5 +420,5 @@ From SA, Cisco has the Cisco 9000 series which is in this market already, and re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjc1NDU0XX0=
+eyJoaXN0b3J5IjpbNjcyNjA4MDg4XX0=
 -->

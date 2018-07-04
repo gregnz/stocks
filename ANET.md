@@ -130,7 +130,7 @@ https://www.fool.com/premium/stock-advisor/coverage/18/coverage/updates/2018/04/
 
 * Trading range between Oct 01, 2017 - Dec 31, 2017 was 181.17 to 307.96 [255.3]
 * Market cap between Oct 01, 2017 - Dec 31, 2017 was 13.244b to 22.751b [18.860b]
-* PE range (Oct 01, 2017 - Dec 31, 2017) was 27.325791855203626 to 46.44947209653093 [38.506787330316754]
+* PE range (Oct 01, 2017 - Dec 31, 2017) was 27.3 to 46.44947209653093 [38.506787330316754]
 * PS ratio range (Oct 01, 2017 - Dec 31, 2017) was 8.20 to 13.94 [11.56]
 * Free cash flow (TTM) yield range (Oct 01, 2017 - Dec 31, 2017) was 2.85 to 4.89 [3.43]
 * EV/Sales between Oct 01, 2017 - Dec 31, 2017 was 6.97 to 12.28 [10.10]
@@ -420,5 +420,5 @@ From SA, Cisco has the Cisco 9000 series which is in this market already, and re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDQ3MzQwNV19
+eyJoaXN0b3J5IjpbMjEwMjU2NDMwXX0=
 -->

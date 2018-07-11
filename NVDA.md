@@ -361,3 +361,6 @@ The only situation in which we would recommend an AMD GPU to professionals is wh
 >GD: If AMD put Nvidia-level support behind OpenCL…? CUDA would no longer be the obvious choice. The longer AMD leave this, the more developers will be experienced with CUDA. Apps (e.g.: Adobe suite etc) talk to CUDA/OpenCL so developer experience counts.
 
 There is also a crossover with gaming where the ubiquity of Nvidia cards means there is more incentive to go down a CUDA-route than the OpenCL route.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI3NjMwODI3XX0=
+-->

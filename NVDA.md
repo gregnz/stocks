@@ -226,8 +226,8 @@ http://eecatalog.com/fpga/2017/10/24/artificial-intelligence-where-fpgas-surpass
 
 
 
-####China (and Russia?)
-Its a bit vague, but the Chinese government has been very clear about its emphasis on AI. It seems highly unlikely that they will be content to be dependent on Western technology in the AI race. Russia has made similar noises.
+#### China (and Russia?)
+The Chinese government has been very clear about its emphasis on AI. It seems highly unlikely that they will be content to be dependent on Western technology in the AI race. Russia has made similar noises.
 
 https://www.technologyreview.com/s/609954/china-wants-to-make-the-chips-that-will-add-ai-to-any-gadget
 >The chip is just one example of an important trend sweeping China’s tech sector. The country’s semiconductor industry sees a unique opportunity to establish itself amid the current wave of enthusiasm for hardware optimized for AI.
@@ -481,6 +481,6 @@ There is also a crossover with gaming where the ubiquity of Nvidia cards means t
 12 July - added reformatted numbers section
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTYxNTEyOSwxMzk1NjE0NDEsLTI3Nj
-MwODI3XX0=
+eyJoaXN0b3J5IjpbMTY2MTQxMTAzOCwtNTI5NjE1MTI5LDEzOT
+U2MTQ0MSwtMjc2MzA4MjddfQ==
 -->

@@ -161,12 +161,12 @@ Although the Internet of Things has been a buzzword for a while, the reality is 
 
 Linear models can be represented by matrix multiplies. For example, if you're training a classifier on images, you're going to be doing a lot of 'big matrix multiplies' because of the number of pixels in the image. Each of the nodes in the classifier is going to be receiving a lot of inputs from other nodes.
 
-“Big matrix multiplies are exactly what GPUs were designed for”.
+>“Big matrix multiplies are exactly what GPUs were designed for”.
 
 
 ### OpenCL versus CUDA
 
-OpenCL and CUDA do the same thing. They interface higher level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
+OpenCL and CUDA do the same thing. They interface higher-level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
 
 The high-level frameworks that researchers use, TensorFlow, Torch, Theanos etc., do not really care whether its CUDA or OpenCL under the covers. However, most of the popular deep learning frameworks do not currently support OpenCL 
 [Deep learning software comparison](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software). In the big ones, it appears to be under development  [Theano looks like it works, Torch has 3rd party implementations]. 
@@ -481,6 +481,6 @@ There is also a crossover with gaming where the ubiquity of Nvidia cards means t
 12 July - added reformatted numbers section
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc0ODUwMTYsMTM5NTYxNDQxLC0yNz
-YzMDgyN119
+eyJoaXN0b3J5IjpbLTUyOTYxNTEyOSwxMzk1NjE0NDEsLTI3Nj
+MwODI3XX0=
 -->

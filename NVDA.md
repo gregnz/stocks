@@ -102,7 +102,7 @@ My concern is that Gaming GPUs will hit a ... good enough level, and the market 
 
 Domeyrock (MFSA) pointed out that I didnt mention the Nintendo Switch. Correcting that here. Here's the revenue data from the Tegra business line, which they state "Tegra Processor business revenue includes SOC modules for the Nintendo Switch gaming console and development services". $132m of the Q4 number was Automotive. 
 
-    | Q418 | Q318 | Q218 | 
+  .  | Q418 | Q318 | Q218 | 
 ----|----|----|----|----
 Tegra Processor Business | 450 | 419 | 257
 
@@ -481,5 +481,6 @@ There is also a crossover with gaming where the ubiquity of Nvidia cards means t
 12 July - added reformatted numbers section
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTYxNDQxLC0yNzYzMDgyN119
+eyJoaXN0b3J5IjpbLTEzMTQ0OTE0OTUsMTM5NTYxNDQxLC0yNz
+YzMDgyN119
 -->

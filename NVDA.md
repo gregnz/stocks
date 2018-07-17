@@ -102,9 +102,9 @@ My concern is that Gaming GPUs will hit a ... good enough level, and the market 
 
 Domeyrock (MFSA) pointed out that I didnt mention the Nintendo Switch. Correcting that here. Here's the revenue data from the Tegra business line, which they state "Tegra Processor business revenue includes SOC modules for the Nintendo Switch gaming console and development services". $132m of the Q4 number was Automotive. 
 
-    | Q418 | Q318 | Q218 | 
-----|----|----|----|----
-Tegra Processor Business | 450 | 419 | 257
+  .                      | Q418 | Q318 | Q218 | 
+-------------------------|------|------|------|
+Tegra Processor Business | 450  | 419  | 257
 
 The Switch is selling really well, and I think we could safely assume that the majority of the jump in revenue is because of the Switch, so about $160m per quarter. So lets say, $600m for a calendar year (to about March 2018), over which Nintendo estimate sales of 14 million Switches. 
 
@@ -161,12 +161,12 @@ Although the Internet of Things has been a buzzword for a while, the reality is 
 
 Linear models can be represented by matrix multiplies. For example, if you're training a classifier on images, you're going to be doing a lot of 'big matrix multiplies' because of the number of pixels in the image. Each of the nodes in the classifier is going to be receiving a lot of inputs from other nodes.
 
-“Big matrix multiplies are exactly what GPUs were designed for”.
+>“Big matrix multiplies are exactly what GPUs were designed for”.
 
 
 ### OpenCL versus CUDA
 
-OpenCL and CUDA do the same thing. They interface higher level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
+OpenCL and CUDA do the same thing. They interface higher-level languages to GPU-specific instructions. CUDA is Nvidias interface, while OpenCL is the open-source 'standard' supported by AMD amongst others.
 
 The high-level frameworks that researchers use, TensorFlow, Torch, Theanos etc., do not really care whether its CUDA or OpenCL under the covers. However, most of the popular deep learning frameworks do not currently support OpenCL 
 [Deep learning software comparison](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software). In the big ones, it appears to be under development  [Theano looks like it works, Torch has 3rd party implementations]. 
@@ -226,8 +226,8 @@ http://eecatalog.com/fpga/2017/10/24/artificial-intelligence-where-fpgas-surpass
 
 
 
-####China (and Russia?)
-Its a bit vague, but the Chinese government has been very clear about its emphasis on AI. It seems highly unlikely that they will be content to be dependent on Western technology in the AI race. Russia has made similar noises.
+#### China (and Russia?)
+The Chinese government has been very clear about its emphasis on AI. It seems highly unlikely that they will be content to be dependent on Western technology in the AI race. Russia has made similar noises.
 
 https://www.technologyreview.com/s/609954/china-wants-to-make-the-chips-that-will-add-ai-to-any-gadget
 >The chip is just one example of an important trend sweeping China’s tech sector. The country’s semiconductor industry sees a unique opportunity to establish itself amid the current wave of enthusiasm for hardware optimized for AI.
@@ -237,31 +237,146 @@ I believe for the foreseeable future, Nvidia has a strong place in any AI pipeli
 
 
 ## Numbers
-Revenue growth: FY2017-18 = _41%_
 
-Q      | Q1 17|Q2 17|Q3 17 |Q4 17 |Q1 18|Q2 18|Q3 18|Q4 18
--------|----- |-----|------|------|-----|-----|-----|-----
-Gaming       |  687  |  781  |  1244 |  1348  |  1027  |  1186  |  1561  |  1739
-\-       |  \-     |  14%  |  59%  |  8%      |  -24%    |  15%    |  32%    |  11%
-Prof vis     |  189  |  214  |  207  |  225  |  205  |  235  |  239  |  254
-\-     |    \-   |  13%  |  -3%  |  9%  |  -9%  |  15%  |  2%  |  6%
-Datacenter   |  143  |  151  |  240  |  296  |  409  |  416  |  501  |  606
-\-   |   \-    |  6%   |  59%  |  23%  |  38%  |  2%  |  20%  |  21%
-Automotive   |  113  |  119  |  127  |  128  |  140  |  142  |  144  |  132
-\-   |    \-  |  5%   |  7%   |  1%   |  9%  |  1%  |  1%  |  -8%
-OEM and IP   |  173  |  163  |  186  |  176  |  156  |  251  |  191  |  180
-\-   |   \-   |  -6%  |  14%  |  -5%  |  -11%  |  61%  |  -24%  |  -6%
+### Basic data (TMF1000)
 
+* Revenue was 3.207b up (10.2%) from 2.911b from the previous quarter (1.937b same quarter last year)
+* TTM Revenue was 10.984b up (45.6%) from 7.542b 
+* TTM Revenue per share (diluted) was 17.46 up (51.8%) from 11.50
+* EPS diluted (prev quarter): was 1.98 up (11.9%) from 1.77
+* Earnings (same quarter prev year): was 1.98 up (150.6%) from 0.79
+* TTM eps was 6.00 up (99.3%) from 3.01
+* Diluted share count was 627.00m down (2.2%) from 641.00m
+* Cash and short-term investments  was 7.300b up (2.7%) from 7.108b (prev quarter)
+* Debt (prev quarter) was 2.000b down (0.0%) from 2.000b (prev quarter)
+* Cash flow for quarter was 1.327b down (41.6%) from 2.271b
+* Cash flow for TTM was 4.010b up (173.3%) from 1.467b
+* Cash flow per share for TTM was $6.40
+* Gross margins was 0.65 up (4.2%) from 0.62
+* CapExp was 118.00m down (71.5%) from 414.00m
 
-Segment      |FY2017.  |FY2018|% change
--------------|-------   |-----| ----
-Gaming       |4060     |5513  |**36%**
-Prof vis     |835      |933   |**12%**
-Datacenter   |830      |1932  |**133%**
-Automotive   |487      |558   |**15%**
-OEM and IP   |698      |778   |**11%**
-**Totals**   |**6910** |**9716**|**41%**
+### Last reported quarter ranges min, max [last]
 
+* Trading range between Oct 01, 2017 - Dec 31, 2017 was 178.6542 to 250.3252 [231.4469]
+* Market cap between Oct 01, 2017 - Dec 31, 2017 was 108.264b to 151.447b [140.025b]
+* PE range (Oct 01, 2017 - Dec 31, 2017) was 28.45 to 39.86 [36.85]
+* PS ratio range (Oct 01, 2017 - Dec 31, 2017) was 10.20 to 14.29 [13.21]
+* Free cash flow (TTM) yield range (Oct 01, 2017 - Dec 31, 2017) was 2.65 to 3.70 [2.86]
+* EV/Sales between Oct 01, 2017 - Dec 31, 2017 was 9.67 to 13.90 [12.86]
+
+### Most recent quarter ranges min, max [last]
+(uses more recent price data with last reported results)
+
+* Trading range between Apr 01, 2018 - Jun 30, 2018 was 214.1176 to 266.91 [236.9]
+* Market cap between Apr 01, 2018 - Jun 30, 2018 was 134.252b to 167.353b [143.325b]
+* PE range (Apr 01, 2018 - Jun 30, 2018) was 34.10 to 42.50 [37.72]
+* PS ratio range (Apr 01, 2018 - Jun 30, 2018) was 12.22 to 15.24 [13.52]
+* Free cash flow (TTM) yield range (Apr 01, 2018 - Jun 30, 2018) was 2.40 to 2.99 [2.80]
+* EV/Sales between Apr 01, 2018 - Jun 30, 2018 was 11.74 to 14.75 [13.04]
+
+### Revenue
+
+| Quarter   | Revenue   | TTM     | 𝝳 (q-1)   | 𝝳 (YoY)   |
+|:----------|:----------|:--------|:----------|:----------|
+| 2013Q1    | 954.74m   |         |           |           |
+| 2013Q2    | 977.24m   |         | 2%        |           |
+| 2013Q3    | 1.054b    |         | 8%        |           |
+| 2013Q4    | 1.144b    | 4.130b  | 9%        |           |
+| 2014Q1    | 1.103b    | 4.278b  | -4%       | 16%       |
+| 2014Q2    | 1.103b    | 4.404b  | 0%        | 13%       |
+| 2014Q3    | 1.225b    | 4.575b  | 11%       | 16%       |
+| 2014Q4    | 1.251b    | 4.682b  | 2%        | 9%        |
+| 2015Q1    | 1.151b    | 4.730b  | -8%       | 4%        |
+| 2015Q2    | 1.153b    | 4.780b  | 0%        | 5%        |
+| 2015Q3    | 1.305b    | 4.860b  | 13%       | 7%        |
+| 2015Q4    | 1.401b    | 5.010b  | 7%        | 12%       |
+| 2016Q1    | 1.305b    | 5.164b  | -7%       | 13%       |
+| 2016Q2    | 1.428b    | 5.439b  | 9%        | 24%       |
+| 2016Q3    | 2.004b    | 6.138b  | 40%       | 54%       |
+| 2016Q4    | 2.173b    | 6.910b  | 8%        | 55%       |
+| 2017Q1    | 1.937b    | 7.542b  | -11%      | 48%       |
+| 2017Q2    | 2.230b    | 8.344b  | 15%       | 56%       |
+| 2017Q3    | 2.636b    | 8.976b  | 18%       | 32%       |
+| 2017Q4    | 2.911b    | 9.714b  | 10%       | 34%       |
+| 2018Q1    | 3.207b    | 10.984b | 10%       | 66%       |
+
+### Deferred revenue
+
+| Quarter   |   Def.Revenue | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings(Rev + 𝝳 def. rev)   |
+|:----------|--------------:|:----------|:----------|:-----------------------------|
+| 2013Q1    |             0 |           |           |                              |
+| 2013Q2    |             0 |           |           | 977.24m                      |
+| 2013Q3    |             0 |           |           | 1.054b                       |
+| 2013Q4    |             0 |           |           | 1.144b                       |
+| 2014Q1    |             0 |           |           | 1.103b                       |
+| 2014Q2    |             0 |           |           | 1.103b                       |
+| 2014Q3    |             0 |           |           | 1.225b                       |
+| 2014Q4    |             0 |           |           | 1.251b                       |
+| 2015Q1    |             0 |           |           | 1.151b                       |
+| 2015Q2    |             0 |           |           | 1.153b                       |
+| 2015Q3    |             0 |           |           | 1.305b                       |
+| 2015Q4    |             0 |           |           | 1.401b                       |
+| 2016Q1    |             0 |           |           | 1.305b                       |
+| 2016Q2    |             0 |           |           | 1.428b                       |
+| 2016Q3    |             0 |           |           | 2.004b                       |
+| 2016Q4    |             0 |           |           | 2.173b                       |
+| 2017Q1    |             0 |           |           | 1.937b                       |
+| 2017Q2    |             0 |           |           | 2.230b                       |
+| 2017Q3    |             0 |           |           | 2.636b                       |
+| 2017Q4    |             0 |           |           | 2.911b                       |
+| 2018Q1    |             0 |           |           | 3.207b                       |
+
+### Margins
+
+|    | Quarter   | Gross margin   | ebitdamargin   | netmargin   |
+|---:|:----------|:---------------|:---------------|:------------|
+|  0 | 2016Q2    | 58%            | 26%            | 18%         |
+|  1 | 2016Q3    | 59%            | 34%            | 27%         |
+|  2 | 2016Q4    | 60%            | 36%            | 30%         |
+|  3 | 2017Q1    | 59%            | 31%            | 26%         |
+|  4 | 2017Q2    | 58%            | 34%            | 26%         |
+|  5 | 2017Q3    | 60%            | 36%            | 32%         |
+|  6 | 2017Q4    | 62%            | 39%            | 38%         |
+|  7 | 2018Q1    | 64%            | 43%            | 39%         |
+
+### Free cash flow
+
+| Quarter   | FCF     |
+|:----------|:--------|
+| 2016Q2    | 174.00m |
+| 2016Q3    | 394.00m |
+| 2016Q4    | 671.00m |
+| 2017Q1    | 228.00m |
+| 2017Q2    | 651.00m |
+| 2017Q3    | 1.088b  |
+| 2017Q4    | 944.00m |
+| 2018Q1    | 1.327b  |
+
+### Capital structure
+
+|        | cash    | Investments   | Cash and investments   | Working Capital   | Debt   |   Debt to Equity | Interest   |
+|:-------|:--------|:--------------|:-----------------------|:------------------|:-------|-----------------:|:-----------|
+| 2016Q2 | 426.00m | 4.453b        | 4.879b                 | 3.749b            | 1.508b |             0.34 | 12.00m     |
+| 2016Q3 | 1.940b  | 4.731b        | 6.671b                 | 6.266b            | 3.045b |             0.57 | 16.00m     |
+| 2016Q4 | 1.766b  | 5.032b        | 6.798b                 | 6.748b            | 2.810b |             0.49 | 19.00m     |
+| 2017Q1 | 1.989b  | 4.217b        | 6.206b                 | 7.133b            | 2.210b |             0.36 | 16.00m     |
+| 2017Q2 | 1.988b  | 3.889b        | 5.877b                 | 7.038b            | 2.073b |             0.35 | 15.00m     |
+| 2017Q3 | 2.802b  | 3.518b        | 6.320b                 | 7.452b            | 2.010b |             0.32 | 15.00m     |
+| 2017Q4 | 4.002b  | 3.106b        | 7.108b                 | 8.102b            | 2.000b |             0.27 | 15.00m     |
+| 2018Q1 | 765.00m | 6.535b        | 7.300b                 | 8.342b            | 2.000b |             0.26 | 15.00m     |
+
+### Expenses
+
+| Quarter   | R and D   | rnd    | Change (q-1)   | Change (YoY)   | Sales, General, Admin   | Change (q-1)   | Change (YoY)   |
+|:----------|:----------|:-------|:---------------|:---------------|:------------------------|:---------------|:---------------|
+| 2016Q2    | 350.00m   |        |                |                | 157.00m                 |                |                |
+| 2016Q3    | 373.00m   |        | 7%             |                | 171.00m                 | 9%             |                |
+| 2016Q4    | 394.00m   |        | 6%             |                | 176.00m                 | 3%             |                |
+| 2017Q1    | 411.00m   | 1.528b | 4%             |                | 185.00m                 | 5%             |                |
+| 2017Q2    | 416.00m   | 1.594b | 1%             | 19%            | 198.00m                 | 7%             | 26%            |
+| 2017Q3    | 462.00m   | 1.683b | 11%            | 24%            | 212.00m                 | 7%             | 24%            |
+| 2017Q4    | 507.00m   | 1.796b | 10%            | 29%            | 221.00m                 | 4%             | 26%            |
+| 2018Q1    | 542.00m   | 1.927b | 7%             | 32%            | 231.00m                 | 5%             | 25%            |
 ### DCF
 Using a compounded revenue growth rate of 25% over the next 5 years and an EBIT margin of 37% (as per current year) and a WACC of 9.6% gives an estimated share value of _$202_.
 
@@ -361,3 +476,11 @@ The only situation in which we would recommend an AMD GPU to professionals is wh
 >GD: If AMD put Nvidia-level support behind OpenCL…? CUDA would no longer be the obvious choice. The longer AMD leave this, the more developers will be experienced with CUDA. Apps (e.g.: Adobe suite etc) talk to CUDA/OpenCL so developer experience counts.
 
 There is also a crossover with gaming where the ubiquity of Nvidia cards means there is more incentive to go down a CUDA-route than the OpenCL route.
+
+### Updates
+12 July - added reformatted numbers section
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY2MTQxMTAzOCwtNTI5NjE1MTI5LDEzOT
+U2MTQ0MSwtMjc2MzA4MjddfQ==
+-->

@@ -1,5 +1,10 @@
 # AYX 
 Sauls coverage starts around: #34874
+revision history
+Version | Date | Notes
+---------|-------|-------
+1.0 | ??? | 
+1.1 | 4 July 2018 | Added in the new numbers section with comments
 
 ## My understanding
 Alteryx lets you hook up a wide variety of datasources (your own databases, google analytics, salesforce, etc), clean up the data, mash it all together, cut and filter and slice and dice, and then perform a variety of analyses on them. Excel stuff sure, but also think regression models, AB tests, etc. The more advanced stuff that Excel would struggle with, and Excel doesn't do connection and cleanup well.
@@ -205,17 +210,127 @@ Talend win with a ranking of 4.1 fwiw.
 
 
 ## Numbers
-Revenue growth TTM: Q1-2017 versus Q1-2018 = _52%_
 
-Q      | Q1 16| Q2 16| Q3 16|Q4 16|Q1 17|Q2 17|Q3 17|Q4 17|Q1 18
--------|----- |-----|------|------|-----|-----|-----|-----|------
-Revenue|$18   |$20  |$22   |$25   |$29  |$30  |$34  |$39  |$43
-.      |      |9%   |12%   |11%   |14%  |6%   |13%  |13%  |11%
-Def. Rev||||$74  |$74  |$77   |$82  |$114 |$112  
-.|||||0%|4%|7%|38%|-2%
+### Basic data (TMF1000)
+
+* Revenue was 42.82m up (11.0%) from 38.59m from the previous quarter (28.55m same quarter last year)
+* TTM Revenue was 145.88m up (52.1%) from 95.94m 
+* TTM Revenue per share (diluted) was 2.46 down (14.7%) from 2.89
+* EPS diluted (prev quarter): was -0.09 down (350.0%) from -0.02
+* Earnings (same quarter prev year): was -0.09 up (59.1%) from -0.22
+* TTM eps was -0.29 up (68.8%) from -0.93
+* Diluted share count was 60.05m up (71.0%) from 35.13m
+* Cash and short-term investments  was 178.89m up (2.7%) from 174.10m (prev quarter)
+* Debt (prev quarter) was 0.00 down (∞) from 0.00 (prev quarter)
+* Cash flow for quarter was 10.69m down (51.0%) from 21.82m
+* Cash flow for TTM was 21.44m up (388.7%) from -7.43m
+* Cash flow per share for TTM was $0.36
+* Gross margins was 88% up (5.4%) from 84%
+* CapExp was 1.42m up (3.7%) from 1.37m
+
+### Last reported quarter ranges min, max [last]
+
+* Trading range between Oct 01, 2017 - Dec 31, 2017 was 20.39 to 38.42 [34.14]
+* Market cap between Oct 01, 2017 - Dec 31, 2017 was 1.206b to 2.314b [2.056b]
+* PE range (Oct 01, 2017 - Dec 31, 2017) not applicable (earnings < 0)
+* PS ratio range (Oct 01, 2017 - Dec 31, 2017) was 8.39 to 15.82 [14.05]
+* Free cash flow (TTM) yield range (Oct 01, 2017 - Dec 31, 2017) was 0.93 to 1.78 [1.04]
+* EV/Sales between Oct 01, 2017 - Dec 31, 2017 was 7.45 to 15.46 [13.69]
+
+### Most recent quarter ranges min, max [last] 
+(uses more recent price data with last reported results)
+
+* Trading range between Apr 01, 2018 - Jun 30, 2018 was 30.62 to 40.6 [38.16]
+* Market cap between Apr 01, 2018 - Jun 30, 2018 was 1.839b to 2.438b [2.298b]
+* PE range (Apr 01, 2018 - Jun 30, 2018) not applicable (earnings < 0)
+* PS ratio range (Apr 01, 2018 - Jun 30, 2018) was 12.60 to 16.71 [15.71]
+* Free cash flow (TTM) yield range (Apr 01, 2018 - Jun 30, 2018) was 0.88 to 1.17 [0.93]
+* EV/Sales between Apr 01, 2018 - Jun 30, 2018 was 11.38 to 15.49 [14.48]
+
+### Revenue
+
+| Quarter   | Revenue   | TTM     | 𝝳 (q-1)   | 𝝳 (YoY)   |
+|:----------|:----------|:--------|:----------|:----------|
+| 2015Q4    |           |         |           |           |
+| 2016Q1    | 18.39m    |         |           |           |
+| 2016Q2    | 19.97m    |         | 9%        |           |
+| 2016Q3    | 22.46m    |         | 12%       |           |
+| 2016Q4    | 24.96m    | 85.79m  | 11%       |           |
+| 2017Q1    | 28.55m    | 95.94m  | 14%       | 55%       |
+| 2017Q2    | 30.32m    | 106.29m | 6%        | 52%       |
+| 2017Q3    | 34.16m    | 117.98m | 13%       | 52%       |
+| 2017Q4    | 38.59m    | 131.61m | 13%       | 55%       |
+| 2018Q1    | 42.82m    | 145.88m | 11%       | 50%       |
+
+### Deferred revenue
+
+| Quarter   | Def.Revenue   | 𝝳 (q-1)   | 𝝳 (YoY)   | Billings(Rev + 𝝳 def. rev)   |
+|:----------|:--------------|:----------|:----------|:---------------------|
+| 2015Q4    | 44.18m        |           |           |                      |
+| 2016Q1    |               | 0%        |           |                      |
+| 2016Q2    |               | 0%        |           |                      |
+| 2016Q3    |               | 0%        |           |                      |
+| 2016Q4    | 74.13m        | 68%       | 68%       |                      |
+| 2017Q1    | 74.00m        | -0%       | 67%       | 28.41m               |
+| 2017Q2    | 76.75m        | 4%        | 74%       | 33.07m               |
+| 2017Q3    | 82.18m        | 7%        | 86%       | 39.58m               |
+| 2017Q4    | 113.76m       | 38%       | 53%       | 70.17m               |
+| 2018Q1    | 111.71m       | -2%       | 51%       | 40.78m               |
+
+### Margins
+
+|    | Quarter   | Gross margin   | ebitdamargin   | netmargin   |
+|---:|:----------|:---------------|:---------------|:------------|
+|  0 | 2016Q2    | 81%            | -35%           | -45%        |
+|  1 | 2016Q3    | 82%            | -16%           | -26%        |
+|  2 | 2016Q4    | 83%            | -22%           | -32%        |
+|  3 | 2017Q1    | 83%            | -17%           | -27%        |
+|  4 | 2017Q2    | 82%            | -23%           | -23%        |
+|  5 | 2017Q3    | 84%            | -6%            | -10%        |
+|  6 | 2017Q4    | 84%            | -1%            | -4%         |
+|  7 | 2018Q1    | 88%            | -9%            | -12%        |
+
+### Free cash flow
+
+| Quarter   | FCF    |
+|:----------|:-------|
+| 2016Q2    | -7.88m |
+| 2016Q3    | -6.31m |
+| 2016Q4    | 2.24m  |
+| 2017Q1    | 4.51m  |
+| 2017Q2    | -32k   |
+| 2017Q3    | -346k  |
+| 2017Q4    | 11.14m |
+| 2018Q1    | 10.69m |
+
+### Capital structure
+
+|        | cash    | Investments   | Cash and investments   | Working Capital   | Debt   | Debt to Equity   |   Interest |
+|:-------|:--------|:--------------|:-----------------------|:------------------|:-------|:-----------------|-----------:|
+| 2016Q4 | 31.51m  | 21.39m        | 52.90m                 | 14.86m            | 329k   | -0.00            |          0 |
+| 2017Q1 | 141.59m | 28.89m        | 170.48m                | 115.70m           | 0.00   | 0.00             |          0 |
+| 2017Q2 | 98.42m  | 84.30m        | 182.72m                | 98.12m            | 0.00   | 0.00             |          0 |
+| 2017Q3 | 95.78m  | 86.80m        | 182.58m                | 103.48m           | 0.00   | 0.00             |          0 |
+| 2017Q4 | 119.72m | 74.35m        | 194.07m                | 111.50m           | 0.00   | 0.00             |          0 |
+| 2018Q1 | 59.08m  | 146.67m       | 205.74m                | 103.28m           | 0.00   | 0.00             |          0 |
+
+$200m in the bank with no debt gives them a reasonable amount of free cash. They have recently raised m
+
+### Expenses
+
+| Quarter   | R and D   | rnd    | Change (q-1)   | Change (YoY)   | Sales, General, Admin   | Change (q-1)   | Change (YoY)   |
+|:----------|:----------|:-------|:---------------|:---------------|:------------------------|:---------------|:---------------|
+| 2016Q2    | 4.07m     |        |                |                | 19.35m                  |                |                |
+| 2016Q3    | 4.50m     |        | 11%            |                | 17.75m                  | -8%            |                |
+| 2016Q4    | 5.06m     |        | 13%            |                | 21.15m                  | 19%            |                |
+| 2017Q1    | 6.02m     | 19.65m | 19%            |                | 23.31m                  | 10%            |                |
+| 2017Q2    | 7.15m     | 22.73m | 19%            | 76%            | 26.02m                  | 12%            | 34%            |
+| 2017Q3    | 7.77m     | 26.00m | 9%             | 73%            | 23.52m                  | -10%           | 32%            |
+| 2017Q4    | 8.40m     | 29.34m | 8%             | 66%            | 25.82m                  | 10%            | 22%            |
+| 2018Q1    | 10.77m    | 34.09m | 28%            | 79%            | 32.90m                  | 27%            | 41%            |
 
 
-### Dollar based net revenue retention
+### Customers and Dollar based net revenue retention
 
 These values were something mentioned on Sauls original post. Whats it mean?
 
@@ -224,6 +339,13 @@ Choose a quarter (Q1). Choose same quarter following year (Q5). Grab all the cus
 Anything over 100% means that that cohort is spending more in the 2nd year than they were when they started. 
 
 Note, Alteryx state that they include customers who have churned in the period, so DBNRR of >100% is something to be proud of.
+
+ Metric       |Q12017 | Q22017 | Q32017 | Q42017 | Q1 2018
+--------------|--------|-------|--------|--------|----------
+DBNRR.        |133 %   | 134 % | 133 %  |  131 % | 132 %
+Customers.    |2,565   |  2,823| 3,054  |  3,392 | 3,673
+Cust. Growth  |        |  10%  | 8%     |  11%   | 8%
+
 
 
 ### DCF
@@ -257,25 +379,6 @@ Tableau      | $923     |     8%      |    -20.3% | -9.7%
 Datawatch    | $38      |     16%     |    -15.9% | 2.1%
 
 
-
-#### Other numbers. 
-
-
-Metric                 | Value
------------------------|----------
-Revenue Growth(TTM)    | 52%  |
-P/E (TTM)              | -   |
-PEG                    | -   |
-Gross Margin (TTM)     | 84.9% |
-EV/FCF                 | 85 (1.789b/21m) |
-[Zacks Rank](https://www.zacks.com/stock/research/AYX/stock-style-scores)            | 3 |
-Morningstar fair value[^morningstar] | $25.88 [28May18] |
-
-
-[^morningstar]: This is a quantitative value they don't cover this stock.
-
-
-
 ### +'s and -'s [Big trends]
 1. \+ More data needing analysis.
 2. \+ More complex data requiring complex modelling.
@@ -305,3 +408,9 @@ My take is this doesn't really alter the value of Alteryx much, but gives them s
 ## QUESTIONS
 * If Alteryx is so great, why hasn't SAP or Oracle or ... purchased them already? They raised $6m from SAP Ventures early on in their journey (Apr 2011) so obviously have a relationship with them.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzQ3NzI5OTA4LDYxMDcxMjIzNCwtNzQ4Nz
+M4OTIxLC0xNTc0NzYzNzExLC01Mzk2MDg4NDksMTYxOTQxODU0
+NCwtNzkyMDQ5NTQxLC0xNTgyNDg0MTU3LC0zMjQ2MzY2NDZdfQ
+==
+-->

@@ -133,18 +133,14 @@ class DataLoader():
         return df
 
     def loadDataLive(self, ticker='FOSL', adjustments=None):
-        if adjustments is None:
-            adjustments = {}
         r = requests.get('https://www.quandl.com/api/v3/datatables/SHARADAR/SF1.csv?ticker=%s&api_key=CqV_AndpG4zhPcAPCoTN' % ticker)
         data = StringIO(r.text)
-        with open('/Users/gregday/Library/Mobile Documents/com~apple~CloudDocs/stock research/data/%s_historical-2.csv' % ticker, 'w') as outputFile:
+        with open('/Users/gregday/Library/Mobile Documents/com~apple~CloudDocs/stock research/data/%s_historical.csv' % ticker, 'w') as outputFile:
             outputFile.write(r.text)
         return self.loadData(csvSource=data, ticker=ticker, adjustments=adjustments)
 
     def loadData(self, csvSource=None, ticker='FOSL', adjustments=None):
         """Load the data for a single letter label."""
-        if adjustments is None:
-            adjustments = {}
         if csvSource == None:
             csvSource = '/Users/gregday/Library/Mobile Documents/com~apple~CloudDocs/stock research/data/%s_historical.csv' % ticker
             print("No source data supplied. Loading from file: %s" % csvSource)
@@ -155,16 +151,15 @@ class DataLoader():
             csvSource,
             delimiter=',',
             parse_dates=['calendardate', 'lastupdated', 'reportperiod', 'datekey'], date_parser=dateparse)
+        df.set_index([pd.DatetimeIndex(df['calendardate']), df['dimension']], inplace=True)
+        # df.dropna(subset=['revenue', 'equity'], inplace=True)
+
+        if (adjustments != None):
+            df = adjustments(df)
+
         df['quarterString'] = df['calendardate'].map(lambda x: pd.Period(x, 'Q'))
         df['quarter'] = df['calendardate'].map(lambda x: x.quarter)
         df['year'] = df['calendardate'].map(lambda x: x.year)
-        df.set_index(pd.DatetimeIndex(df['calendardate']), inplace=True)
-        # df.dropna(subset=['revenue', 'equity'], inplace=True)
-
-        adjustmentsForTicker = adjustments[ticker] if ticker in adjustments else None
-        if (adjustmentsForTicker != None):
-            df = adjustmentsForTicker(df)
-
         self.tickerData = df
         return (df[(df.dimension == 'MRQ')]), (df[(df.dimension == 'MRY')]), (df[(df.dimension == 'ARQ')])
 

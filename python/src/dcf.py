@@ -2,11 +2,50 @@ import pandas as pd
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+
+class DcfParameters:
+    def __init__(self, mrqData, cagr, targetEbitMargin):
+        self.adjustments = DcfAdjustments(mrqData)
+        self.riskFreeRate = .0225
+        self.stockPrice = 25
+        self.cagr = cagr
+        self.targetCagr = self.riskFreeRate
+        self.targetEbitMargin = targetEbitMargin
+        self.salesToCapitalRatio = 1.5
+        self.initialCostOfCapital = .09
+        self.targetCostOfCapital = self.riskFreeRate + 0.045
+        self.effectiveTaxRate = .15
+        self.marginalTaxRate = .24
+        opinc__sum = mrqData['opinc'].sum()
+        self.nol = abs(opinc__sum) if opinc__sum < 0 else 0
+
+        self.revenue = mrqData['revenue'][-4:].sum() / 1000000
+
+        opExpAdjustment, debtAdjustment = self.adjustments.operatingLeases([])
+        rndAdjustment = self.adjustments.researchAndDevelopment()
+        self.ebit = mrqData['ebit'][-4:].sum() / 1000000 + opExpAdjustment + rndAdjustment
+
+        self.numberShares = mrqData['shareswadil'][-1:].sum() / 1000000
+        self.cash = mrqData['cashnequsd'][-1:].sum() / 1000000
+        self.investmentsc = mrqData['investmentsc'][-1:].sum() / 1000000
+        self.debt = mrqData['debtusd'][-1:].sum() / 1000000
+
+        self.bookValueEquity = mrqData['equity'][-1:].sum() / 1000000
+        logger.debug("Equity: %s:" % self.bookValueEquity)
+        logger.debug("Debt: %s:" % self.debt)
+        logger.debug("Cash: %s:" % self.cash)
+        logger.debug("Short term investments: %s:" % self.investmentsc)
+        self.investedCapital = self.bookValueEquity + self.debt + debtAdjustment - self.cash - self.investmentsc
+
+        # investedCapital2 = mrqData['invcap'][-1:].sum() / 1000000
+        self.minorityInterests = 0
+        self.optionsValue = 0
+        self.nonOpAssets = 0
 
 
 class DCF:
     def __init__(self, mrqData, cagr=0.3, targetEbitMargin=0.3):
+        logger.debug("Warning: Have you adjusted the inputs to the DCF? In particular, sales to capital ratio and tax rates?")
         self.dcfParameters = DcfParameters(mrqData, cagr, targetEbitMargin)
         self.convergenceParameters = ConvergenceParameters()
         self.totalYears = 10  # This probably shouldnt be changed much
@@ -142,44 +181,6 @@ class DCF:
         return df
 
 
-class DcfParameters:
-    def __init__(self, mrqData, cagr, targetEbitMargin):
-        self.adjustments = DcfAdjustments(mrqData)
-        self.riskFreeRate = .0225
-        self.stockPrice = 40
-        self.cagr = cagr
-        self.targetCagr = self.riskFreeRate
-        self.targetEbitMargin = targetEbitMargin
-        self.salesToCapitalRatio = 0.73
-        self.initialCostOfCapital = .09
-        self.targetCostOfCapital = self.riskFreeRate + 0.045
-        self.effectiveTaxRate = .15
-        self.marginalTaxRate = .24
-        opinc__sum = mrqData['opinc'].sum()
-        self.nol = abs(opinc__sum) if opinc__sum < 0 else 0
-
-        self.revenue = mrqData['revenue'][-4:].sum() / 1000000
-
-        opExpAdjustment, debtAdjustment = self.adjustments.operatingLeases([])
-        rndAdjustment = self.adjustments.researchAndDevelopment()
-        self.ebit = mrqData['ebit'][-4:].sum() / 1000000 + opExpAdjustment + rndAdjustment
-
-        self.numberShares = mrqData['shareswadil'][-1:].sum() / 1000000
-        self.cash = mrqData['cashnequsd'][-1:].sum() / 1000000
-        self.investmentsc = mrqData['investmentsc'][-1:].sum() / 1000000
-        self.debt = mrqData['debtusd'][-1:].sum() / 1000000
-
-        self.bookValueEquity = mrqData['equity'][-1:].sum() / 1000000
-        logger.debug("Equity: %s:" % self.bookValueEquity)
-        logger.debug("Debt: %s:" % self.debt)
-        logger.debug("Cash: %s:" % self.cash)
-        logger.debug("Short term investments: %s:" % self.investmentsc)
-        self.investedCapital = self.bookValueEquity + self.debt + debtAdjustment - self.cash - self.investmentsc
-
-        # investedCapital2 = mrqData['invcap'][-1:].sum() / 1000000
-        self.minorityInterests = 0
-        self.optionsValue = 0
-        self.nonOpAssets = 0
 
 
 class ConvergenceParameters:

@@ -3,18 +3,18 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 class DcfParameters:
-    def __init__(self, mrqData, cagr, targetEbitMargin):
+    def __init__(self, mrqData, cagr, targetEbitMargin, salesToCapitalRatio=2):
         self.adjustments = DcfAdjustments(mrqData)
         self.riskFreeRate = .0225
-        self.stockPrice = 25
         self.cagr = cagr
         self.targetCagr = self.riskFreeRate
         self.targetEbitMargin = targetEbitMargin
-        self.salesToCapitalRatio = 1.5
+        self.salesToCapitalRatio = salesToCapitalRatio
         self.initialCostOfCapital = .09
         self.targetCostOfCapital = self.riskFreeRate + 0.045
-        self.effectiveTaxRate = .15
+        self.effectiveTaxRate = .18
         self.marginalTaxRate = .24
         opinc__sum = mrqData['opinc'].sum()
         self.nol = abs(opinc__sum) if opinc__sum < 0 else 0
@@ -22,6 +22,19 @@ class DcfParameters:
         self.revenue = mrqData['revenue'][-4:].sum() / 1000000
 
         opExpAdjustment, debtAdjustment = self.adjustments.operatingLeases([])
+        """            [238.67,
+             198.3,
+             198.3,
+             109.2,
+             109.2,
+             109.2,
+             146.5,
+             146.5,
+             146.5,
+             146.5
+             ]
+        )
+        """
         rndAdjustment = self.adjustments.researchAndDevelopment()
         self.ebit = mrqData['ebit'][-4:].sum() / 1000000 + opExpAdjustment + rndAdjustment
 
@@ -44,9 +57,9 @@ class DcfParameters:
 
 
 class DCF:
-    def __init__(self, mrqData, cagr=0.3, targetEbitMargin=0.3):
+    def __init__(self, mrqData, dcfParams):
         logger.debug("Warning: Have you adjusted the inputs to the DCF? In particular, sales to capital ratio and tax rates?")
-        self.dcfParameters = DcfParameters(mrqData, cagr, targetEbitMargin)
+        self.dcfParameters = dcfParams
         self.convergenceParameters = ConvergenceParameters()
         self.totalYears = 10  # This probably shouldnt be changed much
 
@@ -157,7 +170,7 @@ class DCF:
         logger.debug("valueOfOperatingAssets: %s" % valueOfOperatingAssets)
         logger.debug("Value of equity: %s" % valueOfEquity)
         logger.debug("Value per share: %s" % valuePerShare)
-        return valuePerShare
+        return df[-1:]['revenue'], valuePerShare
 
     def initialiseInitialParameters(self, d):
         df = pd.DataFrame(index=[i for i in range(self.totalYears + 2)],  # 2 extras for the inital and terminal years
@@ -179,8 +192,6 @@ class DCF:
         df.loc[0, 'wacc'] = d.initialCostOfCapital
         df.loc[0, 'cumDiscountFactor'] = 1 / (1 + d.initialCostOfCapital)
         return df
-
-
 
 
 class ConvergenceParameters:
@@ -223,13 +234,15 @@ class DcfAdjustments:
         return adjustmentToOperatingIncome / 1000000
 
     def operatingLeases(self, operatingLeaseExpenses):
+        # Note: Each entry in the array is 1 year. Most lease reporting is across multiple years, so you have to divide the sum by the number of years it covers.
+        # For example, if years 1-3 have lease of $400m, I just assign $400m/3 = 133.3m to each year.
         if len(operatingLeaseExpenses) == 0: return 0, 0
-        preTaxCostOfDebt = .2085
+        preTaxCostOfDebt = .0379
         additionalYearsToDepreciate = 0
 
         def pv(i, v):
             pow1 = pow((1 + preTaxCostOfDebt), i)
-            logger.debug("PV: %s" % i, v, pow1, v / pow1)
+            # print("PV: %s" % i, v, pow1, v / pow1)
             return v / pow1
 
         presentValues = [pv(i, val) for i, val in enumerate(operatingLeaseExpenses) if True]
@@ -237,6 +250,15 @@ class DcfAdjustments:
         straightLineDepn = presentValue / len(operatingLeaseExpenses) + additionalYearsToDepreciate
         adjustmentToOperatingEarnings = operatingLeaseExpenses[0] - straightLineDepn
 
-        logger.debug(presentValues, presentValue, adjustmentToOperatingEarnings)
+        # print(presentValues, presentValue, adjustmentToOperatingEarnings)
 
         return adjustmentToOperatingEarnings, presentValue
+
+        #
+        # |       |   5.0% |   11.2% |   17.5% |   23.8% |   30.0% |
+        # |:------|-------:|--------:|--------:|--------:|--------:|
+        # | 0.0%  |    6.9 |     0.6 |    -8.3 |   -20.5 |   -37.1 |
+        # | 3.1%  |   17.7 |    16.4 |    14.4 |    11.7 |     7.8 |
+        # | 6.2%  |   28.6 |    32.2 |    37.1 |    43.8 |    52.7 |
+        # | 9.2%  |   39.4 |    48.0 |    59.8 |    75.9 |    97.6 |
+        # | 12.3% |   50.3 |    63.8 |    82.5 |   108.0 |   142.4 |

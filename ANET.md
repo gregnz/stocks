@@ -414,6 +414,81 @@ From SA, Cisco has the Cisco 9000 series which is in this market already, and re
 * WAN - A wide area network, as opposed to a LAN. Connecting geographically distributed LANs, for example, an enterprise with multiple branch offices.
 
 
+## Conference calls
+
+### Q1 2018
+"Given some tough 2017 comparables, we believe that the current consensus for the balance of the year, which calls for **year-over-year growth in the mid-20% range, remains relevant.**"
+
+Guidance (non-GAAP), revenue: $500m-$514m;gross margin of approximately 62% to 64%; operating margin of approximately 32% to 34%.
+
+Q: 945 certification deferred revenue done and dusted?  
+A: Pretty much. Small bit left.
+
+Q: AI?  
+A: Very early, experimental. Partners with Nvidia and Pure.
+
+Q: Privacy/Trade wars, any change in customers spend behaviour?  
+A: ... um... not really. Some smaller more localised builds by cloud companies.
+
+Q: You said "Mid-20% growth" but you grew 40% in Q1. So second half decelaration? And ASC 606, $19m deferred revenue impact. Did that impact revenue in the quarter?  
+A: "the mid-20s is a reasonable way to think about the growth rate" for remainder of year. ASC 606 just impacted balance sheet.
+
+Q: Cloud spenders reporting big beats in CapEx, so cap exp is growing in 2018. But you're guiding lower for rest of 2018. Whats the gap?  
+A: Networking small part of their CapExp, and big spend a multi-year exercise, so hard to tell when the networking bit will hit.
+
+Q: Change in mix of top-of-rack switches and (versus?) spine within web-scale customers?  
+A: Not much different.
+
+Q: Verticals under versus over performing?  
+A: No.
+
+Q: How about enterprise?
+A: Clearly our number 2 vertical. We continue to do very very well. 
+
+Q: Where are we at in 100g cycle?  
+A: Not even in the first inning.
+
+Q: Gross margin.
+A: yeah, 62-65% for year.
+
+Q: would you be able to share insight into opportunities, outlook and the current state of enterprise penetration for both routing and switching?
+A: Switching better than routing. Would like to see us do better, but doing very well.
+
+Q: Dumb question on cloud vertical margin
+A: Cloud = lower margin
+
+Q: Progress expanding customer base? International?
+A: The M&E vertical is a particularly strong one for us..."Enterprises are risk averse and _only in the last year_, I would say, they have started to take Arista seriously"
+>GD: Whats M&E?
+
+Q: Number of routing customers? And discuss backlog?
+A: re: Backlog-> No. Year end FlexRoute > 200. Only going to give yearly numbers (but think we're going to double).
+
+Q: Mid-20s growth rate for whole year, or remainder?
+A: Remainder.
+
+Q: International expansion 80-120. Whats driving international?
+>GD: How was this calculated? 67% in US...and therefore?
+
+A: Made lots of international investments 2015-2016. Starting to pay off. Mirrors top 5 verticals. Only Tier-2 service providers not so represented (more a US thing).
+
+Q: Any change in pricing environment? 
+A: No.
+
+Q: Incremental pressure from Cisco et al, or white boxes? 
+A: Normal aggression.
+
+Q: You're not seeing any incremental uptick of white box solutions by your customers?
+A: I am not seeing any difference in competitive behavior due to white box. And white box adoption, or rather disaggregated EOS, I'm not seeing any shift or change.
+
+Q: Winning replacement (ie, of competitors) router deals? Or new footprints?
+A: ...actual market has been shrinking... The new change is in the white area side, where more and more of the interfaces are moving to ethernet from traditional SONiC or T1 or ATM type of interfaces. In terms of new footprint versus existing, for us, it's all new. 
+>GD: Not sure I really understand this
+
+Q: Campus?
+A: Arista does not plan to participate in the traditional campus. As things evolve in the campus and they become more and more akin or aligned with Arista's different value-add and differentiated capabilities, we're open to that. 
+> GD: Whats traditional campus given they announced entry into the campuse the next quarter]
+
 
 
 

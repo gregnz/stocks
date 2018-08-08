@@ -1,23 +1,15 @@
-from datetime import datetime
+import logging
 import time
-from multiprocessing.pool import Pool
 
 import matplotlib
 import moment as moment
-import plotly.plotly as py
-import plotly.graph_objs as go
-
 import numpy as np
 import pandas as pd
+import tabulate as tabulate
 
-import graphs
 from dataloader import DataLoader
 from dcf import DCF
 from dcf import DcfParameters
-import logging
-import tabulate as tabulate
-
-from screen import Screen
 
 matplotlib.use('TkAgg')
 logger = logging.getLogger(__name__)
@@ -155,7 +147,7 @@ class TMF1000Analyser(Analyser):
 
         # Remove the last row because its the current quarter trading row, which is a duplicate of the last reported quarter.
         # What if the last row is data from an 8K?
-        revenueData = self.calculator.periodChange(['revenue', 'deferredrev', 'netinc', 'eps', 'workingcapital', 'fcf', 'revenue_ttm'], df[-8:])
+        revenueData = self.calculator.periodChange(['revenue', 'deferredrev', 'netinc', 'eps', 'workingcapital', 'fcf', 'revenue_ttm'], df)
         revenueData['billings'] = revenueData['deferredrev_qchange'] + revenueData['revenue']
         revenueData['revenue'] = revenueData['revenue'].map(fmt.number_formatter)
         revenueData['revenue_ttm'] = revenueData['revenue_ttm'].map(fmt.number_formatter)
@@ -167,9 +159,9 @@ class TMF1000Analyser(Analyser):
 
         # This data may have up to 2? extra duplicated rows in order to get trading range data for the current quarter. This data shouldnt be here.
         print(
-            tabulate.tabulate(revenueData[['quarterString', 'revenue', 'revenue_ttm', 'revenue_qchange_pct', 'revenue_yoy_qchange_pct', 'revenue_ttm_yoy_qchange_pct']],
+            tabulate.tabulate(revenueData[-8:][['quarterString', 'revenue', 'revenue_ttm', 'revenue_qchange_pct', 'revenue_yoy_qchange_pct', 'revenue_ttm_yoy_qchange_pct']],
                               headers=['Quarter', 'Revenue', 'TTM', '𝝳 (q-1)', '𝝳 (YoY)', '𝝳 (TTM)'],
-                              tablefmt='pipe', showindex=False))
+                              tablefmt='pipe', showindex=False, floatfmt='.2f'))
         print("\n### Deferred revenue\n")
         if (hasDeferredRevenue == False):
             print("No deferred revenue.")
@@ -178,9 +170,9 @@ class TMF1000Analyser(Analyser):
             revenueData['billings'] = revenueData['billings'].map(fmt.number_formatter)
             revenueData['deferredrev_qchange_pct'] = revenueData['deferredrev_qchange_pct'].map(fmt.percent_formatter)
             revenueData['deferredrev_yoy_qchange_pct'] = revenueData['deferredrev_yoy_qchange_pct'].map(fmt.percent_formatter)
-            print(tabulate.tabulate(revenueData[['quarterString', 'deferredrev', 'deferredrev_qchange_pct', 'deferredrev_yoy_qchange_pct', 'billings']],
+            print(tabulate.tabulate(revenueData[-8:][['quarterString', 'deferredrev', 'deferredrev_qchange_pct', 'deferredrev_yoy_qchange_pct', 'billings']],
                                     headers=['Quarter', 'Def.Revenue', '𝝳 (q-1)', '𝝳 (YoY)', 'Billings(Rev + 𝝳 def. rev)'],
-                                    tablefmt='pipe', showindex=False))
+                                    tablefmt='pipe', showindex=False, floatfmt='.2f'))
         print("\n### Margins\n")
         # tabulate.tabulate(lastEightQuarters[['currentratio']], headers="firstrow", tablefmt="pipe"))
         # print(df[-8:].to_string())
@@ -192,7 +184,7 @@ class TMF1000Analyser(Analyser):
         reinvestment['earningsToEquityAfterTax'] = reinvestment['ebit'] + reinvestment['intexp'] - reinvestment['taxexp']
         reinvestment['reinvestmentRate'] = reinvestment['reinvestment'] / reinvestment['earningsToEquityAfterTax']
 
-        print(reinvestment.to_string())
+        # print(reinvestment.to_string())
 
         capitalStructureData = df[-8:][
             ['quarterString', 'grossmargin', 'ebitdamargin', 'inventory', 'ncfdiv', 'netmargin', 'opinc', 'revenue', 'fcf', 'debtusd', 'equity', 'cashnequsd',
@@ -248,7 +240,7 @@ class TMF1000Analyser(Analyser):
                      'sgna_yoy_qchange_pct', 'sgna 𝝳/gp 𝝳']].dropna(subset=['rnd', 'sgna']),
                 headers=['Quarter', 'R and D', 'rnd(ttm)', 'Change (q-1)', 'Change (YoY)', 'Sales, General, Admin',
                          '𝝳 (q-1)',
-                         '𝝳 (YoY)', 'SG&A 𝝳/GP 𝝳'], tablefmt='pipe', showindex=False))
+                         '𝝳 (YoY)', 'SG&A 𝝳/GP 𝝳'], tablefmt='pipe', showindex=False, floatfmt='.2f'))
 
         else:
             print(tabulate.tabulate(
@@ -293,7 +285,7 @@ class TMF1000Analyser(Analyser):
         quarterData = row
         startDateFmt = moment.Moment(quarterData['date_min']).format('MMM D, YYYY')
         endDateFmt = moment.Moment(quarterData['date_max']).format('MMM D, YYYY')
-        quarterDateFmt = moment.Moment(quarterData['quarterEnd']).format('MMM D, YYYY')
+        # quarterDateFmt = moment.Moment(quarterData['quarterEnd']).format('MMM D, YYYY')
         quarterData['marketCap_max'] = quarterData['sharesbas'] * quarterData['high_max']
         quarterData['marketCap_min'] = quarterData['sharesbas'] * quarterData['low_min']
         quarterData['marketCap_last'] = quarterData['sharesbas'] * quarterData['close_last']
@@ -304,7 +296,6 @@ class TMF1000Analyser(Analyser):
         quarterData['ttmPE_min'] = quarterData['low_min'] / quarterData['eps_ttm']
         quarterData['ttmPE_max'] = quarterData['high_max'] / quarterData['eps_ttm']
         quarterData['ttmPE_last'] = quarterData['close_last'] / quarterData['eps_ttm']
-
         # The 0.0000001 is a hack to get around DivisionByZero errors
         quarterData['1YPEG_min'] = pd.np.where(quarterData['eps_ttm_growth'] > 0, quarterData['ttmPE_min'] / (quarterData['eps_ttm_growth'] + 0.0000001 * 100), np.NAN)
         quarterData['1YPEG_max'] = pd.np.where(quarterData['eps_ttm_growth'] > 0, quarterData['ttmPE_max'] / (quarterData['eps_ttm_growth'] + 0.0000001 * 100), np.NAN)
@@ -356,7 +347,6 @@ class TMF1000Analyser(Analyser):
         dataRange = pd.date_range(start=start - pd.offsets.QuarterBegin() - pd.DateOffset(years=5), end=end + pd.offsets.QuarterEnd(), freq='Q')
         dates = pd.DataFrame(dataRange, columns=['date'])
         dates['quarterEnd'] = dates['date'].map(lambda x: x + pd.offsets.QuarterEnd(n=0))
-        # dates['prev_quarter'] = dates['quarterEnd'].shift(1)
         dates['quarterString'] = dates['quarterEnd'].map(lambda x: pd.Period(x, 'Q'))
         dates['quarterInt'] = dates['quarterEnd'].map(lambda x: x.quarter)
         dates['year'] = dates['quarterEnd'].map(lambda x: x.year)
@@ -364,7 +354,7 @@ class TMF1000Analyser(Analyser):
         # At this point, we have per-day price data. When we group by, we need to have pruned the price data appropriately.
         # (in order to get correct max and min dates.
         priceData['quarterEnd'] = priceData['date'].map(lambda x: x + pd.offsets.QuarterEnd(n=0))
-        relevantPriceData = priceData  # [(priceData['date'] >= start) & (priceData['date'] < end)][['date', 'high', 'low', 'close', 'quarterEnd']]
+        relevantPriceData = priceData
         priceSummary = relevantPriceData.groupby('quarterEnd')['high', 'low', 'close', 'date'].agg(['max', 'min', 'last'])
 
         # These next two lines flatten out the hierarchical indexValue caused by the multicolumn groupby above.
@@ -431,15 +421,18 @@ def analyse(ticker, start, end, liveData=False, adjustments=None, dcfProfile=Non
     results = {}
     for t in ticker:
         if (liveData == True):
-            priceData = DataLoader().loadPriceDataLive(ticker=t)
-            mrqData, mryData, arqData = DataLoader().loadDataLive(ticker=t, adjustments=adjustments)
+            priceData = DataLoader().loadPriceDataLive(tickers=[t])
+            mrqData, mryData, arqData, _ = DataLoader().loadDataLive(ticker=t, adjustments=adjustments)
         else:
             priceData = DataLoader().loadPriceData(t)
-            mrqData, mryData, arqData = DataLoader().loadData(ticker=t, adjustments=adjustments)
+            mrqData, mryData, arqData, _ = DataLoader().loadDataFromCSV(ticker=t, adjustments=adjustments)
+
         # peerData = DataLoader().loadPeerDataLive(ticker)
         # graphs.graph(ticker, mrqData, 'calendardate', 'assets')
-        close = priceData[-1:]['close'][0]
+        # close = priceData.at[-1]['close']
+        close = priceData.iat[-1, priceData.columns.get_loc('close')]
         print(t, close)
+
         try:
             cagr, opMargin = TMF1000Analyser().analyse(mrqData, mryData, priceData, start=start, end=end)
         except Exception:
@@ -471,18 +464,19 @@ def analyse(ticker, start, end, liveData=False, adjustments=None, dcfProfile=Non
 
             dataframeArray.append(currentDf.copy())
 
-        print(tabulate.tabulate(revDf, headers=revDf.columns, tablefmt='pipe', showindex=True, floatfmt='.1f'))
-
         for d in dataframeArray:
             print(d.to_string())
 
         df = pd.concat(dataframeArray, keys=dcfProfile['salesToCapitalRatio'])
+        revDf.rename(lambda x: '{:.2f}%'.format(x * 100), inplace=True, axis=1)
+        print(tabulate.tabulate(revDf, headers=revDf.columns, tablefmt='pipe', showindex=True, floatfmt='.2f'))
 
         groupby = df.groupby(level=1).mean()
 
         print('\n#### Discounted cash flow estimates (rows=OperatingMargin, cols = Revenue growth)\n')
-        print(tabulate.tabulate(groupby, headers=df.columns, tablefmt='pipe', showindex=True, floatfmt='.1f'))
-
+        groupby.rename(lambda x: '{:.1f}%'.format(x * 100), inplace=True)
+        groupby.rename(lambda x: '{:.1f}%'.format(x * 100), inplace=True, axis=1)
+        print(tabulate.tabulate(groupby, headers=groupby.columns, tablefmt='pipe', showindex=True, floatfmt='.2f'))
 
         numberOfCellsOverClose = groupby.applymap(lambda x: 1 if x > close else 0).sum(axis=1).sum()
         if (numberOfCellsOverClose > 15):
@@ -491,17 +485,15 @@ def analyse(ticker, start, end, liveData=False, adjustments=None, dcfProfile=Non
 
     df = pd.DataFrame.from_dict(results, orient='index', columns=['numberOfCellsOverClose', 'ticker'])
     print(df.to_string())
-    dfCompany = DataLoader().loadBatchCompanyDataLive([])
-    filtered = df.merge(dfCompany, on=['ticker']).groupby(['ticker']).tail(1)
+    # dfCompany = DataLoader().loadBatchCompanyDataLive([])
+    # filtered = df.merge(dfCompany, on=['ticker']).groupby(['ticker']).tail(1)
 
-    print(results)
-    print(filtered.to_string())
+    # print(results)
+    # print(filtered.to_string())
     end = time.time()
     # revDf.rename(lambda x: '{:.1f}%'.format(x * 100), inplace=True, axis=1)
     # df.rename(lambda x: '{:.1f}%'.format(x * 100), inplace=True)
     # df.rename(lambda x: '{:.1f}%'.format(x * 100), inplace=True, axis=1)
-
-    exit(1)
 
 
 def ntnxAdjustments(df):
@@ -685,12 +677,12 @@ quandl = {"revenue": ["Revenues"],
 
 # analyse(['AYX', 'MDB', 'NTNX', 'OKTA', 'PVTL', 'PSTG', 'SHOP', 'SQ', 'TWLO', 'ZS'])
 # analyse(Screen().filter(), start=pd.Timestamp(year=2010, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
-analyse('PYPL', start=pd.Timestamp(year=2010, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
+# analyse('SHOP', start=pd.Timestamp(year=2010, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
 # analyse('PYPL', start=pd.Timestamp(year=2016, month=2, day=7), end=pd.Timestamp(year=2018, month=8, day=1), adjustments=SKX_adjustments)
 # analyse('PVTL', start=pd.Timestamp(year=2012, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
 # analyse('ADBE', start=pd.Timestamp(year=2016, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
 # analyse('AAPL', start=pd.Timestamp(year=2016, month=2, day=7), end=pd.Timestamp.now())
-# analyse('SKX', start=pd.Timestamp(year=2015, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
+analyse('AAPL', start=pd.Timestamp(year=2015, month=2, day=7), end=pd.Timestamp.now(), liveData=True)
 # analyse('CAKE', start=pd.Timestamp(year=2017, month=2, day=21), end=pd.Timestamp(year=2018, month=4, day=25))
 # analyse('ANET', start=pd.Timestamp(year=2017, month=2, day=15), end=pd.Timestamp(year=2018, month=5, day=3))
 # analyse('LGIH', start=pd.Timestamp(year=2017, month=2, day=15), end=pd.Timestamp(year=2018, month=7, day=20))
